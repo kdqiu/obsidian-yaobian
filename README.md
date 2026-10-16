@@ -1,10 +1,8 @@
 [中文](README_zh.md) | English
 
-## Brief
+# 窑变 for Obsidian
 
 **Yaobian** is a personalized fork of the [Composer](https://github.com/vran-dev/obsidian-composer) theme for Obsidian, which is designed for reading and writing comfortably.
-
-<img src="screenshot-original.png" />
 
 ## Fork Changes
 
@@ -13,11 +11,7 @@ Compared with upstream Composer:
 - **Removed** the 「Ní 霓」 color scheme and all [Components](https://cp.cc1234.cc/) plugin related settings & styles.
 - **Added 72 color schemes** (36 families × light/dark) ported from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变), selectable via the `style settings` plugin.
 
-## Screenshots
-
-You can install the `style settings` plugin and change the theme color in the plugin settings.
-
-### Color Schemes
+## Color Schemes
 
 > [!NOTE]
 > Changing the color scheme requires the `style settings` plugin.
@@ -25,22 +19,8 @@ You can install the `style settings` plugin and change the theme color in the pl
 Built-in schemes (kept from upstream):
 
 - Xiá 霞
-
-![xia light](assets/xia-light.png)
-
-![xia dark](assets/xia-dark.png)
-
 - Sù 素
-
-![su light](assets/su-light.png)
-
-![su dark](assets/su-dark.png)
-
 - Qīng 青
-
-![qing light](assets/qing-light.png)
-
-![qing dark](assets/qing-dark.png)
 
 Ported from yaobian-theme (36 families, each with light & dark):
 
@@ -62,18 +42,6 @@ Ported from yaobian-theme (36 families, each with light & dark):
 | 莫奈 `mo-nai` | 暮山紫 `mu-shan-zi` | 奶茶 `nai-cha` | Peppa | Pulse `pulse-interactive` |
 | Vitesse Soft `vitesse-soft` | | | | |
 
-### Text Formatting
-
-![text formatting](assets/text-formatting.png)
-
-### Table Style
-
-![table style](assets/table-style.png)
-
-### Callout Style
-
-![callout style](assets/callout-style.png)
-
 ## Thanks
 
 - This fork is based on the [Composer theme](https://github.com/vran-dev/obsidian-composer) by @vran.
@@ -82,7 +50,7 @@ Ported from yaobian-theme (36 families, each with light & dark):
 
 ## Development Workflow (settings.yml + composer.css Split)
 
-This theme now separates the Style Settings YAML header from the CSS for better editor support.
+This theme separates the Style Settings YAML header from the CSS for better editor support.
 
 Files:
 

@@ -1,21 +1,15 @@
 中文 | [English](README.md)
 
-## 简介
+# 窑变 for Obsidian
 
-**窑变（Yaobian）** 是一个 Obsidian 主题，fork 自 [Composer](https://github.com/vran-dev/obsidian-composer) 主题并做了个性化修改，为更舒适的阅读与写作体验设计。
-
-<img src="screenshot-original.png" />
+一个 Obsidian 主题，fork 自 [Composer](https://github.com/vran-dev/obsidian-composer) 主题并做了个性化修改，为更舒适的阅读与写作体验设计。
 
 ## 相比上游的改动
 
 - **移除**了「霓」配色方案，以及 [Components](https://cp.cc1234.cc/) 插件相关的全部设置与样式。
 - **新增 72 套配色**（36 个家族 × 深浅两套），移植自 [yaobian-theme](https://github.com/Sum-su/yaobian-theme)（窑变），可通过 `style settings` 插件切换。
 
-## 截图
-
-你可以安装 `style settings` 插件并用它修改配色。
-
-### 配色方案
+## 配色方案
 
 > [!NOTE]
 > 改变配色方案需先安装 `style settings` 插件
@@ -23,22 +17,8 @@
 保留自上游的配色：
 
 - Xiá 霞
-
-![霞 亮色](assets/xia-light.png)
-
-![霞 暗色](assets/xia-dark.png)
-
 - Sù 素
-
-![素 亮色](assets/su-light.png)
-
-![素 暗色](assets/su-dark.png)
-
 - Qīng 青
-
-![青 亮色](assets/qing-light.png)
-
-![青 暗色](assets/qing-dark.png)
 
 移植自 yaobian-theme 的 36 个配色家族（各含深浅两套）：
 
@@ -59,18 +39,6 @@
 | Claude | Dopamine | Dracula | 歌蕾蒂娅 `gladiia` | Mint |
 | 莫奈 `mo-nai` | 暮山紫 `mu-shan-zi` | 奶茶 `nai-cha` | Peppa | Pulse `pulse-interactive` |
 | Vitesse Soft `vitesse-soft` | | | | |
-
-### 文字样式
-
-![文字样式](assets/text-formatting.png)
-
-### 表格样式
-
-![表格样式](assets/table-style.png)
-
-### Callout样式
-
-![callout样式](assets/callout-style.png)
 
 ## 鸣谢
 
