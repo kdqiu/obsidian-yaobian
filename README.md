@@ -61,7 +61,7 @@ Others · 11 families
 
 ## Development
 
-**Porting** — the 36 families come from the 72 VS Code theme definitions in [yaobian-theme](https://github.com/Sum-su/yaobian-theme): `editor.background` / `editor.foreground` build the backgrounds and the twelve-step color ramp, `button.background` becomes each family's accent (converted to HSL, lightness nudged to guarantee ≥ 2.5:1 contrast), and keys like `sideBar`, `textBlockquote`, `textCodeBlock` and `wordHighlight` map onto their Obsidian counterparts.
+**Porting** — the 36 families come from the 72 VS Code theme definitions in [yaobian-theme](https://github.com/Sum-su/yaobian-theme): `editor.background` / `editor.foreground` build the backgrounds and the twelve-step color ramp, `button.background` becomes each family's accent (converted to HSL, lightness nudged to guarantee ≥ 2.5:1 contrast), and keys like `sideBar`, `textBlockquote` and `textCodeBlock` map onto their Obsidian counterparts; text highlights follow Obsidian's native colors (aligned with upstream PR #58).
 
 **Build** — Style Settings declarations and styles are maintained separately: `settings.yml` holds the options, `composer.css` holds the styles, and `build.mjs` merges the two into the final `theme.css`.
 

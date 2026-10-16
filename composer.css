@@ -69,6 +69,41 @@ body {
 	--embed-border-start: 2px solid #cbd5e0;
 	/* suggestion */
 	--suggesttion-highlight-color: var(--code-normal);
+	/* native highlight colors */
+	--highlight-background: var(
+		--text-highlight-bg,
+		var(--highlight-background-yellow)
+	);
+	--highlight-background-red: color-mix(
+		in oklch,
+		var(--color-red) var(--highlight-opacity, 0.25),
+		transparent
+	);
+	--highlight-background-orange: color-mix(
+		in oklch,
+		var(--color-orange) var(--highlight-opacity, 0.25),
+		transparent
+	);
+	--highlight-background-yellow: color-mix(
+		in oklch,
+		var(--color-yellow) var(--highlight-opacity, 0.25),
+		transparent
+	);
+	--highlight-background-green: color-mix(
+		in oklch,
+		var(--color-green) var(--highlight-opacity, 0.25),
+		transparent
+	);
+	--highlight-background-blue: color-mix(
+		in oklch,
+		var(--color-blue) var(--highlight-opacity, 0.25),
+		transparent
+	);
+	--highlight-background-purple: color-mix(
+		in oklch,
+		var(--color-purple) var(--highlight-opacity, 0.25),
+		transparent
+	);
 
 	--ribbon-padding: var(--size-4-1);
 	--ribbon-background: transparent;
@@ -214,11 +249,6 @@ ol,
 	--codeblock-caret-color: hsl(25, 20%, 30%);
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: rgba(248, 227, 217, 0.9);
-	--text-highlight-border-color: rgb(167, 98, 64);
-	--text-highlight-color: rgb(102, 80, 63);
-	--text-highlight-border-radius: 4px;
 
 	/* basic color */
 	--color-red-rgb: 174, 62, 76;
@@ -312,10 +342,6 @@ ol,
 	--codeblock-border-radius: 8px;
 	--codeblock-border: #e5e7eb;
 
-	/* text highlight */
-	--text-highlight-background: hsla(38, 27%, 54%, 0.5);
-	--text-highlight-border-color: hsl(31, 48%, 66%);
-	--text-highlight-color: hsl(40, 20%, 90%);
 
 	/* inline code */
 	--code-normal: #ff7b72;
@@ -385,11 +411,6 @@ ol,
 	--codeblock-caret-color: #4a556b;
 	--codeblock-border-radius: 8px;
 
-	/* text-highlight */
-	--text-highlight-background: hsla(41, 61%, 92%);
-	--text-highlight-border-color: hsl(47, 48%, 42%);
-	--text-highlight-color: hsl(220, 25%, 25%);
-	--text-highlight-border-radius: 4px;
 }
 
 .yaobian--SuScheme-dark.theme-dark {
@@ -434,11 +455,6 @@ ol,
 	--codeblock-border-radius: 8px;
 	--codeblock-border: #e5e7eb;
 
-	/* text highlight */
-	--text-highlight-background: hsla(40, 30%, 25%, 0.4);
-	--text-highlight-border-color: hsl(40, 27%, 61%);
-	--text-highlight-color: hsl(40, 60%, 85%);
-	--text-highlight-border-radius: 4px;
 }
 
 /* ---- Qing ---- */
@@ -482,10 +498,6 @@ ol,
 	--codeblock-background: hsla(190, 15%, 92%, 0.9);
 	--codeblock-caret-color: hsl(192, 33%, 15%);
 
-	/* text-highlight */
-	--text-highlight-background: hsla(201, 39%, 84%, 0.45);
-	--text-highlight-border-color: hsl(198, 25%, 70%);
-	--text-highlight-color: hsl(197, 35%, 30%);
 }
 
 .yaobian--QingScheme-dark.theme-dark {
@@ -527,10 +539,6 @@ ol,
 	--codeblock-background: hsla(200, 20%, 22%, 0.9);
 	--codeblock-caret-color: hsl(200, 30%, 65%);
 
-	/* text-highlight */
-	--text-highlight-background: hsla(200, 38%, 74%, 0.4);
-	--text-highlight-border-color: hsl(199, 55%, 88%);
-	--text-highlight-color: hsl(200, 13%, 91%);
 }
 
 /* ---- 禅棕 (chan-zong, light) ---- */
@@ -576,10 +584,6 @@ ol,
 	--codeblock-caret-color: #3d6b5c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #5d403714;
-	--text-highlight-border-color: #6f4e43;
-	--text-highlight-color: #64463c;
 }
 
 /* ---- 禅棕 (chan-zong, dark) ---- */
@@ -625,10 +629,6 @@ ol,
 	--codeblock-caret-color: #a27c6e;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #efebe91a;
-	--text-highlight-border-color: #bea49a;
-	--text-highlight-color: #dcd0cb;
 }
 
 /* ---- 长安 (chang-an, light) ---- */
@@ -674,10 +674,6 @@ ol,
 	--codeblock-caret-color: #006f4e;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2c242014;
-	--text-highlight-border-color: #752923;
-	--text-highlight-color: #482621;
 }
 
 /* ---- 长安 (chang-an, dark) ---- */
@@ -723,10 +719,6 @@ ol,
 	--codeblock-caret-color: #ae3a32;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f8f7f21a;
-	--text-highlight-border-color: #c87d75;
-	--text-highlight-color: #e6c8c2;
 }
 
 /* ---- 春梅 (chun-mei, light) ---- */
@@ -772,10 +764,6 @@ ol,
 	--codeblock-caret-color: #007756;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #8c435614;
-	--text-highlight-border-color: #c5626f;
-	--text-highlight-color: #a24f60;
 }
 
 /* ---- 春梅 (chun-mei, dark) ---- */
@@ -821,10 +809,6 @@ ol,
 	--codeblock-caret-color: #ee7884;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #ffe6ec1a;
-	--text-highlight-border-color: #f5a0aa;
-	--text-highlight-color: #fbcbd3;
 }
 
 /* ---- 丹霞 (dan-xia, light) ---- */
@@ -870,10 +854,6 @@ ol,
 	--codeblock-caret-color: #007b5c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #4a1c1c14;
-	--text-highlight-border-color: #813131;
-	--text-highlight-color: #5f2424;
 }
 
 /* ---- 丹霞 (dan-xia, dark) ---- */
@@ -919,10 +899,6 @@ ol,
 	--codeblock-caret-color: #ab4645;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #ffe6e61a;
-	--text-highlight-border-color: #c87f7e;
-	--text-highlight-color: #eabebe;
 }
 
 /* ---- 汉白玉 (han-bai-yu, light) ---- */
@@ -968,10 +944,6 @@ ol,
 	--codeblock-caret-color: #457164;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2b292614;
-	--text-highlight-border-color: #736f69;
-	--text-highlight-color: #474440;
 }
 
 /* ---- 汉白玉 (han-bai-yu, dark) ---- */
@@ -1017,10 +989,6 @@ ol,
 	--codeblock-caret-color: #9a958e;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f7f6f21a;
-	--text-highlight-border-color: #bbb7b0;
-	--text-highlight-color: #e0ded9;
 }
 
 /* ---- 湖光 (hu-guang, light) ---- */
@@ -1066,10 +1034,6 @@ ol,
 	--codeblock-caret-color: #3e6e60;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2a525414;
-	--text-highlight-border-color: #36666d;
-	--text-highlight-color: #2f5a5e;
 }
 
 /* ---- 湖光 (hu-guang, dark) ---- */
@@ -1115,10 +1079,6 @@ ol,
 	--codeblock-caret-color: #5e939d;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e6f3f41a;
-	--text-highlight-border-color: #8fb6bd;
-	--text-highlight-color: #c4dcdf;
 }
 
 /* ---- 金镶玉 (jin-xiang-yu, light) ---- */
@@ -1164,10 +1124,6 @@ ol,
 	--codeblock-caret-color: #00755e;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #5a4a3814;
-	--text-highlight-border-color: #967c46;
-	--text-highlight-color: #715d3e;
 }
 
 /* ---- 金镶玉 (jin-xiang-yu, dark) ---- */
@@ -1213,10 +1169,6 @@ ol,
 	--codeblock-caret-color: #c6a75c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f8f3e61a;
-	--text-highlight-border-color: #d8c18d;
-	--text-highlight-color: #ece0c4;
 }
 
 /* ---- 流云 (liu-yun, light) ---- */
@@ -1262,10 +1214,6 @@ ol,
 	--codeblock-caret-color: #00775f;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #15294414;
-	--text-highlight-border-color: #385e8d;
-	--text-highlight-color: #223d60;
 }
 
 /* ---- 流云 (liu-yun, dark) ---- */
@@ -1311,10 +1259,6 @@ ol,
 	--codeblock-caret-color: #4b7ab2;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e6eef71a;
-	--text-highlight-border-color: #81a3cb;
-	--text-highlight-color: #bfd1e6;
 }
 
 /* ---- 琵琶 (pi-pa, light) ---- */
@@ -1360,10 +1304,6 @@ ol,
 	--codeblock-caret-color: #326e5e;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #41352014;
-	--text-highlight-border-color: #554620;
-	--text-highlight-color: #493c20;
 }
 
 /* ---- 琵琶 (pi-pa, dark) ---- */
@@ -1409,10 +1349,6 @@ ol,
 	--codeblock-caret-color: #756334;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f5efdf1a;
-	--text-highlight-border-color: #a49571;
-	--text-highlight-color: #d6ccb5;
 }
 
 /* ---- 青瓷 (qing-ci, light) ---- */
@@ -1458,10 +1394,6 @@ ol,
 	--codeblock-caret-color: #2f7f6c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2c363514;
-	--text-highlight-border-color: #5b7e72;
-	--text-highlight-color: #3e524c;
 }
 
 /* ---- 青瓷 (qing-ci, dark) ---- */
@@ -1507,10 +1439,6 @@ ol,
 	--codeblock-caret-color: #7ba898;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e6efec1a;
-	--text-highlight-border-color: #a0c1b5;
-	--text-highlight-color: #cbddd7;
 }
 
 /* ---- 青花 (qing-hua, light) ---- */
@@ -1556,10 +1484,6 @@ ol,
 	--codeblock-caret-color: #2c7562;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #10234914;
-	--text-highlight-border-color: #19365c;
-	--text-highlight-color: #142a50;
 }
 
 /* ---- 青花 (qing-hua, dark) ---- */
@@ -1605,10 +1529,6 @@ ol,
 	--codeblock-caret-color: #41648d;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f2f7ff1a;
-	--text-highlight-border-color: #8099b6;
-	--text-highlight-color: #c6d3e3;
 }
 
 /* ---- 青雾 (qing-wu, light) ---- */
@@ -1654,10 +1574,6 @@ ol,
 	--codeblock-caret-color: #336f5e;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #3c535b14;
-	--text-highlight-border-color: #467984;
-	--text-highlight-color: #40626b;
 }
 
 /* ---- 青雾 (qing-wu, dark) ---- */
@@ -1703,10 +1619,6 @@ ol,
 	--codeblock-caret-color: #4c8c99;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #dce7e91a;
-	--text-highlight-border-color: #7eacb6;
-	--text-highlight-color: #b8d0d5;
 }
 
 /* ---- 汝窑蓝 (ru-yao-lan, light) ---- */
@@ -1752,10 +1664,6 @@ ol,
 	--codeblock-caret-color: #336e5e;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #1a2c3d14;
-	--text-highlight-border-color: #396077;
-	--text-highlight-color: #264053;
 }
 
 /* ---- 汝窑蓝 (ru-yao-lan, dark) ---- */
@@ -1801,10 +1709,6 @@ ol,
 	--codeblock-caret-color: #4a7b96;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e6eef21a;
-	--text-highlight-border-color: #81a4b6;
-	--text-highlight-color: #bfd2db;
 }
 
 /* ---- 汝窑绿 (ru-yao-lv, light) ---- */
@@ -1850,10 +1754,6 @@ ol,
 	--codeblock-caret-color: #00725b;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #1a393714;
-	--text-highlight-border-color: #2e705c;
-	--text-highlight-color: #224e45;
 }
 
 /* ---- 汝窑绿 (ru-yao-lv, dark) ---- */
@@ -1899,10 +1799,6 @@ ol,
 	--codeblock-caret-color: #388e70;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e6f0ef1a;
-	--text-highlight-border-color: #76b09c;
-	--text-highlight-color: #bbd8cf;
 }
 
 /* ---- 山水 (shan-shui, light) ---- */
@@ -1948,10 +1844,6 @@ ol,
 	--codeblock-caret-color: #3c6a5c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2f545d14;
-	--text-highlight-border-color: #2e535c;
-	--text-highlight-color: #2f545d;
 }
 
 /* ---- 山水 (shan-shui, dark) ---- */
@@ -1997,10 +1889,6 @@ ol,
 	--codeblock-caret-color: #496f78;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e6edef1a;
-	--text-highlight-border-color: #819ca2;
-	--text-highlight-color: #bfced1;
 }
 
 /* ---- 素宣 (su-xuan, light) ---- */
@@ -2046,10 +1934,6 @@ ol,
 	--codeblock-caret-color: #477366;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #1f242814;
-	--text-highlight-border-color: #686a6b;
-	--text-highlight-color: #3b3f42;
 }
 
 /* ---- 素宣 (su-xuan, dark) ---- */
@@ -2095,10 +1979,6 @@ ol,
 	--codeblock-caret-color: #82888d;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e5ecf21a;
-	--text-highlight-border-color: #a4abb0;
-	--text-highlight-color: #ccd3d9;
 }
 
 /* ---- 天水 (tian-shui, light) ---- */
@@ -2144,10 +2024,6 @@ ol,
 	--codeblock-caret-color: #2c6f5d;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #1d4e5a14;
-	--text-highlight-border-color: #44858f;
-	--text-highlight-color: #2c636e;
 }
 
 /* ---- 天水 (tian-shui, dark) ---- */
@@ -2193,10 +2069,6 @@ ol,
 	--codeblock-caret-color: #5aa4ad;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e8f1f21a;
-	--text-highlight-border-color: #8cc0c6;
-	--text-highlight-color: #c5dee1;
 }
 
 /* ---- 宣纸 (xuan-zhi, light) ---- */
@@ -2242,10 +2114,6 @@ ol,
 	--codeblock-caret-color: #426e62;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #3c3a3614;
-	--text-highlight-border-color: #665c4d;
-	--text-highlight-color: #4c473f;
 }
 
 /* ---- 宣纸 (xuan-zhi, dark) ---- */
@@ -2291,10 +2159,6 @@ ol,
 	--codeblock-caret-color: #7c6e58;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f8f8f21a;
-	--text-highlight-border-color: #a89f8f;
-	--text-highlight-color: #d9d6cc;
 }
 
 /* ---- 雁灰 (yan-hui, light) ---- */
@@ -2340,10 +2204,6 @@ ol,
 	--codeblock-caret-color: #437062;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #1f293714;
-	--text-highlight-border-color: #3c4654;
-	--text-highlight-color: #2a3442;
 }
 
 /* ---- 雁灰 (yan-hui, dark) ---- */
@@ -2389,10 +2249,6 @@ ol,
 	--codeblock-caret-color: #5b6674;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e5e7eb1a;
-	--text-highlight-border-color: #8c949e;
-	--text-highlight-color: #c3c7ce;
 }
 
 /* ---- 烟雨 (yan-yu, light) ---- */
@@ -2438,10 +2294,6 @@ ol,
 	--codeblock-caret-color: #3f6c5e;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2d3e4514;
-	--text-highlight-border-color: #587a83;
-	--text-highlight-color: #3e555d;
 }
 
 /* ---- 烟雨 (yan-yu, dark) ---- */
@@ -2487,10 +2339,6 @@ ol,
 	--codeblock-caret-color: #6e99a4;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #eff5f71a;
-	--text-highlight-border-color: #9cbac2;
-	--text-highlight-color: #cfdee2;
 }
 
 /* ---- 胭脂 (yan-zhi, light) ---- */
@@ -2536,10 +2384,6 @@ ol,
 	--codeblock-caret-color: #007857;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #8c485114;
-	--text-highlight-border-color: #c5636e;
-	--text-highlight-color: #a2525c;
 }
 
 /* ---- 胭脂 (yan-zhi, dark) ---- */
@@ -2585,10 +2429,6 @@ ol,
 	--codeblock-caret-color: #e4707c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #ffe6e81a;
-	--text-highlight-border-color: #ed9ba2;
-	--text-highlight-color: #f8c9cd;
 }
 
 /* ---- 羊皮纸 (yang-pi-zhi, light) ---- */
@@ -2634,10 +2474,6 @@ ol,
 	--codeblock-caret-color: #006c54;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #5f4b3214;
-	--text-highlight-border-color: #8c5e2f;
-	--text-highlight-color: #705231;
 }
 
 /* ---- 羊皮纸 (yang-pi-zhi, dark) ---- */
@@ -2683,10 +2519,6 @@ ol,
 	--codeblock-caret-color: #a3682c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f8f7f21a;
-	--text-highlight-border-color: #c19b72;
-	--text-highlight-color: #e3d4c1;
 }
 
 /* ---- 窑火 (yao-huo, light) ---- */
@@ -2732,10 +2564,6 @@ ol,
 	--codeblock-caret-color: #006e4f;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2c181014;
-	--text-highlight-border-color: #91462d;
-	--text-highlight-color: #532a1b;
 }
 
 /* ---- 窑火 (yao-huo, dark) ---- */
@@ -2781,10 +2609,6 @@ ol,
 	--codeblock-caret-color: #c85f3c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f8e3c41a;
-	--text-highlight-border-color: #d98d6c;
-	--text-highlight-color: #ecc2a2;
 }
 
 /* ---- 玉石 (yu-shi, light) ---- */
@@ -2830,10 +2654,6 @@ ol,
 	--codeblock-caret-color: #00735d;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #1d4a3c14;
-	--text-highlight-border-color: #2f765e;
-	--text-highlight-color: #245b49;
 }
 
 /* ---- 玉石 (yu-shi, dark) ---- */
@@ -2879,10 +2699,6 @@ ol,
 	--codeblock-caret-color: #388e70;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e8f2ee1a;
-	--text-highlight-border-color: #76b19c;
-	--text-highlight-color: #bcd9ce;
 }
 
 /* ---- 紫陶 (zi-tao, light) ---- */
@@ -2928,10 +2744,6 @@ ol,
 	--codeblock-caret-color: #00735c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #442a4714;
-	--text-highlight-border-color: #734b78;
-	--text-highlight-color: #56375a;
 }
 
 /* ---- 紫陶 (zi-tao, dark) ---- */
@@ -2977,10 +2789,6 @@ ol,
 	--codeblock-caret-color: #8c5d91;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f0e7f21a;
-	--text-highlight-border-color: #b08db4;
-	--text-highlight-color: #d7c4da;
 }
 
 /* ---- Claude (claude, light) ---- */
@@ -3026,10 +2834,6 @@ ol,
 	--codeblock-caret-color: #006f57;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2a2b2a14;
-	--text-highlight-border-color: #965e58;
-	--text-highlight-color: #543e3c;
 }
 
 /* ---- Claude (claude, dark) ---- */
@@ -3075,10 +2879,6 @@ ol,
 	--codeblock-caret-color: #ea928a;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f8f7f21a;
-	--text-highlight-border-color: #efb5ae;
-	--text-highlight-color: #f4ded8;
 }
 
 /* ---- Dopamine (dopamine, light) ---- */
@@ -3124,10 +2924,6 @@ ol,
 	--codeblock-caret-color: #007e56;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2a272014;
-	--text-highlight-border-color: #8a740b;
-	--text-highlight-color: #4f4418;
 }
 
 /* ---- Dopamine (dopamine, dark) ---- */
@@ -3173,10 +2969,6 @@ ol,
 	--codeblock-caret-color: #ffde30;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #fffef01a;
-	--text-highlight-border-color: #ffe872;
-	--text-highlight-color: #fff6c0;
 }
 
 /* ---- Dracula (dracula, light) ---- */
@@ -3222,10 +3014,6 @@ ol,
 	--codeblock-caret-color: #007a58;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #20201b14;
-	--text-highlight-border-color: #6a4f8d;
-	--text-highlight-color: #3c3247;
 }
 
 /* ---- Dracula (dracula, dark) ---- */
@@ -3271,10 +3059,6 @@ ol,
 	--codeblock-caret-color: #bd93f9;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f8f8f21a;
-	--text-highlight-border-color: #d3b8f7;
-	--text-highlight-color: #eadff4;
 }
 
 /* ---- 歌蕾蒂娅 (gladiia, light) ---- */
@@ -3320,10 +3104,6 @@ ol,
 	--codeblock-caret-color: #008053;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #0d0d0d14;
-	--text-highlight-border-color: #962633;
-	--text-highlight-color: #42171c;
 }
 
 /* ---- 歌蕾蒂娅 (gladiia, dark) ---- */
@@ -3369,10 +3149,6 @@ ol,
 	--codeblock-caret-color: #df3649;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #edeef01a;
-	--text-highlight-border-color: #e47583;
-	--text-highlight-color: #eac0c6;
 }
 
 /* ---- Mint (mint, light) ---- */
@@ -3418,10 +3194,6 @@ ol,
 	--codeblock-caret-color: #376f60;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #2a4b4c14;
-	--text-highlight-border-color: #7d7792;
-	--text-highlight-color: #4a5c67;
 }
 
 /* ---- Mint (mint, dark) ---- */
@@ -3467,10 +3239,6 @@ ol,
 	--codeblock-caret-color: #d1b6e1;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f8f8f81a;
-	--text-highlight-border-color: #dfcee9;
-	--text-highlight-color: #eee8f2;
 }
 
 /* ---- 莫奈 (mo-nai, light) ---- */
@@ -3516,10 +3284,6 @@ ol,
 	--codeblock-caret-color: #3b6e60;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #4a748314;
-	--text-highlight-border-color: #5e8da0;
-	--text-highlight-color: #527e8e;
 }
 
 /* ---- 莫奈 (mo-nai, dark) ---- */
@@ -3565,10 +3329,6 @@ ol,
 	--codeblock-caret-color: #8cc0d5;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e9f7fb1a;
-	--text-highlight-border-color: #aed5e3;
-	--text-highlight-color: #d2eaf2;
 }
 
 /* ---- 暮山紫 (mu-shan-zi, light) ---- */
@@ -3614,10 +3374,6 @@ ol,
 	--codeblock-caret-color: #226e5b;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #4c5e8614;
-	--text-highlight-border-color: #5f73a1;
-	--text-highlight-color: #536690;
 }
 
 /* ---- 暮山紫 (mu-shan-zi, dark) ---- */
@@ -3663,10 +3419,6 @@ ol,
 	--codeblock-caret-color: #89aad3;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e6edf71a;
-	--text-highlight-border-color: #a9c1e0;
-	--text-highlight-color: #cedcee;
 }
 
 /* ---- 奶茶 (nai-cha, light) ---- */
@@ -3712,10 +3464,6 @@ ol,
 	--codeblock-caret-color: #2c6958;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #38272014;
-	--text-highlight-border-color: #805d45;
-	--text-highlight-color: #543c2e;
 }
 
 /* ---- 奶茶 (nai-cha, dark) ---- */
@@ -3761,10 +3509,6 @@ ol,
 	--codeblock-caret-color: #a67b5b;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #f5e6d31a;
-	--text-highlight-border-color: #c2a084;
-	--text-highlight-color: #e1cbb4;
 }
 
 /* ---- Peppa (peppa, light) ---- */
@@ -3810,10 +3554,6 @@ ol,
 	--codeblock-caret-color: #006b4d;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #00000014;
-	--text-highlight-border-color: #8d4748;
-	--text-highlight-color: #361b1c;
 }
 
 /* ---- Peppa (peppa, dark) ---- */
@@ -3859,10 +3599,6 @@ ol,
 	--codeblock-caret-color: #df7977;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #ececec1a;
-	--text-highlight-border-color: #e4a3a3;
-	--text-highlight-color: #e9d0d0;
 }
 
 /* ---- Pulse (pulse-interactive, light) ---- */
@@ -3908,10 +3644,6 @@ ol,
 	--codeblock-caret-color: #007a5c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #23232314;
-	--text-highlight-border-color: #1a4470;
-	--text-highlight-color: #203040;
 }
 
 /* ---- Pulse (pulse-interactive, dark) ---- */
@@ -3957,10 +3689,6 @@ ol,
 	--codeblock-caret-color: #2462a8;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #e3e3e31a;
-	--text-highlight-border-color: #678fbd;
-	--text-highlight-color: #b3c3d4;
 }
 
 /* ---- Vitesse Soft (vitesse-soft, light) ---- */
@@ -4006,10 +3734,6 @@ ol,
 	--codeblock-caret-color: #01725c;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #00000014;
-	--text-highlight-border-color: #12442e;
-	--text-highlight-color: #071a12;
 }
 
 /* ---- Vitesse Soft (vitesse-soft, dark) ---- */
@@ -4055,10 +3779,6 @@ ol,
 	--codeblock-caret-color: #4d9375;
 	--codeblock-border-radius: 8px;
 
-	/* text highlight */
-	--text-highlight-background: #dbd7ca1a;
-	--text-highlight-border-color: #7fab93;
-	--text-highlight-color: #b8c6b5;
 }
 
 .notice,
@@ -4420,9 +4140,7 @@ pre[class*="language-"] {
 /* highlight */
 body .cm-s-obsidian .cm-scroller span.cm-formatting-highlight,
 body .cm-s-obsidian .cm-scroller span.cm-highlight {
-	color: var(--text-highlight-color);
-	background-color: var(--text-highlight-background);
-	border-bottom: 1px dashed var(--text-highlight-border-color);
+	background-color: var(--highlight-background);
 	padding: 2px 4px;
 }
 
@@ -4433,9 +4151,7 @@ body .cm-s-obsidian .cm-scroller span.cm-highlight {
 
 /* highlight for reading view */
 body .markdown-rendered mark {
-	color: var(--text-highlight-color);
-	background-color: var(--text-highlight-background);
-	border-bottom: 1px dashed var(--text-highlight-border-color);
+	background-color: var(--highlight-background);
 	padding: 2px 4px;
 }
 
