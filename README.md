@@ -2,7 +2,7 @@
 
 # 窑变 for Obsidian
 
-<img src="assets/hero.jpg" width="880" alt="Yaobian · One kiln, ten thousand glazes" />
+<img src="assets/hero.png" width="880" alt="Yaobian · One kiln, ten thousand glazes" />
 
 > One kiln, ten thousand glazes — the same recipe, different firing, each with its own color.
 
@@ -38,29 +38,17 @@ An Obsidian theme, forked from [Composer](https://github.com/vran-dev/obsidian-c
 
 **Built-in · from upstream**
 
-| | | |
-| --- | --- | --- |
-| Xiá 霞 | Sù 素 | Qīng 青 |
+Xiá 霞 · Sù 素 · Qīng 青
 
 **Ported · from yaobian-theme (36 families, light & dark each)**
 
 Chinese style · 25 families
 
-| | | | | |
-| --- | --- | --- | --- | --- |
-| 禅棕 `chan-zong` | 长安 `chang-an` | 春梅 `chun-mei` | 丹霞 `dan-xia` | 汉白玉 `han-bai-yu` |
-| 湖光 `hu-guang` | 金镶玉 `jin-xiang-yu` | 流云 `liu-yun` | 琵琶 `pi-pa` | 青瓷 `qing-ci` |
-| 青花 `qing-hua` | 青雾 `qing-wu` | 汝窑蓝 `ru-yao-lan` | 汝窑绿 `ru-yao-lv` | 山水 `shan-shui` |
-| 素宣 `su-xuan` | 天水 `tian-shui` | 宣纸 `xuan-zhi` | 雁灰 `yan-hui` | 烟雨 `yan-yu` |
-| 胭脂 `yan-zhi` | 羊皮纸 `yang-pi-zhi` | 窑火 `yao-huo` | 玉石 `yu-shi` | 紫陶 `zi-tao` |
+禅棕 · 长安 · 春梅 · 丹霞 · 汉白玉 · 湖光 · 金镶玉 · 流云 · 琵琶 · 青瓷 · 青花 · 青雾 · 汝窑蓝 · 汝窑绿 · 山水 · 素宣 · 天水 · 宣纸 · 雁灰 · 烟雨 · 胭脂 · 羊皮纸 · 窑火 · 玉石 · 紫陶
 
 Others · 11 families
 
-| | | | | |
-| --- | --- | --- | --- | --- |
-| Claude | Dopamine | Dracula | 歌蕾蒂娅 `gladiia` | Mint |
-| 莫奈 `mo-nai` | 暮山紫 `mu-shan-zi` | 奶茶 `nai-cha` | Peppa | Pulse `pulse-interactive` |
-| Vitesse Soft `vitesse-soft` | | | | |
+Claude · Dopamine · Dracula · 歌蕾蒂娅 · Mint · 莫奈 · 暮山紫 · 奶茶 · Peppa · Pulse · Vitesse Soft
 
 ## Changes vs Upstream
 
