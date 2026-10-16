@@ -1,30 +1,48 @@
-[中文](README_zh.md) | English
+中文 | [English](README.md)
+
+<div align="center">
 
 # 窑变 for Obsidian
 
-**Yaobian** is a personalized fork of the [Composer](https://github.com/vran-dev/obsidian-composer) theme for Obsidian, which is designed for reading and writing comfortably.
+> One kiln, ten thousand glazes — the same recipe, different firing, each with its own color.
 
-## Fork Changes
+[Upstream Composer](https://github.com/vran-dev/obsidian-composer) · [Palettes from yaobian-theme](https://github.com/Sum-su/yaobian-theme) · 中文
 
-Compared with upstream Composer:
+</div>
 
-- **Removed** the 「Ní 霓」 color scheme and all [Components](https://cp.cc1234.cc/) plugin related settings & styles.
-- **Added 72 color schemes** (36 families × light/dark) ported from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变), selectable via the `style settings` plugin.
+---
+
+## About
+
+An Obsidian theme, forked from [Composer](https://github.com/vran-dev/obsidian-composer) with personal refinements for comfortable reading and writing. It ships **39 color schemes** (light & dark pairs), all switchable via the `style settings` plugin.
+
+## Highlights
+
+- **39 schemes, paired light/dark** — keeps the upstream Xiá / Sù / Qīng families, plus all 36 color families ported from [yaobian-theme](https://github.com/Sum-su/yaobian-theme)
+- **A theme color per family** — each accent is derived from its family's primary color and guaranteed ≥ 2.5:1 contrast against the editor background
+- **A restrained settings panel** — the Ní scheme, Components plugin config and redundant color pickers are removed; only typographic options remain
+- **Upstream typography intact** — paragraph tracking / line height, heading decorations, list markers, callout and table styles are all preserved
+
+## Getting Started
+
+1. Download `theme.css` into `.obsidian/themes/Yaobian/` inside your vault
+2. Settings → Appearance → Themes, select **Yaobian**
+3. Install the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin and pick a color scheme in the theme settings
+
+> [!TIP]
+> To let each scheme show its own accent color, keep Obsidian's "Appearance → Accent color" at default — a manually picked accent overrides the theme.
 
 ## Color Schemes
 
-> [!NOTE]
-> Changing the color scheme requires the `style settings` plugin.
+**Built-in · from upstream**
 
-Built-in schemes (kept from upstream):
+| | | |
+| --- | --- | --- |
+| Xiá 霞 | Sù 素 | Qīng 青 |
 
-- Xiá 霞
-- Sù 素
-- Qīng 青
+**Ported · from yaobian-theme (36 families, light & dark each)**
 
-Ported from yaobian-theme (36 families, each with light & dark):
-
-`chineseStyle` (25)
+Chinese style · 25 families
 
 | | | | | |
 | --- | --- | --- | --- | --- |
@@ -34,7 +52,7 @@ Ported from yaobian-theme (36 families, each with light & dark):
 | 素宣 `su-xuan` | 天水 `tian-shui` | 宣纸 `xuan-zhi` | 雁灰 `yan-hui` | 烟雨 `yan-yu` |
 | 胭脂 `yan-zhi` | 羊皮纸 `yang-pi-zhi` | 窑火 `yao-huo` | 玉石 `yu-shi` | 紫陶 `zi-tao` |
 
-`others` (11)
+Others · 11 families
 
 | | | | | |
 | --- | --- | --- | --- | --- |
@@ -42,34 +60,42 @@ Ported from yaobian-theme (36 families, each with light & dark):
 | 莫奈 `mo-nai` | 暮山紫 `mu-shan-zi` | 奶茶 `nai-cha` | Peppa | Pulse `pulse-interactive` |
 | Vitesse Soft `vitesse-soft` | | | | |
 
+## Changes vs Upstream
+
+- **Removed** the 「Ní 霓」 scheme and all [Components](https://cp.cc1234.cc/) plugin settings & styles
+- **Removed** the whole "Color Settings" section (background pickers & rainbow tree tweaks) — colors are fully owned by the schemes now
+- **Added** 72 color schemes, each with a contrast-guaranteed accent
+- **Fixed** an upstream bug: the view-header title toggle's setting id did not match its CSS selector
+
 ## Thanks
 
-- This fork is based on the [Composer theme](https://github.com/vran-dev/obsidian-composer) by @vran.
-- The ported color palettes come from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变) by @Sum-su, whose colors trace back to the [cherrycss.com](https://cherrycss.com) gallery.
-- Task checkbox is referenced from [Minimal Theme](https://github.com/kepano/obsidian-minimal) which is a great theme for Obsidian build by @Kepano.
+- Forked from the [Composer theme](https://github.com/vran-dev/obsidian-composer) by @vran
+- Color palettes ported from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变) by @Sum-su, whose colors trace back to the [cherrycss.com](https://cherrycss.com) gallery
+- Task checkbox style referenced from the [Minimal theme](https://github.com/kepano/obsidian-minimal) by @Kepano
 
-## Development Workflow (settings.yml + composer.css Split)
+<details>
+<summary>Development (settings.yml + composer.css split build)</summary>
 
-This theme separates the Style Settings YAML header from the CSS for better editor support.
+Style Settings declarations and CSS are maintained separately, merged by a build script:
 
-Files:
+- `settings.yml` — Style Settings declarations (pure YAML)
+- `composer.css` — style body (pure CSS)
+- `build.mjs` — merges the two into `theme.css`
 
-- `settings.yml` – Pure YAML (no wrapping comment). Edit Style Settings options here.
-- `composer.css` – Pure CSS body (without the initial `/* @settings ... */` block).
-- `build.mjs` – Build script that merges the two into `theme.css`.
+```bash
+# after editing settings.yml / composer.css
+npm run build        # regenerate theme.css
+npm version patch    # release: builds and updates manifest.json / versions.json
+```
 
-Usage:
-1. Edit style settings in `settings.yml`.
-2. Edit styles in `composer.css`.
-3. Run `npm run build` to generate `theme.css`.
-4. Load or distribute `theme.css` as the final theme file.
+Note: `theme.css` is a build artifact — do not hand-edit its YAML header.
 
-Release Flow:
-`npm version patch|minor|major` will automatically:
-1. Run `preversion` (which triggers `npm run build`).
-2. Bump version and stage `manifest.json`, `versions.json`, and `theme.css`.
+</details>
 
-Notes:
-- Do NOT manually edit the YAML inside `theme.css`; it will be regenerated.
-- Only add/change settings in `settings.yml`.
-- The build script strips an optional leading comment block from `composer.css` before concatenation.
+---
+
+<div align="center">
+
+Released under the MIT License · One kiln, ten thousand glazes
+
+</div>
