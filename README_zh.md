@@ -2,9 +2,9 @@
 
 # 窑变 for Obsidian
 
-<img src="assets/hero.png" width="880" alt="窑变 · 一窑烧出万色" />
+<img src="assets/hero.png" width="880" alt="窑变 · 入窑一色，出窑万彩" />
 
-> 一窑烧出万色 —— 同一套釉料，不同火候，各成釉色。
+> 入窑一色，出窑万彩。
 
 **中文** · [English](README.md)
 

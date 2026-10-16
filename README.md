@@ -2,9 +2,9 @@
 
 # 窑变 for Obsidian
 
-<img src="assets/hero.png" width="880" alt="Yaobian · One kiln, ten thousand glazes" />
+<img src="assets/hero.png" width="880" alt="Yaobian · One color in, ten thousand glazes out" />
 
-> One kiln, ten thousand glazes — the same recipe, different firing, each with its own color.
+> One color in, ten thousand glazes out.
 
 [中文](README_zh.md) · **English**
 
@@ -83,6 +83,6 @@ npm version patch    # release: builds and syncs manifest.json / versions.json
 
 <div align="center">
 
-Released under the MIT License · One kiln, ten thousand glazes
+Released under the MIT License · One color in, ten thousand glazes out
 
 </div>
