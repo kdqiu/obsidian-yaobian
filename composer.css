@@ -344,7 +344,7 @@ ol,
 }
 
 /* ---- Su ---- */
-.composer--SuScheme-light.theme-light {
+.yaobian--SuScheme-light.theme-light {
 	--accent-h: 204;
 	--accent-s: 15%;
 	--accent-l: 58%;
@@ -392,7 +392,7 @@ ol,
 	--text-highlight-border-radius: 4px;
 }
 
-.composer--SuScheme-dark.theme-dark {
+.yaobian--SuScheme-dark.theme-dark {
 	--accent-h: 204;
 	--accent-s: 18%;
 	--accent-l: 42%;
@@ -442,7 +442,7 @@ ol,
 }
 
 /* ---- Qing ---- */
-.composer--QingScheme-light.theme-light {
+.yaobian--QingScheme-light.theme-light {
 	--accent-h: 198;
 	--accent-s: 22%;
 	--accent-l: 55%;
@@ -488,7 +488,7 @@ ol,
 	--text-highlight-color: hsl(197, 35%, 30%);
 }
 
-.composer--QingScheme-dark.theme-dark {
+.yaobian--QingScheme-dark.theme-dark {
 	--accent-h: 198;
 	--accent-s: 28%;
 	--accent-l: 45%;
@@ -535,7 +535,7 @@ ol,
 
 /* ---- 禅棕 (chan-zong, light) ---- */
 
-.composer--ChanZongScheme-light.theme-light {
+.yaobian--ChanZongScheme-light.theme-light {
 	--accent-h: 16;
 	--accent-s: 25%;
 	--accent-l: 38%;
@@ -584,7 +584,7 @@ ol,
 
 /* ---- 禅棕 (chan-zong, dark) ---- */
 
-.composer--ChanZongScheme-dark.theme-dark {
+.yaobian--ChanZongScheme-dark.theme-dark {
 	--accent-h: 16;
 	--accent-s: 22%;
 	--accent-l: 53%;
@@ -633,7 +633,7 @@ ol,
 
 /* ---- 长安 (chang-an, light) ---- */
 
-.composer--ChangAnScheme-light.theme-light {
+.yaobian--ChangAnScheme-light.theme-light {
 	--accent-h: 3;
 	--accent-s: 62%;
 	--accent-l: 38%;
@@ -682,7 +682,7 @@ ol,
 
 /* ---- 长安 (chang-an, dark) ---- */
 
-.composer--ChangAnScheme-dark.theme-dark {
+.yaobian--ChangAnScheme-dark.theme-dark {
 	--accent-h: 4;
 	--accent-s: 55%;
 	--accent-l: 44%;
@@ -731,7 +731,7 @@ ol,
 
 /* ---- 春梅 (chun-mei, light) ---- */
 
-.composer--ChunMeiScheme-light.theme-light {
+.yaobian--ChunMeiScheme-light.theme-light {
 	--accent-h: 354;
 	--accent-s: 68%;
 	--accent-l: 67%;
@@ -780,7 +780,7 @@ ol,
 
 /* ---- 春梅 (chun-mei, dark) ---- */
 
-.composer--ChunMeiScheme-dark.theme-dark {
+.yaobian--ChunMeiScheme-dark.theme-dark {
 	--accent-h: 354;
 	--accent-s: 78%;
 	--accent-l: 70%;
@@ -829,7 +829,7 @@ ol,
 
 /* ---- 丹霞 (dan-xia, light) ---- */
 
-.composer--DanXiaScheme-light.theme-light {
+.yaobian--DanXiaScheme-light.theme-light {
 	--accent-h: 0;
 	--accent-s: 45%;
 	--accent-l: 43%;
@@ -878,7 +878,7 @@ ol,
 
 /* ---- 丹霞 (dan-xia, dark) ---- */
 
-.composer--DanXiaScheme-dark.theme-dark {
+.yaobian--DanXiaScheme-dark.theme-dark {
 	--accent-h: 1;
 	--accent-s: 42%;
 	--accent-l: 47%;
@@ -927,7 +927,7 @@ ol,
 
 /* ---- 汉白玉 (han-bai-yu, light) ---- */
 
-.composer--HanBaiYuScheme-light.theme-light {
+.yaobian--HanBaiYuScheme-light.theme-light {
 	--accent-h: 35;
 	--accent-s: 6%;
 	--accent-l: 58%;
@@ -976,7 +976,7 @@ ol,
 
 /* ---- 汉白玉 (han-bai-yu, dark) ---- */
 
-.composer--HanBaiYuScheme-dark.theme-dark {
+.yaobian--HanBaiYuScheme-dark.theme-dark {
 	--accent-h: 35;
 	--accent-s: 6%;
 	--accent-l: 58%;
@@ -1025,7 +1025,7 @@ ol,
 
 /* ---- 湖光 (hu-guang, light) ---- */
 
-.composer--HuGuangScheme-light.theme-light {
+.yaobian--HuGuangScheme-light.theme-light {
 	--accent-h: 190;
 	--accent-s: 34%;
 	--accent-l: 36%;
@@ -1074,7 +1074,7 @@ ol,
 
 /* ---- 湖光 (hu-guang, dark) ---- */
 
-.composer--HuGuangScheme-dark.theme-dark {
+.yaobian--HuGuangScheme-dark.theme-dark {
 	--accent-h: 190;
 	--accent-s: 25%;
 	--accent-l: 49%;
@@ -1123,7 +1123,7 @@ ol,
 
 /* ---- 金镶玉 (jin-xiang-yu, light) ---- */
 
-.composer--JinXiangYuScheme-light.theme-light {
+.yaobian--JinXiangYuScheme-light.theme-light {
 	--accent-h: 42;
 	--accent-s: 42%;
 	--accent-l: 51%;
@@ -1172,7 +1172,7 @@ ol,
 
 /* ---- 金镶玉 (jin-xiang-yu, dark) ---- */
 
-.composer--JinXiangYuScheme-dark.theme-dark {
+.yaobian--JinXiangYuScheme-dark.theme-dark {
 	--accent-h: 42;
 	--accent-s: 48%;
 	--accent-l: 57%;
@@ -1221,7 +1221,7 @@ ol,
 
 /* ---- 流云 (liu-yun, light) ---- */
 
-.composer--LiuYunScheme-light.theme-light {
+.yaobian--LiuYunScheme-light.theme-light {
 	--accent-h: 213;
 	--accent-s: 41%;
 	--accent-l: 50%;
@@ -1270,7 +1270,7 @@ ol,
 
 /* ---- 流云 (liu-yun, dark) ---- */
 
-.composer--LiuYunScheme-dark.theme-dark {
+.yaobian--LiuYunScheme-dark.theme-dark {
 	--accent-h: 213;
 	--accent-s: 41%;
 	--accent-l: 50%;
@@ -1319,7 +1319,7 @@ ol,
 
 /* ---- 琵琶 (pi-pa, light) ---- */
 
-.composer--PiPaScheme-light.theme-light {
+.yaobian--PiPaScheme-light.theme-light {
 	--accent-h: 44;
 	--accent-s: 50%;
 	--accent-l: 25%;
@@ -1368,7 +1368,7 @@ ol,
 
 /* ---- 琵琶 (pi-pa, dark) ---- */
 
-.composer--PiPaScheme-dark.theme-dark {
+.yaobian--PiPaScheme-dark.theme-dark {
 	--accent-h: 43;
 	--accent-s: 38%;
 	--accent-l: 33%;
@@ -1417,7 +1417,7 @@ ol,
 
 /* ---- 青瓷 (qing-ci, light) ---- */
 
-.composer--QingCiScheme-light.theme-light {
+.yaobian--QingCiScheme-light.theme-light {
 	--accent-h: 159;
 	--accent-s: 21%;
 	--accent-l: 57%;
@@ -1466,7 +1466,7 @@ ol,
 
 /* ---- 青瓷 (qing-ci, dark) ---- */
 
-.composer--QingCiScheme-dark.theme-dark {
+.yaobian--QingCiScheme-dark.theme-dark {
 	--accent-h: 159;
 	--accent-s: 21%;
 	--accent-l: 57%;
@@ -1515,7 +1515,7 @@ ol,
 
 /* ---- 青花 (qing-hua, light) ---- */
 
-.composer--QingHuaScheme-light.theme-light {
+.yaobian--QingHuaScheme-light.theme-light {
 	--accent-h: 212;
 	--accent-s: 55%;
 	--accent-l: 26%;
@@ -1564,7 +1564,7 @@ ol,
 
 /* ---- 青花 (qing-hua, dark) ---- */
 
-.composer--QingHuaScheme-dark.theme-dark {
+.yaobian--QingHuaScheme-dark.theme-dark {
 	--accent-h: 212;
 	--accent-s: 37%;
 	--accent-l: 40%;
@@ -1613,7 +1613,7 @@ ol,
 
 /* ---- 青雾 (qing-wu, light) ---- */
 
-.composer--QingWuScheme-light.theme-light {
+.yaobian--QingWuScheme-light.theme-light {
 	--accent-h: 190;
 	--accent-s: 34%;
 	--accent-l: 45%;
@@ -1662,7 +1662,7 @@ ol,
 
 /* ---- 青雾 (qing-wu, dark) ---- */
 
-.composer--QingWuScheme-dark.theme-dark {
+.yaobian--QingWuScheme-dark.theme-dark {
 	--accent-h: 190;
 	--accent-s: 34%;
 	--accent-l: 45%;
@@ -1711,7 +1711,7 @@ ol,
 
 /* ---- 汝窑蓝 (ru-yao-lan, light) ---- */
 
-.composer--RuYaoLanScheme-light.theme-light {
+.yaobian--RuYaoLanScheme-light.theme-light {
 	--accent-h: 201;
 	--accent-s: 34%;
 	--accent-l: 44%;
@@ -1760,7 +1760,7 @@ ol,
 
 /* ---- 汝窑蓝 (ru-yao-lan, dark) ---- */
 
-.composer--RuYaoLanScheme-dark.theme-dark {
+.yaobian--RuYaoLanScheme-dark.theme-dark {
 	--accent-h: 201;
 	--accent-s: 34%;
 	--accent-l: 44%;
@@ -1809,7 +1809,7 @@ ol,
 
 /* ---- 汝窑绿 (ru-yao-lv, light) ---- */
 
-.composer--RuYaoLvScheme-light.theme-light {
+.yaobian--RuYaoLvScheme-light.theme-light {
 	--accent-h: 159;
 	--accent-s: 43%;
 	--accent-l: 39%;
@@ -1858,7 +1858,7 @@ ol,
 
 /* ---- 汝窑绿 (ru-yao-lv, dark) ---- */
 
-.composer--RuYaoLvScheme-dark.theme-dark {
+.yaobian--RuYaoLvScheme-dark.theme-dark {
 	--accent-h: 159;
 	--accent-s: 43%;
 	--accent-l: 39%;
@@ -1907,7 +1907,7 @@ ol,
 
 /* ---- 山水 (shan-shui, light) ---- */
 
-.composer--ShanShuiScheme-light.theme-light {
+.yaobian--ShanShuiScheme-light.theme-light {
 	--accent-h: 192;
 	--accent-s: 33%;
 	--accent-l: 27%;
@@ -1956,7 +1956,7 @@ ol,
 
 /* ---- 山水 (shan-shui, dark) ---- */
 
-.composer--ShanShuiScheme-dark.theme-dark {
+.yaobian--ShanShuiScheme-dark.theme-dark {
 	--accent-h: 191;
 	--accent-s: 24%;
 	--accent-l: 38%;
@@ -2005,7 +2005,7 @@ ol,
 
 /* ---- 素宣 (su-xuan, light) ---- */
 
-.composer--SuXuanScheme-light.theme-light {
+.yaobian--SuXuanScheme-light.theme-light {
 	--accent-h: 0;
 	--accent-s: 0%;
 	--accent-l: 56%;
@@ -2054,7 +2054,7 @@ ol,
 
 /* ---- 素宣 (su-xuan, dark) ---- */
 
-.composer--SuXuanScheme-dark.theme-dark {
+.yaobian--SuXuanScheme-dark.theme-dark {
 	--accent-h: 207;
 	--accent-s: 5%;
 	--accent-l: 53%;
@@ -2103,7 +2103,7 @@ ol,
 
 /* ---- 天水 (tian-shui, light) ---- */
 
-.composer--TianShuiScheme-light.theme-light {
+.yaobian--TianShuiScheme-light.theme-light {
 	--accent-h: 187;
 	--accent-s: 33%;
 	--accent-l: 51%;
@@ -2152,7 +2152,7 @@ ol,
 
 /* ---- 天水 (tian-shui, dark) ---- */
 
-.composer--TianShuiScheme-dark.theme-dark {
+.yaobian--TianShuiScheme-dark.theme-dark {
 	--accent-h: 187;
 	--accent-s: 34%;
 	--accent-l: 52%;
@@ -2201,7 +2201,7 @@ ol,
 
 /* ---- 宣纸 (xuan-zhi, light) ---- */
 
-.composer--XuanZhiScheme-light.theme-light {
+.yaobian--XuanZhiScheme-light.theme-light {
 	--accent-h: 37;
 	--accent-s: 17%;
 	--accent-l: 42%;
@@ -2250,7 +2250,7 @@ ol,
 
 /* ---- 宣纸 (xuan-zhi, dark) ---- */
 
-.composer--XuanZhiScheme-dark.theme-dark {
+.yaobian--XuanZhiScheme-dark.theme-dark {
 	--accent-h: 37;
 	--accent-s: 17%;
 	--accent-l: 42%;
@@ -2299,7 +2299,7 @@ ol,
 
 /* ---- 雁灰 (yan-hui, light) ---- */
 
-.composer--YanHuiScheme-light.theme-light {
+.yaobian--YanHuiScheme-light.theme-light {
 	--accent-h: 215;
 	--accent-s: 14%;
 	--accent-l: 34%;
@@ -2348,7 +2348,7 @@ ol,
 
 /* ---- 雁灰 (yan-hui, dark) ---- */
 
-.composer--YanHuiScheme-dark.theme-dark {
+.yaobian--YanHuiScheme-dark.theme-dark {
 	--accent-h: 214;
 	--accent-s: 12%;
 	--accent-l: 41%;
@@ -2397,7 +2397,7 @@ ol,
 
 /* ---- 烟雨 (yan-yu, light) ---- */
 
-.composer--YanYuScheme-light.theme-light {
+.yaobian--YanYuScheme-light.theme-light {
 	--accent-h: 192;
 	--accent-s: 23%;
 	--accent-l: 54%;
@@ -2446,7 +2446,7 @@ ol,
 
 /* ---- 烟雨 (yan-yu, dark) ---- */
 
-.composer--YanYuScheme-dark.theme-dark {
+.yaobian--YanYuScheme-dark.theme-dark {
 	--accent-h: 192;
 	--accent-s: 23%;
 	--accent-l: 54%;
@@ -2495,7 +2495,7 @@ ol,
 
 /* ---- 胭脂 (yan-zhi, light) ---- */
 
-.composer--YanZhiScheme-light.theme-light {
+.yaobian--YanZhiScheme-light.theme-light {
 	--accent-h: 354;
 	--accent-s: 68%;
 	--accent-l: 67%;
@@ -2544,7 +2544,7 @@ ol,
 
 /* ---- 胭脂 (yan-zhi, dark) ---- */
 
-.composer--YanZhiScheme-dark.theme-dark {
+.yaobian--YanZhiScheme-dark.theme-dark {
 	--accent-h: 354;
 	--accent-s: 68%;
 	--accent-l: 67%;
@@ -2593,7 +2593,7 @@ ol,
 
 /* ---- 羊皮纸 (yang-pi-zhi, light) ---- */
 
-.composer--YangPiZhiScheme-light.theme-light {
+.yaobian--YangPiZhiScheme-light.theme-light {
 	--accent-h: 30;
 	--accent-s: 57%;
 	--accent-l: 41%;
@@ -2642,7 +2642,7 @@ ol,
 
 /* ---- 羊皮纸 (yang-pi-zhi, dark) ---- */
 
-.composer--YangPiZhiScheme-dark.theme-dark {
+.yaobian--YangPiZhiScheme-dark.theme-dark {
 	--accent-h: 30;
 	--accent-s: 57%;
 	--accent-l: 41%;
@@ -2691,7 +2691,7 @@ ol,
 
 /* ---- 窑火 (yao-huo, light) ---- */
 
-.composer--YaoHuoScheme-light.theme-light {
+.yaobian--YaoHuoScheme-light.theme-light {
 	--accent-h: 15;
 	--accent-s: 56%;
 	--accent-l: 51%;
@@ -2740,7 +2740,7 @@ ol,
 
 /* ---- 窑火 (yao-huo, dark) ---- */
 
-.composer--YaoHuoScheme-dark.theme-dark {
+.yaobian--YaoHuoScheme-dark.theme-dark {
 	--accent-h: 15;
 	--accent-s: 56%;
 	--accent-l: 51%;
@@ -2789,7 +2789,7 @@ ol,
 
 /* ---- 玉石 (yu-shi, light) ---- */
 
-.composer--YuShiScheme-light.theme-light {
+.yaobian--YuShiScheme-light.theme-light {
 	--accent-h: 159;
 	--accent-s: 43%;
 	--accent-l: 39%;
@@ -2838,7 +2838,7 @@ ol,
 
 /* ---- 玉石 (yu-shi, dark) ---- */
 
-.composer--YuShiScheme-dark.theme-dark {
+.yaobian--YuShiScheme-dark.theme-dark {
 	--accent-h: 159;
 	--accent-s: 43%;
 	--accent-l: 39%;
@@ -2887,7 +2887,7 @@ ol,
 
 /* ---- 紫陶 (zi-tao, light) ---- */
 
-.composer--ZiTaoScheme-light.theme-light {
+.yaobian--ZiTaoScheme-light.theme-light {
 	--accent-h: 294;
 	--accent-s: 22%;
 	--accent-l: 47%;
@@ -2936,7 +2936,7 @@ ol,
 
 /* ---- 紫陶 (zi-tao, dark) ---- */
 
-.composer--ZiTaoScheme-dark.theme-dark {
+.yaobian--ZiTaoScheme-dark.theme-dark {
 	--accent-h: 294;
 	--accent-s: 22%;
 	--accent-l: 47%;
@@ -2985,7 +2985,7 @@ ol,
 
 /* ---- Claude (claude, light) ---- */
 
-.composer--ClaudeScheme-light.theme-light {
+.yaobian--ClaudeScheme-light.theme-light {
 	--accent-h: 5;
 	--accent-s: 50%;
 	--accent-l: 64%;
@@ -3034,7 +3034,7 @@ ol,
 
 /* ---- Claude (claude, dark) ---- */
 
-.composer--ClaudeScheme-dark.theme-dark {
+.yaobian--ClaudeScheme-dark.theme-dark {
 	--accent-h: 5;
 	--accent-s: 70%;
 	--accent-l: 73%;
@@ -3083,7 +3083,7 @@ ol,
 
 /* ---- Dopamine (dopamine, light) ---- */
 
-.composer--DopamineScheme-light.theme-light {
+.yaobian--DopamineScheme-light.theme-light {
 	--accent-h: 50;
 	--accent-s: 100%;
 	--accent-l: 38%;
@@ -3132,7 +3132,7 @@ ol,
 
 /* ---- Dopamine (dopamine, dark) ---- */
 
-.composer--DopamineScheme-dark.theme-dark {
+.yaobian--DopamineScheme-dark.theme-dark {
 	--accent-h: 50;
 	--accent-s: 100%;
 	--accent-l: 59%;
@@ -3181,7 +3181,7 @@ ol,
 
 /* ---- Dracula (dracula, light) ---- */
 
-.composer--DraculaScheme-light.theme-light {
+.yaobian--DraculaScheme-light.theme-light {
 	--accent-h: 266;
 	--accent-s: 48%;
 	--accent-l: 60%;
@@ -3230,7 +3230,7 @@ ol,
 
 /* ---- Dracula (dracula, dark) ---- */
 
-.composer--DraculaScheme-dark.theme-dark {
+.yaobian--DraculaScheme-dark.theme-dark {
 	--accent-h: 265;
 	--accent-s: 89%;
 	--accent-l: 78%;
@@ -3279,7 +3279,7 @@ ol,
 
 /* ---- 歌蕾蒂娅 (gladiia, light) ---- */
 
-.composer--GladiiaScheme-light.theme-light {
+.yaobian--GladiiaScheme-light.theme-light {
 	--accent-h: 353;
 	--accent-s: 73%;
 	--accent-l: 54%;
@@ -3328,7 +3328,7 @@ ol,
 
 /* ---- 歌蕾蒂娅 (gladiia, dark) ---- */
 
-.composer--GladiiaScheme-dark.theme-dark {
+.yaobian--GladiiaScheme-dark.theme-dark {
 	--accent-h: 353;
 	--accent-s: 73%;
 	--accent-l: 54%;
@@ -3377,7 +3377,7 @@ ol,
 
 /* ---- Mint (mint, light) ---- */
 
-.composer--MintScheme-light.theme-light {
+.yaobian--MintScheme-light.theme-light {
 	--accent-h: 279;
 	--accent-s: 23%;
 	--accent-l: 65%;
@@ -3426,7 +3426,7 @@ ol,
 
 /* ---- Mint (mint, dark) ---- */
 
-.composer--MintScheme-dark.theme-dark {
+.yaobian--MintScheme-dark.theme-dark {
 	--accent-h: 278;
 	--accent-s: 42%;
 	--accent-l: 80%;
@@ -3475,7 +3475,7 @@ ol,
 
 /* ---- 莫奈 (mo-nai, light) ---- */
 
-.composer--MoNaiScheme-light.theme-light {
+.yaobian--MoNaiScheme-light.theme-light {
 	--accent-h: 198;
 	--accent-s: 31%;
 	--accent-l: 55%;
@@ -3524,7 +3524,7 @@ ol,
 
 /* ---- 莫奈 (mo-nai, dark) ---- */
 
-.composer--MoNaiScheme-dark.theme-dark {
+.yaobian--MoNaiScheme-dark.theme-dark {
 	--accent-h: 197;
 	--accent-s: 46%;
 	--accent-l: 69%;
@@ -3573,7 +3573,7 @@ ol,
 
 /* ---- 暮山紫 (mu-shan-zi, light) ---- */
 
-.composer--MuShanZiScheme-light.theme-light {
+.yaobian--MuShanZiScheme-light.theme-light {
 	--accent-h: 221;
 	--accent-s: 31%;
 	--accent-l: 55%;
@@ -3622,7 +3622,7 @@ ol,
 
 /* ---- 暮山紫 (mu-shan-zi, dark) ---- */
 
-.composer--MuShanZiScheme-dark.theme-dark {
+.yaobian--MuShanZiScheme-dark.theme-dark {
 	--accent-h: 213;
 	--accent-s: 46%;
 	--accent-l: 68%;
@@ -3671,7 +3671,7 @@ ol,
 
 /* ---- 奶茶 (nai-cha, light) ---- */
 
-.composer--NaiChaScheme-light.theme-light {
+.yaobian--NaiChaScheme-light.theme-light {
 	--accent-h: 26;
 	--accent-s: 30%;
 	--accent-l: 50%;
@@ -3720,7 +3720,7 @@ ol,
 
 /* ---- 奶茶 (nai-cha, dark) ---- */
 
-.composer--NaiChaScheme-dark.theme-dark {
+.yaobian--NaiChaScheme-dark.theme-dark {
 	--accent-h: 26;
 	--accent-s: 30%;
 	--accent-l: 50%;
@@ -3769,7 +3769,7 @@ ol,
 
 /* ---- Peppa (peppa, light) ---- */
 
-.composer--PeppaScheme-light.theme-light {
+.yaobian--PeppaScheme-light.theme-light {
 	--accent-h: 359;
 	--accent-s: 59%;
 	--accent-l: 64%;
@@ -3818,7 +3818,7 @@ ol,
 
 /* ---- Peppa (peppa, dark) ---- */
 
-.composer--PeppaScheme-dark.theme-dark {
+.yaobian--PeppaScheme-dark.theme-dark {
 	--accent-h: 1;
 	--accent-s: 62%;
 	--accent-l: 67%;
@@ -3867,7 +3867,7 @@ ol,
 
 /* ---- Pulse (pulse-interactive, light) ---- */
 
-.composer--PulseInteractiveScheme-light.theme-light {
+.yaobian--PulseInteractiveScheme-light.theme-light {
 	--accent-h: 211;
 	--accent-s: 76%;
 	--accent-l: 34%;
@@ -3916,7 +3916,7 @@ ol,
 
 /* ---- Pulse (pulse-interactive, dark) ---- */
 
-.composer--PulseInteractiveScheme-dark.theme-dark {
+.yaobian--PulseInteractiveScheme-dark.theme-dark {
 	--accent-h: 212;
 	--accent-s: 65%;
 	--accent-l: 40%;
@@ -3965,7 +3965,7 @@ ol,
 
 /* ---- Vitesse Soft (vitesse-soft, light) ---- */
 
-.composer--VitesseSoftScheme-light.theme-light {
+.yaobian--VitesseSoftScheme-light.theme-light {
 	--accent-h: 153;
 	--accent-s: 59%;
 	--accent-l: 26%;
@@ -4014,7 +4014,7 @@ ol,
 
 /* ---- Vitesse Soft (vitesse-soft, dark) ---- */
 
-.composer--VitesseSoftScheme-dark.theme-dark {
+.yaobian--VitesseSoftScheme-dark.theme-dark {
 	--accent-h: 154;
 	--accent-s: 31%;
 	--accent-l: 44%;
@@ -4113,7 +4113,7 @@ ol,
 }
 
 /* decoration before heading (reading view) */
-body:not(.composer--DisableHeadingDecoration-ReadingView) {
+body:not(.yaobian--DisableHeadingDecoration-ReadingView) {
 	.markdown-rendered > h1::before,
 	.markdown-rendered > h2::before,
 	.markdown-rendered > h3::before,
@@ -4164,7 +4164,7 @@ body:not(.composer--DisableHeadingDecoration-ReadingView) {
 }
 
 /* decoration before heading (live preview) */
-body:not(.composer--DisableHeadingDecoration-LivePreview) {
+body:not(.yaobian--DisableHeadingDecoration-LivePreview) {
 	.is-live-preview .HyperMD-header::before {
 		content: " ";
 		display: inline-block;
@@ -4204,7 +4204,7 @@ body:not(.composer--DisableHeadingDecoration-LivePreview) {
 }
 
 /* heading line highlight */
-body:not(.composer--DisableHeadingLineEditingHighlight)
+body:not(.yaobian--DisableHeadingLineEditingHighlight)
 	.markdown-source-view.mod-cm6
 	.HyperMD-header.cm-active {
 	background-color: var(--header-active-bg);
@@ -4238,7 +4238,7 @@ body:not(.composer--DisableHeadingLineEditingHighlight)
 }
 
 /* subtle grid callout style */
-.composer--SubtleGridCallout .callout {
+.yaobian--SubtleGridCallout .callout {
 	background: linear-gradient(
 		150deg,
 		color-mix(in srgb, var(--callout-color) 15%, transparent) 0%,
@@ -4250,7 +4250,7 @@ body:not(.composer--DisableHeadingLineEditingHighlight)
 	padding: 4px;
 }
 
-.composer--SubtleGridCallout .callout::before {
+.yaobian--SubtleGridCallout .callout::before {
 	content: "";
 	position: absolute;
 	top: 8px;
@@ -4275,53 +4275,53 @@ body:not(.composer--DisableHeadingLineEditingHighlight)
 	z-index: -1;
 }
 
-.composer--SubtleGridCallout .callout-title {
+.yaobian--SubtleGridCallout .callout-title {
 	padding: 8px 16px 8px 16px;
 }
 
-.composer--SubtleGridCallout .callout-content {
+.yaobian--SubtleGridCallout .callout-content {
 	padding: 0px 16px 0px 16px;
 }
 
 /* window panel callout */
-.composer--WindowPanelCallout .callout {
+.yaobian--WindowPanelCallout .callout {
 	border: 1px solid color-mix(in srgb, var(--callout-color) 68%, transparent);
 	position: relative;
 	background-color: transparent;
 	padding: 0px;
 }
 
-.composer--WindowPanelCallout .callout-title {
+.yaobian--WindowPanelCallout .callout-title {
 	border-bottom: 1px solid color-mix(in srgb, var(--callout-color) 68%, transparent);
 	background-color: color-mix(in srgb, var(--callout-color) 10%, transparent);
 	padding: 8px 16px 8px 16px;
 }
 
-.composer--WindowPanelCallout .callout-content {
+.yaobian--WindowPanelCallout .callout-content {
 	padding: 0px 16px;
 }
 
 /* clean line callout */
-.composer--CleanLineCallout .callout {
+.yaobian--CleanLineCallout .callout {
 	background-color: transparent;
 }
 
-.composer--CleanLineCallout .callout-title {
+.yaobian--CleanLineCallout .callout-title {
 	position: relative;
 	padding: 0px 0px 8px 0px;
 }
 
-.composer--CleanLineCallout .callout.is-collapsed .callout-title {
+.yaobian--CleanLineCallout .callout.is-collapsed .callout-title {
 	padding: initial;
 }
 
-.composer--CleanLineCallout .callout.is-collapsed .callout-title::after {
+.yaobian--CleanLineCallout .callout.is-collapsed .callout-title::after {
 	display: none;
 	height: 0px;
 	background: initial;
 }
 
-.composer--CleanLineCallout .callout-title::after {
+.yaobian--CleanLineCallout .callout-title::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -4338,7 +4338,7 @@ body:not(.composer--DisableHeadingLineEditingHighlight)
 }
 
 /* github callout */
-.composer--GithubCallout .callout {
+.yaobian--GithubCallout .callout {
 	border: none;
 	border-left: color-mix(in srgb, var(--callout-color) 60%, transparent) 4px solid;
 	border-radius: 0px;
@@ -4346,7 +4346,7 @@ body:not(.composer--DisableHeadingLineEditingHighlight)
 	padding: 8px 16px 8px 16px;
 }
 
-.composer--GithubCallout .callout-title {
+.yaobian--GithubCallout .callout-title {
 	gap: var(--size-4-2);
 }
 
@@ -4461,7 +4461,7 @@ body .markdown-rendered mark {
 	background-color: var(--background-secondary);
 }
 
-.composer--ObsidianTableStyle {
+.yaobian--ObsidianTableStyle {
 	.el-table table th,
 	.el-table table td,
 	.table-wrapper table th,
@@ -4471,7 +4471,7 @@ body .markdown-rendered mark {
 	}
 }
 
-.composer--BorderlessTableStyle {
+.yaobian--BorderlessTableStyle {
 	.el-table table,
 	.table-wrapper table {
 		--table-border-width: 0px;
@@ -4485,7 +4485,7 @@ body .markdown-rendered mark {
 	}
 }
 
-body:not(.composer--HideStripedTableBackground) {
+body:not(.yaobian--HideStripedTableBackground) {
 	.el-table table,
 	.table-wrapper table {
 		background-color: var(--background-primary-alt);
@@ -4494,7 +4494,7 @@ body:not(.composer--HideStripedTableBackground) {
 	}
 }
 
-.composer--AcademicTableStyle {
+.yaobian--AcademicTableStyle {
 	--table-header-border-width: 2px;
 	--table-header-border-color: var(--text-normal);
 
@@ -4620,7 +4620,7 @@ body:not(.is-mobile) .nav-buttons-container {
 	width: fit-content;
 }
 
-body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
+body:not(.is-mobile):not(.yaobian--DisableNavHeaderAutoHide)
 	.mod-sidedock
 	.workspace-leaf-content
 	.nav-header
@@ -4628,7 +4628,7 @@ body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
 	background-color: transparent;
 }
 
-body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
+body:not(.is-mobile):not(.yaobian--DisableNavHeaderAutoHide)
 	.mod-sidedock
 	.workspace-leaf-content
 	.nav-header:hover
@@ -4636,7 +4636,7 @@ body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
 	background-color: var(--nav-button-container-bg);
 }
 
-body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
+body:not(.is-mobile):not(.yaobian--DisableNavHeaderAutoHide)
 	.mod-sidedock
 	.workspace-leaf
 	.workspace-leaf-content
@@ -4647,7 +4647,7 @@ body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
 	border-radius: var(--clickable-icon-radius);
 }
 
-body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
+body:not(.is-mobile):not(.yaobian--DisableNavHeaderAutoHide)
 	.mod-sidedock
 	.workspace-leaf-content
 	.nav-header
@@ -4666,7 +4666,7 @@ body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
 		background-color 120ms linear;
 }
 
-body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
+body:not(.is-mobile):not(.yaobian--DisableNavHeaderAutoHide)
 	.mod-sidedock
 	.workspace-leaf-content
 	.nav-header
@@ -4674,7 +4674,7 @@ body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
 	background-color: var(--icon-color-active);
 }
 
-body:not(.is-mobile):not(.composer--DisableNavHeaderAutoHide)
+body:not(.is-mobile):not(.yaobian--DisableNavHeaderAutoHide)
 	.mod-sidedock
 	.workspace-leaf-content
 	.nav-header:hover
@@ -4968,13 +4968,13 @@ body:not(.is-mobile)
 
 /* markdown */
 /* file header title */
-body:not(.is-phone).composer--ToggleDesktopViewHeaderTitleParent .view-header-title-parent {
+body:not(.is-phone).yaobian--ToggleDesktopViewHeaderTitleParent .view-header-title-parent {
 	width: 0;
 	opacity: 0;
 }
 
 @media (hover: hover) {
-	body:not(.is-phone).composer--ToggleDesktopViewHeaderTitleParent
+	body:not(.is-phone).yaobian--ToggleDesktopViewHeaderTitleParent
 		.view-header-title-container:hover
 		.view-header-title-parent {
 		width: auto;
@@ -5010,12 +5010,12 @@ body:not(.is-phone).composer--ToggleDesktopViewHeaderTitleParent .view-header-ti
 }
 
 /* enable indentation for file explorer, ordered list, unordered list, etc.*/
-body.composer--EnableIndentationGuidLine {
+body.yaobian--EnableIndentationGuidLine {
 	--indentation-guide-color: rgba(var(--mono-rgb-100), 0.12);
 }
 
 /* enable filename line feed */
-body.composer--EnableFilenameLineFeed .nav-file-title-content {
+body.yaobian--EnableFilenameLineFeed .nav-file-title-content {
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 	word-break: break-all;
@@ -5023,10 +5023,10 @@ body.composer--EnableFilenameLineFeed .nav-file-title-content {
 }
 
 /* enable hidden file tag */
-body.composer--EnableHiddenFileTag .nav-file-tag {
+body.yaobian--EnableHiddenFileTag .nav-file-tag {
 	display: none;
 }
-body.composer--EnableHiddenFileTag.composer--EnableHiddenFileTagHover
+body.yaobian--EnableHiddenFileTag.yaobian--EnableHiddenFileTagHover
 	.nav-file:hover
 	.nav-file-tag {
 	display: inline;
@@ -5038,7 +5038,7 @@ body.composer--EnableHiddenFileTag.composer--EnableHiddenFileTagHover
 * Source: https://github.com/subframe7536/obsidian-theme-maple
 * Licensed under MIT License (https://github.com/subframe7536/obsidian-theme-maple/blob/main/LICENSE)
 */
-.composer--NodeOutlineStyle
+.yaobian--NodeOutlineStyle
 	.workspace-leaf-content[data-type="outline"]
 	.view-content {
 	/* Base styles for outline container */
@@ -5276,10 +5276,10 @@ body.composer--EnableHiddenFileTag.composer--EnableHiddenFileTagHover
 	gap: 2px;
 }
 
-body:not(.composer--DisableFileFolderIcon)
+body:not(.yaobian--DisableFileFolderIcon)
 	.workspace-leaf-content[data-type="file-explorer"]
 	.tree-item-icon.collapse-icon,
-body:not(.composer--DisableFileFolderIcon)
+body:not(.yaobian--DisableFileFolderIcon)
 	.workspace-leaf-content[data-type="bookmarks"]
 	.tree-item-icon.collapse-icon {
 	background-color: var(--icon-color);
@@ -5288,11 +5288,11 @@ body:not(.composer--DisableFileFolderIcon)
 	-webkit-mask-repeat: no-repeat;
 }
 
-body:not(.composer--DisableFileFolderIcon)
+body:not(.yaobian--DisableFileFolderIcon)
 	.workspace-leaf-content[data-type="file-explorer"]
 	.is-collapsed
 	.tree-item-icon.collapse-icon,
-body:not(.composer--DisableFileFolderIcon)
+body:not(.yaobian--DisableFileFolderIcon)
 	.workspace-leaf-content[data-type="bookmarks"]
 	.is-collapsed
 	.tree-item-icon.collapse-icon {
@@ -5317,43 +5317,43 @@ body:not(.composer--DisableFileFolderIcon)
 * Paragraph indent
 * thanks for https://forum-zh.obsidian.md/t/topic/40452
 */
-.composer--ParagraphIndent {
+.yaobian--ParagraphIndent {
 	--paragraph-indent: calc(var(--font-text-size) * 2);
 }
 
-.composer--ParagraphIndent
+.yaobian--ParagraphIndent
 	.markdown-reading-view
 	:is([class="cm-line"], [class="cm-active cm-line"], p),
-.composer--ParagraphIndent
+.yaobian--ParagraphIndent
 	.is-live-preview
 	:is([class="cm-line"], [class="cm-active cm-line"], p) {
 	text-indent: var(--paragraph-indent);
 }
 
-.composer--ParagraphIndent .markdown-reading-view p > br,
-.composer--ParagraphIndent .is-live-preview p > br {
+.yaobian--ParagraphIndent .markdown-reading-view p > br,
+.yaobian--ParagraphIndent .is-live-preview p > br {
 	content: "";
 	white-space: pre;
 }
 
-.composer--ParagraphIndent .markdown-reading-view p > br::after,
-.composer--ParagraphIndent .is-live-preview p > br::after {
+.yaobian--ParagraphIndent .markdown-reading-view p > br::after,
+.yaobian--ParagraphIndent .is-live-preview p > br::after {
 	content: "\000A\200B";
 	margin-inline-end: var(--paragraph-indent);
 }
 
 /* exclude <p within codeblock */
-.composer--ParagraphIndent .markdown-reading-view .cm-preview-code-block p,
-.composer--ParagraphIndent .is-live-preview .cm-preview-code-block p {
+.yaobian--ParagraphIndent .markdown-reading-view .cm-preview-code-block p,
+.yaobian--ParagraphIndent .is-live-preview .cm-preview-code-block p {
 	text-indent: initial;
 }
 
 /* exclude table */
-.composer--ParagraphIndent
+.yaobian--ParagraphIndent
 	.table-cell-wrapper
 	.markdown-reading-view
 	:is([class="cm-line"], [class="cm-active cm-line"], p),
-.composer--ParagraphIndent
+.yaobian--ParagraphIndent
 	.table-cell-wrapper
 	.is-live-preview
 	:is([class="cm-line"], [class="cm-active cm-line"], p) {
@@ -5416,7 +5416,7 @@ div.mermaid {
 	word-spacing: initial;
 }
 
-body.composer--ParagraphIndent div.markdown-reading-view div.mermaid {
+body.yaobian--ParagraphIndent div.markdown-reading-view div.mermaid {
 	--paragraph-indent: 0px;
 }
 
@@ -5521,14 +5521,14 @@ li[data-task="b"] > p > input:checked {
 
 /* `[x]` Completed */
 /* Removal of strikethrough for completed tasks */
-body:not(.tasks).composer--RemoveTaskCompletedDecoration
+body:not(.tasks).yaobian--RemoveTaskCompletedDecoration
 	.markdown-source-view.mod-cm6
 	.HyperMD-task-line[data-task]:is([data-task="x"]),
-body:not(.tasks).composer--RemoveTaskCompletedDecoration
+body:not(.tasks).yaobian--RemoveTaskCompletedDecoration
 	.markdown-preview-view
 	ul
 	li[data-task="x"].task-list-item.is-checked,
-body:not(.tasks).composer--RemoveTaskCompletedDecoration
+body:not(.tasks).yaobian--RemoveTaskCompletedDecoration
 	li[data-task="x"].task-list-item.is-checked {
 	text-decoration: unset;
 	color: var(--text-muted);
@@ -5907,7 +5907,7 @@ https://github.com/aaaaalexis/obsidian-cupertino
 }
 
 /* 顶级目录配色 - 根据序号循环展示7种颜色 */
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 1)
   > .nav-folder-title {
@@ -5917,7 +5917,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 2)
   > .nav-folder-title {
@@ -5927,7 +5927,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 3)
   > .nav-folder-title {
@@ -5937,7 +5937,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 4)
   > .nav-folder-title {
@@ -5947,7 +5947,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 5)
   > .nav-folder-title {
@@ -5957,7 +5957,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 6)
   > .nav-folder-title {
@@ -5967,7 +5967,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n)
   > .nav-folder-title {
@@ -5978,7 +5978,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
 }
 
 /* 子目录配色 - 继承父目录颜色但更淡 */
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 1)
   .tree-item-children
@@ -5989,7 +5989,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 2)
   .tree-item-children
@@ -6000,7 +6000,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 3)
   .tree-item-children
@@ -6011,7 +6011,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 4)
   .tree-item-children
@@ -6022,7 +6022,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 5)
   .tree-item-children
@@ -6033,7 +6033,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 6)
   .tree-item-children
@@ -6044,7 +6044,7 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
   --icon-color: var(--nav-collapse-icon-color);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n)
   .tree-item-children
@@ -6056,49 +6056,49 @@ body:not(.composer--DisableRainbowTree) .nav-files-container
 }
 
 /* 顶级目录悬停效果 */
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 1)
   > .nav-folder-title:hover {
   background-color: var(--folder-hover-1);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 2)
   > .nav-folder-title:hover {
   background-color: var(--folder-hover-2);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 3)
   > .nav-folder-title:hover {
   background-color: var(--folder-hover-3);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 4)
   > .nav-folder-title:hover {
   background-color: var(--folder-hover-4);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 5)
   > .nav-folder-title:hover {
   background-color: var(--folder-hover-5);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n + 6)
   > .nav-folder-title:hover {
   background-color: var(--folder-hover-6);
 }
 
-body:not(.composer--DisableRainbowTree) .nav-files-container
+body:not(.yaobian--DisableRainbowTree) .nav-files-container
   > div
   > .tree-item.nav-folder:nth-child(7n)
   > .nav-folder-title:hover {

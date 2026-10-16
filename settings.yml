@@ -1,5 +1,5 @@
-name: Composer Theme
-id: obsidian-composer-theme
+name: Yaobian
+id: obsidian-yaobian
 settings:
   - id: theme-variant-light
     title: Color Scheme
@@ -8,86 +8,86 @@ settings:
     description.zh: 为亮色主题选择一个预设的配色方案
     type: class-select
     allowEmpty: false
-    default: composer--XiaScheme-light
+    default: yaobian--XiaScheme-light
     options:
       - label: Sù 素
-        value: composer--SuScheme-light
+        value: yaobian--SuScheme-light
       - label: Xiá 霞
-        value: composer--XiaScheme-light
+        value: yaobian--XiaScheme-light
       - label: Qīng 青
-        value: composer--QingScheme-light
+        value: yaobian--QingScheme-light
       - label: 禅棕 chan-zong
-        value: composer--ChanZongScheme-light
+        value: yaobian--ChanZongScheme-light
       - label: 长安 chang-an
-        value: composer--ChangAnScheme-light
+        value: yaobian--ChangAnScheme-light
       - label: 春梅 chun-mei
-        value: composer--ChunMeiScheme-light
+        value: yaobian--ChunMeiScheme-light
       - label: 丹霞 dan-xia
-        value: composer--DanXiaScheme-light
+        value: yaobian--DanXiaScheme-light
       - label: 汉白玉 han-bai-yu
-        value: composer--HanBaiYuScheme-light
+        value: yaobian--HanBaiYuScheme-light
       - label: 湖光 hu-guang
-        value: composer--HuGuangScheme-light
+        value: yaobian--HuGuangScheme-light
       - label: 金镶玉 jin-xiang-yu
-        value: composer--JinXiangYuScheme-light
+        value: yaobian--JinXiangYuScheme-light
       - label: 流云 liu-yun
-        value: composer--LiuYunScheme-light
+        value: yaobian--LiuYunScheme-light
       - label: 琵琶 pi-pa
-        value: composer--PiPaScheme-light
+        value: yaobian--PiPaScheme-light
       - label: 青瓷 qing-ci
-        value: composer--QingCiScheme-light
+        value: yaobian--QingCiScheme-light
       - label: 青花 qing-hua
-        value: composer--QingHuaScheme-light
+        value: yaobian--QingHuaScheme-light
       - label: 青雾 qing-wu
-        value: composer--QingWuScheme-light
+        value: yaobian--QingWuScheme-light
       - label: 汝窑蓝 ru-yao-lan
-        value: composer--RuYaoLanScheme-light
+        value: yaobian--RuYaoLanScheme-light
       - label: 汝窑绿 ru-yao-lv
-        value: composer--RuYaoLvScheme-light
+        value: yaobian--RuYaoLvScheme-light
       - label: 山水 shan-shui
-        value: composer--ShanShuiScheme-light
+        value: yaobian--ShanShuiScheme-light
       - label: 素宣 su-xuan
-        value: composer--SuXuanScheme-light
+        value: yaobian--SuXuanScheme-light
       - label: 天水 tian-shui
-        value: composer--TianShuiScheme-light
+        value: yaobian--TianShuiScheme-light
       - label: 宣纸 xuan-zhi
-        value: composer--XuanZhiScheme-light
+        value: yaobian--XuanZhiScheme-light
       - label: 雁灰 yan-hui
-        value: composer--YanHuiScheme-light
+        value: yaobian--YanHuiScheme-light
       - label: 烟雨 yan-yu
-        value: composer--YanYuScheme-light
+        value: yaobian--YanYuScheme-light
       - label: 胭脂 yan-zhi
-        value: composer--YanZhiScheme-light
+        value: yaobian--YanZhiScheme-light
       - label: 羊皮纸 yang-pi-zhi
-        value: composer--YangPiZhiScheme-light
+        value: yaobian--YangPiZhiScheme-light
       - label: 窑火 yao-huo
-        value: composer--YaoHuoScheme-light
+        value: yaobian--YaoHuoScheme-light
       - label: 玉石 yu-shi
-        value: composer--YuShiScheme-light
+        value: yaobian--YuShiScheme-light
       - label: 紫陶 zi-tao
-        value: composer--ZiTaoScheme-light
+        value: yaobian--ZiTaoScheme-light
       - label: Claude claude
-        value: composer--ClaudeScheme-light
+        value: yaobian--ClaudeScheme-light
       - label: Dopamine dopamine
-        value: composer--DopamineScheme-light
+        value: yaobian--DopamineScheme-light
       - label: Dracula dracula
-        value: composer--DraculaScheme-light
+        value: yaobian--DraculaScheme-light
       - label: 歌蕾蒂娅 gladiia
-        value: composer--GladiiaScheme-light
+        value: yaobian--GladiiaScheme-light
       - label: Mint mint
-        value: composer--MintScheme-light
+        value: yaobian--MintScheme-light
       - label: 莫奈 mo-nai
-        value: composer--MoNaiScheme-light
+        value: yaobian--MoNaiScheme-light
       - label: 暮山紫 mu-shan-zi
-        value: composer--MuShanZiScheme-light
+        value: yaobian--MuShanZiScheme-light
       - label: 奶茶 nai-cha
-        value: composer--NaiChaScheme-light
+        value: yaobian--NaiChaScheme-light
       - label: Peppa peppa
-        value: composer--PeppaScheme-light
+        value: yaobian--PeppaScheme-light
       - label: Pulse pulse-interactive
-        value: composer--PulseInteractiveScheme-light
+        value: yaobian--PulseInteractiveScheme-light
       - label: Vitesse Soft vitesse-soft
-        value: composer--VitesseSoftScheme-light
+        value: yaobian--VitesseSoftScheme-light
   - id: theme-variant-dark
     title: Color Scheme
     title.zh: 暗色主题配色方案
@@ -95,86 +95,86 @@ settings:
     description.zh: 为暗色主题选择一个预设的配色方案
     type: class-select
     allowEmpty: false
-    default: composer--XiaScheme-dark
+    default: yaobian--XiaScheme-dark
     options:
       - label: Sù 素
-        value: composer--SuScheme-dark
+        value: yaobian--SuScheme-dark
       - label: Xiá 霞
-        value: composer--XiaScheme-dark
+        value: yaobian--XiaScheme-dark
       - label: Qīng 青
-        value: composer--QingScheme-dark
+        value: yaobian--QingScheme-dark
       - label: 禅棕 chan-zong
-        value: composer--ChanZongScheme-dark
+        value: yaobian--ChanZongScheme-dark
       - label: 长安 chang-an
-        value: composer--ChangAnScheme-dark
+        value: yaobian--ChangAnScheme-dark
       - label: 春梅 chun-mei
-        value: composer--ChunMeiScheme-dark
+        value: yaobian--ChunMeiScheme-dark
       - label: 丹霞 dan-xia
-        value: composer--DanXiaScheme-dark
+        value: yaobian--DanXiaScheme-dark
       - label: 汉白玉 han-bai-yu
-        value: composer--HanBaiYuScheme-dark
+        value: yaobian--HanBaiYuScheme-dark
       - label: 湖光 hu-guang
-        value: composer--HuGuangScheme-dark
+        value: yaobian--HuGuangScheme-dark
       - label: 金镶玉 jin-xiang-yu
-        value: composer--JinXiangYuScheme-dark
+        value: yaobian--JinXiangYuScheme-dark
       - label: 流云 liu-yun
-        value: composer--LiuYunScheme-dark
+        value: yaobian--LiuYunScheme-dark
       - label: 琵琶 pi-pa
-        value: composer--PiPaScheme-dark
+        value: yaobian--PiPaScheme-dark
       - label: 青瓷 qing-ci
-        value: composer--QingCiScheme-dark
+        value: yaobian--QingCiScheme-dark
       - label: 青花 qing-hua
-        value: composer--QingHuaScheme-dark
+        value: yaobian--QingHuaScheme-dark
       - label: 青雾 qing-wu
-        value: composer--QingWuScheme-dark
+        value: yaobian--QingWuScheme-dark
       - label: 汝窑蓝 ru-yao-lan
-        value: composer--RuYaoLanScheme-dark
+        value: yaobian--RuYaoLanScheme-dark
       - label: 汝窑绿 ru-yao-lv
-        value: composer--RuYaoLvScheme-dark
+        value: yaobian--RuYaoLvScheme-dark
       - label: 山水 shan-shui
-        value: composer--ShanShuiScheme-dark
+        value: yaobian--ShanShuiScheme-dark
       - label: 素宣 su-xuan
-        value: composer--SuXuanScheme-dark
+        value: yaobian--SuXuanScheme-dark
       - label: 天水 tian-shui
-        value: composer--TianShuiScheme-dark
+        value: yaobian--TianShuiScheme-dark
       - label: 宣纸 xuan-zhi
-        value: composer--XuanZhiScheme-dark
+        value: yaobian--XuanZhiScheme-dark
       - label: 雁灰 yan-hui
-        value: composer--YanHuiScheme-dark
+        value: yaobian--YanHuiScheme-dark
       - label: 烟雨 yan-yu
-        value: composer--YanYuScheme-dark
+        value: yaobian--YanYuScheme-dark
       - label: 胭脂 yan-zhi
-        value: composer--YanZhiScheme-dark
+        value: yaobian--YanZhiScheme-dark
       - label: 羊皮纸 yang-pi-zhi
-        value: composer--YangPiZhiScheme-dark
+        value: yaobian--YangPiZhiScheme-dark
       - label: 窑火 yao-huo
-        value: composer--YaoHuoScheme-dark
+        value: yaobian--YaoHuoScheme-dark
       - label: 玉石 yu-shi
-        value: composer--YuShiScheme-dark
+        value: yaobian--YuShiScheme-dark
       - label: 紫陶 zi-tao
-        value: composer--ZiTaoScheme-dark
+        value: yaobian--ZiTaoScheme-dark
       - label: Claude claude
-        value: composer--ClaudeScheme-dark
+        value: yaobian--ClaudeScheme-dark
       - label: Dopamine dopamine
-        value: composer--DopamineScheme-dark
+        value: yaobian--DopamineScheme-dark
       - label: Dracula dracula
-        value: composer--DraculaScheme-dark
+        value: yaobian--DraculaScheme-dark
       - label: 歌蕾蒂娅 gladiia
-        value: composer--GladiiaScheme-dark
+        value: yaobian--GladiiaScheme-dark
       - label: Mint mint
-        value: composer--MintScheme-dark
+        value: yaobian--MintScheme-dark
       - label: 莫奈 mo-nai
-        value: composer--MoNaiScheme-dark
+        value: yaobian--MoNaiScheme-dark
       - label: 暮山紫 mu-shan-zi
-        value: composer--MuShanZiScheme-dark
+        value: yaobian--MuShanZiScheme-dark
       - label: 奶茶 nai-cha
-        value: composer--NaiChaScheme-dark
+        value: yaobian--NaiChaScheme-dark
       - label: Peppa peppa
-        value: composer--PeppaScheme-dark
+        value: yaobian--PeppaScheme-dark
       - label: Pulse pulse-interactive
-        value: composer--PulseInteractiveScheme-dark
+        value: yaobian--PulseInteractiveScheme-dark
       - label: Vitesse Soft vitesse-soft
-        value: composer--VitesseSoftScheme-dark
+        value: yaobian--VitesseSoftScheme-dark
   - id: typograph-settings
     title: Typograph Settings
     title.zh: 排版设置
@@ -205,18 +205,18 @@ settings:
     description.zh: 选择喜欢的 Callout 风格
     type: class-select
     allowEmpty: false
-    default: composer--DefaultCalloutStyle
+    default: yaobian--DefaultCalloutStyle
     options:
       - label: Default 默认
-        value: composer--DefaultCalloutStyle
+        value: yaobian--DefaultCalloutStyle
       - label: Subtle Grid 渐隐网格
-        value: composer--SubtleGridCallout
+        value: yaobian--SubtleGridCallout
       - label: Clean Line 简洁线条
-        value: composer--CleanLineCallout
+        value: yaobian--CleanLineCallout
       - label: Github Style
-        value: composer--GithubCallout
+        value: yaobian--GithubCallout
       - label: Window Panel 窗格
-        value: composer--WindowPanelCallout
+        value: yaobian--WindowPanelCallout
   - id: table-setting
     title: Table
     title.zh: 表格
@@ -230,17 +230,17 @@ settings:
     description.zh: 选择表格的样式
     type: class-select
     allowEmpty: false
-    default: composer--DefaultTableStyle
+    default: yaobian--DefaultTableStyle
     options:
       - label: Default 默认
-        value: composer--DefaultTableStyle
+        value: yaobian--DefaultTableStyle
       - label: Obsidian
-        value: composer--ObsidianTableStyle
+        value: yaobian--ObsidianTableStyle
       - label: Borderless 无边框
-        value: composer--BorderlessTableStyle
+        value: yaobian--BorderlessTableStyle
       - label: Three Line(Academic) 三线表(学术)
-        value: composer--AcademicTableStyle
-  - id: composer--HideStripedTableBackground
+        value: yaobian--AcademicTableStyle
+  - id: yaobian--HideStripedTableBackground
     title: Hide Striped Background
     title.zh: 关闭斑马纹背景
     type: class-toggle
@@ -250,7 +250,7 @@ settings:
     type: heading
     level: 3
     collapsed: true
-  - id: composer--ParagraphIndent
+  - id: yaobian--ParagraphIndent
     title: Paragraph Indent
     title.zh: 段落首行缩进
     description: indent the first line of a paragraph
@@ -341,7 +341,7 @@ settings:
     type: heading
     level: 3
     collapsed: true
-  - id: composer--RemoveTaskCompletedDecoration
+  - id: yaobian--RemoveTaskCompletedDecoration
     title: Remove Task Completed Decoration
     title.zh: 移除任务完成装饰
     description: Remove the strikethrough for completed tasks
@@ -376,7 +376,7 @@ settings:
     level: 3
     collapsed: true
 
-  - id: composer--DisableHeadingLineEditingHighlight
+  - id: yaobian--DisableHeadingLineEditingHighlight
     title: Disable Heading Line Editing Highlight
     title.zh: 禁用标题行编辑时高亮
     description: Disable line highlight when editing heading
@@ -384,14 +384,14 @@ settings:
     type: class-toggle
     default: false
 
-  - id: composer--DisableHeadingDecoration-ReadingView
+  - id: yaobian--DisableHeadingDecoration-ReadingView
     title: Disable Heading Decoration (Reading View)
     title.zh: 禁用标题装饰（阅读模式）
     description: Disable decoration before heading (reading view)
     description.zh: 禁用标题前方的竖杠装饰（阅读模式）
     type: class-toggle
     default: false
-  - id: composer--DisableHeadingDecoration-LivePreview
+  - id: yaobian--DisableHeadingDecoration-LivePreview
     title: Disable Heading Decoration (Live Preview View)
     title.zh: 禁用标题装饰（实时编辑模式）
     description: Disable decoration before heading (live preview view)
@@ -497,17 +497,17 @@ settings:
     type: heading
     level: 2
     collapsed: true
-  - id: composer--DisableNavHeaderAutoHide
+  - id: yaobian--DisableNavHeaderAutoHide
     title: Disable Nav Header Auto Hide
     title.zh: 关闭自动隐藏导航栏
     description: Enable this option to disable the auto-hide of the nav header
     description.zh: 启用以后，相关视图的导航栏将会常驻（比如文件列表、标签、目录栏的导航栏菜单），不会在失去焦点时自动隐藏
     type: class-toggle
-  - id: composer--DisableFileFolderIcon
+  - id: yaobian--DisableFileFolderIcon
     title: Disable File Folder Icon
     title.zh: 禁用目录列表文件夹图标
     type: class-toggle
-  - id: composer--EnableIndentationGuidLine
+  - id: yaobian--EnableIndentationGuidLine
     title: Enable Indentation Guide Line
     title.zh: 启用缩进指导线
     description: show indentation guide line for file tree, ordered list, unordered list, and task list
@@ -522,7 +522,7 @@ settings:
     max: 10
     step: 1
     format: px
-  - id: composer--DisableDesktopViewHeaderTitleParent
+  - id: yaobian--ToggleDesktopViewHeaderTitleParent
     title: Toggle Desktop View Header Title Parent
     title.zh: 桌面端视图标题路径折叠
     type: class-toggle
@@ -533,19 +533,19 @@ settings:
     type: heading
     level: 3
     collapsed: true
-  - id: composer--EnableFilenameLineFeed
+  - id: yaobian--EnableFilenameLineFeed
     title: Enable Filename Line Feed
     title.zh: 启用文件名换行
     description: enable line feed for filename
     description.zh: 文件名换行显示
     type: class-toggle
-  - id: composer--EnableHiddenFileTag
+  - id: yaobian--EnableHiddenFileTag
     title: Enable Hidden File Tag
     title.zh: 启用隐藏文件标签
     description: enable hidden file tag
     description.zh: 隐藏文件后缀标签
     type: class-toggle
-  - id: composer--EnableHiddenFileTagHover
+  - id: yaobian--EnableHiddenFileTagHover
     title: Enable Hidden File Tag Hover
     title.zh: 文件标签悬停显示
     description: enable hidden file tag hover
@@ -564,12 +564,12 @@ settings:
     description.zh: 选择大纲的样式
     type: class-select
     allowEmpty: false
-    default: composer--DefaultOutlineStyle
+    default: yaobian--DefaultOutlineStyle
     options:
       - label: Default 默认
-        value: composer--DefaultOutlineStyle
+        value: yaobian--DefaultOutlineStyle
       - label: Node 节点
-        value: composer--NodeOutlineStyle
+        value: yaobian--NodeOutlineStyle
   - id: outline-collapsed-icon-opacity
     title: Outline Collapsed Icon Opacity
     title.zh: 大纲折叠图标透明度
@@ -626,7 +626,7 @@ settings:
     type: heading
     level: 3
     collapsed: true
-  - id: composer--DisableRainbowTree
+  - id: yaobian--DisableRainbowTree
     title: Disable Rainbow Tree
     title.zh: 禁用彩虹目录
     description: disable rainbow tree for file explorer
