@@ -1,12 +1,14 @@
-中文 | [English](README.md)
-
 <div align="center">
 
 # 窑变 for Obsidian
 
+<img src="assets/hero.jpg" width="880" alt="Yaobian · One kiln, ten thousand glazes" />
+
 > One kiln, ten thousand glazes — the same recipe, different firing, each with its own color.
 
-[Upstream Composer](https://github.com/vran-dev/obsidian-composer) · [Palettes from yaobian-theme](https://github.com/Sum-su/yaobian-theme) · 中文
+[中文](README_zh.md) · **English**
+
+[Upstream Composer](https://github.com/vran-dev/obsidian-composer) · [Palettes from yaobian-theme](https://github.com/Sum-su/yaobian-theme)
 
 </div>
 

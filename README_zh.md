@@ -1,12 +1,14 @@
-中文 | [English](README.md)
-
 <div align="center">
 
 # 窑变 for Obsidian
 
+<img src="assets/hero.jpg" width="880" alt="窑变 · 一窑烧出万色" />
+
 > 一窑烧出万色 —— 同一套釉料，不同火候，各成釉色。
 
-[上游 Composer](https://github.com/vran-dev/obsidian-composer) · [配色来源 窑变](https://github.com/Sum-su/yaobian-theme) · [English](README.md)
+**中文** · [English](README.md)
+
+[上游 Composer](https://github.com/vran-dev/obsidian-composer) · [配色来源 窑变](https://github.com/Sum-su/yaobian-theme)
 
 </div>
 
