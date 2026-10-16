@@ -1,12 +1,6 @@
 name: Composer Theme
 id: obsidian-composer-theme
 settings:
-  - id: learn-about-components-plugin
-    title: About Components
-    title.zh: 关于 Components
-    description: "[https://cp.cc1234.cc/](https://cp.cc1234.cc/)"
-    type: info-text
-    markdown: true
   - id: theme-variant-light
     title: Color Scheme
     title.zh: 亮色主题配色方案
@@ -18,12 +12,82 @@ settings:
     options:
       - label: Sù 素
         value: composer--SuScheme-light
-      - label: Ní 霓
-        value: composer--NiScheme-light
       - label: Xiá 霞
         value: composer--XiaScheme-light
       - label: Qīng 青
         value: composer--QingScheme-light
+      - label: 禅棕 chan-zong
+        value: composer--ChanZongScheme-light
+      - label: 长安 chang-an
+        value: composer--ChangAnScheme-light
+      - label: 春梅 chun-mei
+        value: composer--ChunMeiScheme-light
+      - label: 丹霞 dan-xia
+        value: composer--DanXiaScheme-light
+      - label: 汉白玉 han-bai-yu
+        value: composer--HanBaiYuScheme-light
+      - label: 湖光 hu-guang
+        value: composer--HuGuangScheme-light
+      - label: 金镶玉 jin-xiang-yu
+        value: composer--JinXiangYuScheme-light
+      - label: 流云 liu-yun
+        value: composer--LiuYunScheme-light
+      - label: 琵琶 pi-pa
+        value: composer--PiPaScheme-light
+      - label: 青瓷 qing-ci
+        value: composer--QingCiScheme-light
+      - label: 青花 qing-hua
+        value: composer--QingHuaScheme-light
+      - label: 青雾 qing-wu
+        value: composer--QingWuScheme-light
+      - label: 汝窑蓝 ru-yao-lan
+        value: composer--RuYaoLanScheme-light
+      - label: 汝窑绿 ru-yao-lv
+        value: composer--RuYaoLvScheme-light
+      - label: 山水 shan-shui
+        value: composer--ShanShuiScheme-light
+      - label: 素宣 su-xuan
+        value: composer--SuXuanScheme-light
+      - label: 天水 tian-shui
+        value: composer--TianShuiScheme-light
+      - label: 宣纸 xuan-zhi
+        value: composer--XuanZhiScheme-light
+      - label: 雁灰 yan-hui
+        value: composer--YanHuiScheme-light
+      - label: 烟雨 yan-yu
+        value: composer--YanYuScheme-light
+      - label: 胭脂 yan-zhi
+        value: composer--YanZhiScheme-light
+      - label: 羊皮纸 yang-pi-zhi
+        value: composer--YangPiZhiScheme-light
+      - label: 窑火 yao-huo
+        value: composer--YaoHuoScheme-light
+      - label: 玉石 yu-shi
+        value: composer--YuShiScheme-light
+      - label: 紫陶 zi-tao
+        value: composer--ZiTaoScheme-light
+      - label: Claude claude
+        value: composer--ClaudeScheme-light
+      - label: Dopamine dopamine
+        value: composer--DopamineScheme-light
+      - label: Dracula dracula
+        value: composer--DraculaScheme-light
+      - label: 歌蕾蒂娅 gladiia
+        value: composer--GladiiaScheme-light
+      - label: Mint mint
+        value: composer--MintScheme-light
+      - label: 莫奈 mo-nai
+        value: composer--MoNaiScheme-light
+      - label: 暮山紫 mu-shan-zi
+        value: composer--MuShanZiScheme-light
+      - label: 奶茶 nai-cha
+        value: composer--NaiChaScheme-light
+      - label: Peppa peppa
+        value: composer--PeppaScheme-light
+      - label: Pulse pulse-interactive
+        value: composer--PulseInteractiveScheme-light
+      - label: Vitesse Soft vitesse-soft
+        value: composer--VitesseSoftScheme-light
   - id: theme-variant-dark
     title: Color Scheme
     title.zh: 暗色主题配色方案
@@ -35,12 +99,82 @@ settings:
     options:
       - label: Sù 素
         value: composer--SuScheme-dark
-      - label: Ní 霓
-        value: composer--NiScheme-dark
       - label: Xiá 霞
         value: composer--XiaScheme-dark
       - label: Qīng 青
         value: composer--QingScheme-dark
+      - label: 禅棕 chan-zong
+        value: composer--ChanZongScheme-dark
+      - label: 长安 chang-an
+        value: composer--ChangAnScheme-dark
+      - label: 春梅 chun-mei
+        value: composer--ChunMeiScheme-dark
+      - label: 丹霞 dan-xia
+        value: composer--DanXiaScheme-dark
+      - label: 汉白玉 han-bai-yu
+        value: composer--HanBaiYuScheme-dark
+      - label: 湖光 hu-guang
+        value: composer--HuGuangScheme-dark
+      - label: 金镶玉 jin-xiang-yu
+        value: composer--JinXiangYuScheme-dark
+      - label: 流云 liu-yun
+        value: composer--LiuYunScheme-dark
+      - label: 琵琶 pi-pa
+        value: composer--PiPaScheme-dark
+      - label: 青瓷 qing-ci
+        value: composer--QingCiScheme-dark
+      - label: 青花 qing-hua
+        value: composer--QingHuaScheme-dark
+      - label: 青雾 qing-wu
+        value: composer--QingWuScheme-dark
+      - label: 汝窑蓝 ru-yao-lan
+        value: composer--RuYaoLanScheme-dark
+      - label: 汝窑绿 ru-yao-lv
+        value: composer--RuYaoLvScheme-dark
+      - label: 山水 shan-shui
+        value: composer--ShanShuiScheme-dark
+      - label: 素宣 su-xuan
+        value: composer--SuXuanScheme-dark
+      - label: 天水 tian-shui
+        value: composer--TianShuiScheme-dark
+      - label: 宣纸 xuan-zhi
+        value: composer--XuanZhiScheme-dark
+      - label: 雁灰 yan-hui
+        value: composer--YanHuiScheme-dark
+      - label: 烟雨 yan-yu
+        value: composer--YanYuScheme-dark
+      - label: 胭脂 yan-zhi
+        value: composer--YanZhiScheme-dark
+      - label: 羊皮纸 yang-pi-zhi
+        value: composer--YangPiZhiScheme-dark
+      - label: 窑火 yao-huo
+        value: composer--YaoHuoScheme-dark
+      - label: 玉石 yu-shi
+        value: composer--YuShiScheme-dark
+      - label: 紫陶 zi-tao
+        value: composer--ZiTaoScheme-dark
+      - label: Claude claude
+        value: composer--ClaudeScheme-dark
+      - label: Dopamine dopamine
+        value: composer--DopamineScheme-dark
+      - label: Dracula dracula
+        value: composer--DraculaScheme-dark
+      - label: 歌蕾蒂娅 gladiia
+        value: composer--GladiiaScheme-dark
+      - label: Mint mint
+        value: composer--MintScheme-dark
+      - label: 莫奈 mo-nai
+        value: composer--MoNaiScheme-dark
+      - label: 暮山紫 mu-shan-zi
+        value: composer--MuShanZiScheme-dark
+      - label: 奶茶 nai-cha
+        value: composer--NaiChaScheme-dark
+      - label: Peppa peppa
+        value: composer--PeppaScheme-dark
+      - label: Pulse pulse-interactive
+        value: composer--PulseInteractiveScheme-dark
+      - label: Vitesse Soft vitesse-soft
+        value: composer--VitesseSoftScheme-dark
   - id: typograph-settings
     title: Typograph Settings
     title.zh: 排版设置
@@ -452,45 +586,6 @@ settings:
     type: heading
     level: 2
     collapsed: true
-  - id: color-hue-settings
-    title: Color Hue Settings(Only for Ní)
-    title.zh: 色调设置（仅适用于 Ní）
-    type: heading
-    level: 3
-    collapsed: true
-  - id: light-primary-hue
-    title: Light Primary Hue (Only for Ní Scheme)
-    title.zh: 亮色主题主色调（仅适用于 Ní 方案）
-    type: variable-number-slider
-    default: 2
-    min: 0
-    max: 360
-    step: 1
-  - id: light-secondary-hue
-    title: Light Secondary Hue (Only for Ní Scheme)
-    title.zh: 亮色主题副色调（仅适用于 Ní 方案）
-    type: variable-number-slider
-    default: 330
-    min: 0
-    max: 360
-    step: 1
-
-  - id: dark-primary-hue
-    title: Dark Primary Hue (Only for Ní Scheme)
-    title.zh: 暗色主题主色调 （仅适用于 Ní 方案）
-    type: variable-number-slider
-    default: 282
-    min: 0
-    max: 360
-    step: 1
-  - id: dark-secondary-hue
-    title: Dark Secondary Hue (Only for Ní Scheme)
-    title.zh: 暗色主题副色调 （仅适用于 Ní 方案）
-    type: variable-number-slider
-    default: 330
-    min: 0
-    max: 360
-    step: 1
   - id: background-colors
     title: Background Colors
     title.zh: 背景色
@@ -582,86 +677,3 @@ settings:
     default: 0.7
     min: 0
     max: 1
-  - id: plugin-components
-    title: Components Plugin
-    title.zh: Components 插件
-    type: heading
-    level: 2
-    collapsed: true
-  - id: dynamic-dataview-component
-    title: Dynamic Dataview
-    title.zh: 数据视图
-    type: heading
-    level: 3
-    collapsed: true
-  - id: composer--ComponentsSimpleTag
-    title: Simple Tag Style
-    title.zh: 简单标签样式
-    description: switch to simple tag style to select / multi-select / group-name...
-    description.zh: 改变数据视图中单选、多选项的样式
-    type: class-toggle
-  - id: composer--ComponentsFilledGallaryCover
-    title: Notion Style Gallary Cover
-    title.zh: Notion 风格的封面
-    description: remove Gallary dynamic data view's cover padding
-    description.zh: 移除动态数据视图中的封面内边距
-    type: class-toggle
-  - id: count-component
-    title: Count Component
-    title.zh: 统计数字组件
-    type: heading
-    level: 3
-    collapsed: true
-  - id: components--count-component-value-font-size
-    title: Value Font Size
-    title.zh: 数值字体大小
-    type: variable-number
-    default: 1.6
-    format: rem
-  - id: quote-component
-    title: Quote Component
-    title.zh: 摘录组件
-    type: heading
-    level: 3
-    collapsed: true
-  - id: components-quote-title-font-size
-    title: Title Font Size
-    title.zh: 标题字体大小
-    description: "rem"
-    type: variable-number
-    default: 1
-    format: rem
-  - id: components-quote-content-font-size
-    title: Content Font Size
-    title.zh: 内容字体大小
-    description: "rem"
-    type: variable-number
-    default: 0.875
-    format: rem
-  - id: card-component
-    title: Card Component
-    title.zh: 卡片组件
-    type: heading
-    level: 3
-    collapsed: true
-  - id: components--card-component-title-icon-size
-    title: Title Icon Size
-    title.zh: 标题图标大小
-    description: "rem"
-    type: variable-number
-    default: 1
-    format: rem
-  - id: components--card-component-title-font-size
-    title: Title Font Size
-    title.zh: 标题字体大小
-    description: "rem"
-    type: variable-number
-    default: 1
-    format: rem
-  - id: components--card-component-description-font-size
-    title: Content Font Size
-    title.zh: 描述字体大小
-    description: "rem"
-    type: variable-number
-    default: 0.8125
-    format: rem

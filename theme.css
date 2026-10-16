@@ -2,12 +2,6 @@
 name: Composer Theme
 id: obsidian-composer-theme
 settings:
-  - id: learn-about-components-plugin
-    title: About Components
-    title.zh: 关于 Components
-    description: "[https://cp.cc1234.cc/](https://cp.cc1234.cc/)"
-    type: info-text
-    markdown: true
   - id: theme-variant-light
     title: Color Scheme
     title.zh: 亮色主题配色方案
@@ -19,12 +13,82 @@ settings:
     options:
       - label: Sù 素
         value: composer--SuScheme-light
-      - label: Ní 霓
-        value: composer--NiScheme-light
       - label: Xiá 霞
         value: composer--XiaScheme-light
       - label: Qīng 青
         value: composer--QingScheme-light
+      - label: 禅棕 chan-zong
+        value: composer--ChanZongScheme-light
+      - label: 长安 chang-an
+        value: composer--ChangAnScheme-light
+      - label: 春梅 chun-mei
+        value: composer--ChunMeiScheme-light
+      - label: 丹霞 dan-xia
+        value: composer--DanXiaScheme-light
+      - label: 汉白玉 han-bai-yu
+        value: composer--HanBaiYuScheme-light
+      - label: 湖光 hu-guang
+        value: composer--HuGuangScheme-light
+      - label: 金镶玉 jin-xiang-yu
+        value: composer--JinXiangYuScheme-light
+      - label: 流云 liu-yun
+        value: composer--LiuYunScheme-light
+      - label: 琵琶 pi-pa
+        value: composer--PiPaScheme-light
+      - label: 青瓷 qing-ci
+        value: composer--QingCiScheme-light
+      - label: 青花 qing-hua
+        value: composer--QingHuaScheme-light
+      - label: 青雾 qing-wu
+        value: composer--QingWuScheme-light
+      - label: 汝窑蓝 ru-yao-lan
+        value: composer--RuYaoLanScheme-light
+      - label: 汝窑绿 ru-yao-lv
+        value: composer--RuYaoLvScheme-light
+      - label: 山水 shan-shui
+        value: composer--ShanShuiScheme-light
+      - label: 素宣 su-xuan
+        value: composer--SuXuanScheme-light
+      - label: 天水 tian-shui
+        value: composer--TianShuiScheme-light
+      - label: 宣纸 xuan-zhi
+        value: composer--XuanZhiScheme-light
+      - label: 雁灰 yan-hui
+        value: composer--YanHuiScheme-light
+      - label: 烟雨 yan-yu
+        value: composer--YanYuScheme-light
+      - label: 胭脂 yan-zhi
+        value: composer--YanZhiScheme-light
+      - label: 羊皮纸 yang-pi-zhi
+        value: composer--YangPiZhiScheme-light
+      - label: 窑火 yao-huo
+        value: composer--YaoHuoScheme-light
+      - label: 玉石 yu-shi
+        value: composer--YuShiScheme-light
+      - label: 紫陶 zi-tao
+        value: composer--ZiTaoScheme-light
+      - label: Claude claude
+        value: composer--ClaudeScheme-light
+      - label: Dopamine dopamine
+        value: composer--DopamineScheme-light
+      - label: Dracula dracula
+        value: composer--DraculaScheme-light
+      - label: 歌蕾蒂娅 gladiia
+        value: composer--GladiiaScheme-light
+      - label: Mint mint
+        value: composer--MintScheme-light
+      - label: 莫奈 mo-nai
+        value: composer--MoNaiScheme-light
+      - label: 暮山紫 mu-shan-zi
+        value: composer--MuShanZiScheme-light
+      - label: 奶茶 nai-cha
+        value: composer--NaiChaScheme-light
+      - label: Peppa peppa
+        value: composer--PeppaScheme-light
+      - label: Pulse pulse-interactive
+        value: composer--PulseInteractiveScheme-light
+      - label: Vitesse Soft vitesse-soft
+        value: composer--VitesseSoftScheme-light
   - id: theme-variant-dark
     title: Color Scheme
     title.zh: 暗色主题配色方案
@@ -36,12 +100,82 @@ settings:
     options:
       - label: Sù 素
         value: composer--SuScheme-dark
-      - label: Ní 霓
-        value: composer--NiScheme-dark
       - label: Xiá 霞
         value: composer--XiaScheme-dark
       - label: Qīng 青
         value: composer--QingScheme-dark
+      - label: 禅棕 chan-zong
+        value: composer--ChanZongScheme-dark
+      - label: 长安 chang-an
+        value: composer--ChangAnScheme-dark
+      - label: 春梅 chun-mei
+        value: composer--ChunMeiScheme-dark
+      - label: 丹霞 dan-xia
+        value: composer--DanXiaScheme-dark
+      - label: 汉白玉 han-bai-yu
+        value: composer--HanBaiYuScheme-dark
+      - label: 湖光 hu-guang
+        value: composer--HuGuangScheme-dark
+      - label: 金镶玉 jin-xiang-yu
+        value: composer--JinXiangYuScheme-dark
+      - label: 流云 liu-yun
+        value: composer--LiuYunScheme-dark
+      - label: 琵琶 pi-pa
+        value: composer--PiPaScheme-dark
+      - label: 青瓷 qing-ci
+        value: composer--QingCiScheme-dark
+      - label: 青花 qing-hua
+        value: composer--QingHuaScheme-dark
+      - label: 青雾 qing-wu
+        value: composer--QingWuScheme-dark
+      - label: 汝窑蓝 ru-yao-lan
+        value: composer--RuYaoLanScheme-dark
+      - label: 汝窑绿 ru-yao-lv
+        value: composer--RuYaoLvScheme-dark
+      - label: 山水 shan-shui
+        value: composer--ShanShuiScheme-dark
+      - label: 素宣 su-xuan
+        value: composer--SuXuanScheme-dark
+      - label: 天水 tian-shui
+        value: composer--TianShuiScheme-dark
+      - label: 宣纸 xuan-zhi
+        value: composer--XuanZhiScheme-dark
+      - label: 雁灰 yan-hui
+        value: composer--YanHuiScheme-dark
+      - label: 烟雨 yan-yu
+        value: composer--YanYuScheme-dark
+      - label: 胭脂 yan-zhi
+        value: composer--YanZhiScheme-dark
+      - label: 羊皮纸 yang-pi-zhi
+        value: composer--YangPiZhiScheme-dark
+      - label: 窑火 yao-huo
+        value: composer--YaoHuoScheme-dark
+      - label: 玉石 yu-shi
+        value: composer--YuShiScheme-dark
+      - label: 紫陶 zi-tao
+        value: composer--ZiTaoScheme-dark
+      - label: Claude claude
+        value: composer--ClaudeScheme-dark
+      - label: Dopamine dopamine
+        value: composer--DopamineScheme-dark
+      - label: Dracula dracula
+        value: composer--DraculaScheme-dark
+      - label: 歌蕾蒂娅 gladiia
+        value: composer--GladiiaScheme-dark
+      - label: Mint mint
+        value: composer--MintScheme-dark
+      - label: 莫奈 mo-nai
+        value: composer--MoNaiScheme-dark
+      - label: 暮山紫 mu-shan-zi
+        value: composer--MuShanZiScheme-dark
+      - label: 奶茶 nai-cha
+        value: composer--NaiChaScheme-dark
+      - label: Peppa peppa
+        value: composer--PeppaScheme-dark
+      - label: Pulse pulse-interactive
+        value: composer--PulseInteractiveScheme-dark
+      - label: Vitesse Soft vitesse-soft
+        value: composer--VitesseSoftScheme-dark
   - id: typograph-settings
     title: Typograph Settings
     title.zh: 排版设置
@@ -453,45 +587,6 @@ settings:
     type: heading
     level: 2
     collapsed: true
-  - id: color-hue-settings
-    title: Color Hue Settings(Only for Ní)
-    title.zh: 色调设置（仅适用于 Ní）
-    type: heading
-    level: 3
-    collapsed: true
-  - id: light-primary-hue
-    title: Light Primary Hue (Only for Ní Scheme)
-    title.zh: 亮色主题主色调（仅适用于 Ní 方案）
-    type: variable-number-slider
-    default: 2
-    min: 0
-    max: 360
-    step: 1
-  - id: light-secondary-hue
-    title: Light Secondary Hue (Only for Ní Scheme)
-    title.zh: 亮色主题副色调（仅适用于 Ní 方案）
-    type: variable-number-slider
-    default: 330
-    min: 0
-    max: 360
-    step: 1
-
-  - id: dark-primary-hue
-    title: Dark Primary Hue (Only for Ní Scheme)
-    title.zh: 暗色主题主色调 （仅适用于 Ní 方案）
-    type: variable-number-slider
-    default: 282
-    min: 0
-    max: 360
-    step: 1
-  - id: dark-secondary-hue
-    title: Dark Secondary Hue (Only for Ní Scheme)
-    title.zh: 暗色主题副色调 （仅适用于 Ní 方案）
-    type: variable-number-slider
-    default: 330
-    min: 0
-    max: 360
-    step: 1
   - id: background-colors
     title: Background Colors
     title.zh: 背景色
@@ -583,89 +678,6 @@ settings:
     default: 0.7
     min: 0
     max: 1
-  - id: plugin-components
-    title: Components Plugin
-    title.zh: Components 插件
-    type: heading
-    level: 2
-    collapsed: true
-  - id: dynamic-dataview-component
-    title: Dynamic Dataview
-    title.zh: 数据视图
-    type: heading
-    level: 3
-    collapsed: true
-  - id: composer--ComponentsSimpleTag
-    title: Simple Tag Style
-    title.zh: 简单标签样式
-    description: switch to simple tag style to select / multi-select / group-name...
-    description.zh: 改变数据视图中单选、多选项的样式
-    type: class-toggle
-  - id: composer--ComponentsFilledGallaryCover
-    title: Notion Style Gallary Cover
-    title.zh: Notion 风格的封面
-    description: remove Gallary dynamic data view's cover padding
-    description.zh: 移除动态数据视图中的封面内边距
-    type: class-toggle
-  - id: count-component
-    title: Count Component
-    title.zh: 统计数字组件
-    type: heading
-    level: 3
-    collapsed: true
-  - id: components--count-component-value-font-size
-    title: Value Font Size
-    title.zh: 数值字体大小
-    type: variable-number
-    default: 1.6
-    format: rem
-  - id: quote-component
-    title: Quote Component
-    title.zh: 摘录组件
-    type: heading
-    level: 3
-    collapsed: true
-  - id: components-quote-title-font-size
-    title: Title Font Size
-    title.zh: 标题字体大小
-    description: "rem"
-    type: variable-number
-    default: 1
-    format: rem
-  - id: components-quote-content-font-size
-    title: Content Font Size
-    title.zh: 内容字体大小
-    description: "rem"
-    type: variable-number
-    default: 0.875
-    format: rem
-  - id: card-component
-    title: Card Component
-    title.zh: 卡片组件
-    type: heading
-    level: 3
-    collapsed: true
-  - id: components--card-component-title-icon-size
-    title: Title Icon Size
-    title.zh: 标题图标大小
-    description: "rem"
-    type: variable-number
-    default: 1
-    format: rem
-  - id: components--card-component-title-font-size
-    title: Title Font Size
-    title.zh: 标题字体大小
-    description: "rem"
-    type: variable-number
-    default: 1
-    format: rem
-  - id: components--card-component-description-font-size
-    title: Content Font Size
-    title.zh: 描述字体大小
-    description: "rem"
-    type: variable-number
-    default: 0.8125
-    format: rem
 */
 
 ::-webkit-scrollbar {
@@ -740,7 +752,7 @@ body {
 	/* suggestion */
 	--suggesttion-highlight-color: var(--code-normal);
 
-	--ribbon-padding: 0px;
+	--ribbon-padding: var(--size-4-1);
 	--ribbon-background: transparent;
 	--titlebar-background: transparent;
 	--titlebar-background-focused: transparent;
@@ -1203,383 +1215,3532 @@ ol,
 	--text-highlight-color: hsl(200, 13%, 91%);
 }
 
-/* ---- Ní ---- */
-.composer--NiScheme-light,
-.composer--NiScheme-dark {
-	--lightness-1000: 1;
-	--lightness-950: 0.95;
-	--lightness-900: 0.9;
-	--lightness-850: 0.85;
-	--lightness-800: 0.8;
-	--lightness-750: 0.75;
-	--lightness-700: 0.7;
-	--lightness-650: 0.65;
-	--lightness-600: 0.6;
-	--lightness-550: 0.55;
-	--lightness-500: 0.5;
-	--lightness-450: 0.45;
-	--lightness-400: 0.4;
-	--lightness-350: 0.35;
-	--lightness-300: 0.3;
-	--lightness-250: 0.25;
-	--lightness-200: 0.2;
-	--lightness-150: 0.15;
-	--lightness-100: 0.1;
-	--lightness-90: 0.09;
-	--lightness-80: 0.08;
-	--lightness-70: 0.07;
-	--lightness-60: 0.06;
-	--lightness-50: 0.05;
-	--lightness-40: 0.04;
-	--lightness-30: 0.03;
-	--lightness-20: 0.02;
-	--lightness-10: 0.01;
-	--lightness-0: 0;
+/* ---- 禅棕 (chan-zong, light) ---- */
 
-	--h1-color: oklch(
-		var(--lightness-350) var(--chroma-high) var(--primary-hue)
-	);
-	--h2-color: oklch(
-		var(--lightness-450) var(--chroma-high) var(--primary-hue)
-	);
-	--h3-color: oklch(
-		var(--lightness-550) var(--chroma-high) var(--primary-hue)
-	);
-	--h4-color: oklch(
-		var(--lightness-650) var(--chroma-high) var(--primary-hue)
-	);
-	--h5-color: oklch(
-		var(--lightness-750) var(--chroma-high) var(--primary-hue)
-	);
-	--h6-color: oklch(
-		var(--lightness-800) var(--chroma-high) var(--primary-hue)
+.composer--ChanZongScheme-light.theme-light {
+	--accent-h: 16;
+	--accent-s: 25%;
+	--accent-l: 38%;
+
+	--background-primary: #efebe9;
+	--background-primary-alt: #ebe6e4;
+	--background-secondary: #efebe9;
+	--background-secondary-alt: #e8e2e0;
+
+	--color-base-00: #efebe9;
+	--color-base-05: #e8e2e0;
+	--color-base-10: #e0dad7;
+	--color-base-20: #d6cecb;
+	--color-base-25: #cdc4c0;
+	--color-base-30: #c5b9b5;
+	--color-base-35: #baada9;
+	--color-base-40: #b0a19c;
+	--color-base-50: #9f8d87;
+	--color-base-60: #8d7872;
+	--color-base-70: #7d665e;
+	--color-base-100: #5d4037;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#efebe9 0%,
+		#efebe9 100%
 	);
 
-	--chroma-subtle: 0.01;
-	--chroma-neutral: calc(var(--chroma-subtle) * 2);
-	--chroma-low: calc(var(--chroma-subtle) * 4);
-	--chroma-medium: calc(var(--chroma-subtle) * 8);
-	--chroma-high: calc(var(--chroma-subtle) * 12);
-	--chroma-accent: calc(var(--chroma-subtle) * 16);
+	--background-modifier-border: #ddd6d3;
+
+	/* quote */
+	--blockquote-border-color: #cfc5c2;
+	--blockquote-background-color: #ece8e6;
+	--blockquote-color: #67473d;
+
+	/* codeblock */
+	--codeblock-background: #5d40370f;
+	--codeblock-caret-color: #3d6b5c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #5d403714;
+	--text-highlight-border-color: #6f4e42;
+	--text-highlight-color: #64453b;
 }
 
-.composer--NiScheme-light.theme-light {
-	--primary-hue: var(--light-primary-hue, 2);
-	--secondary-hue: var(--light-secondary-hue, 330);
+/* ---- 禅棕 (chan-zong, dark) ---- */
 
-	--accent-h: 340;
-	--accent-s: 60%;
-	--accent-l: 65%;
+.composer--ChanZongScheme-dark.theme-dark {
+	--accent-h: 16;
+	--accent-s: 22%;
+	--accent-l: 53%;
 
-	--color-red-rgb: 214, 74, 122;
-	--color-blue-rgb: 101, 176, 199;
-	--color-purple-rgb: 161, 140, 193;
-	--color-cyan-rgb: 107, 197, 187;
-	--color-orange-rgb: 232, 129, 94;
-	--color-green-rgb: 107, 178, 148;
-	--color-yellow-rgb: 233, 196, 118;
-	--color-pink-rgb: 230, 170, 185;
+	--background-primary: #5d4037;
+	--background-primary-alt: #61453c;
+	--background-secondary: #5d4037;
+	--background-secondary-alt: #644940;
 
-	--background-primary: oklch(
-		calc(var(--lightness-950) + 0.015) var(--chroma-neutral)
-			var(--primary-hue)
-	);
-	--background-primary-alt: oklch(
-		calc(var(--lightness-950) - 0.015) var(--chroma-neutral)
-			var(--primary-hue)
-	);
-	--background-secondary: oklch(
-		var(--lightness-950) var(--chroma-low) var(--primary-hue)
-	);
-	--background-secondary-alt: oklch(
-		calc(var(--lightness-950) - 0.015) var(--chroma-low) var(--primary-hue)
-	);
+	--color-base-00: #5d4037;
+	--color-base-05: #644940;
+	--color-base-10: #6c5149;
+	--color-base-20: #765d55;
+	--color-base-25: #7f6760;
+	--color-base-30: #87726b;
+	--color-base-35: #927e77;
+	--color-base-40: #9c8a84;
+	--color-base-50: #ad9e99;
+	--color-base-60: #bfb3ae;
+	--color-base-70: #cfc5c2;
+	--color-base-100: #efebe9;
 
 	--background-gradient: linear-gradient(
 		165deg,
-		oklch(var(--lightness-950) var(--chroma-low) var(--primary-hue) / 0.82)
-			0%,
-		oklch(var(--lightness-950) var(--chroma-neutral) var(--primary-hue)) 70%,
-		oklch(var(--lightness-950) var(--chroma-neutral) var(--secondary-hue))
-			100%
+		#5d4037 0%,
+		#644940 100%
 	);
 
-	--background-modifier-border: oklch(
-		var(--lightness-900) var(--chroma-low) var(--primary-hue)
-	);
+	--background-modifier-border: #735952;
 
-	--color-base-00: oklch(
-		var(--lightness-1000) var(--chroma-neutral) var(--primary-hue) / 0.32
-	);
-	--color-base-05: oklch(
-		var(--lightness-950) var(--chroma-neutral) var(--primary-hue) / 0.32
-	);
-	--color-base-10: oklch(
-		var(--lightness-900) var(--chroma-neutral) var(--primary-hue) / 0.32
-	);
-	--color-base-20: oklch(
-		var(--lightness-850) var(--chroma-neutral) var(--primary-hue) / 0.32
-	);
-	--color-base-25: oklch(
-		var(--lightness-800) var(--chroma-low) var(--primary-hue)
-	);
-	--color-base-30: oklch(
-		var(--lightness-750) var(--chroma-low) var(--primary-hue)
-	);
-	--color-base-35: oklch(
-		var(--lightness-700) var(--chroma-low) var(--primary-hue)
-	);
-	--color-base-40: oklch(
-		var(--lightness-650) var(--chroma-low) var(--primary-hue)
-	);
-	--color-base-50: oklch(
-		var(--lightness-600) var(--chroma-medium) var(--primary-hue)
-	);
-	--color-base-60: oklch(
-		var(--lightness-500) var(--chroma-medium) var(--primary-hue)
-	);
-	--color-base-70: oklch(
-		var(--lightness-400) var(--chroma-high) var(--primary-hue)
-	);
-	--color-base-100: oklch(
-		var(--lightness-100) var(--chroma-high) var(--primary-hue)
-	);
+	/* quote */
+	--blockquote-border-color: #7d665e;
+	--blockquote-background-color: #60433a;
+	--blockquote-color: #d4c4be;
 
-	--bold-color: oklch(
-		var(--lightness-500) var(--chroma-accent) var(--primary-hue)
-	);
-	--bold-modifier: 500;
+	/* codeblock */
+	--codeblock-background: #efebe914;
+	--codeblock-caret-color: #a27c6e;
+	--codeblock-border-radius: 8px;
 
-	--code-normal: oklch(
-		var(--lightness-650) var(--chroma-high) var(--primary-hue)
-	);
-	--code-border-color: transparent;
-
-	--inline-code-normal: oklch(
-		var(--lightness-400) var(--chroma-accent) var(--primary-hue)
-	);
-	--inline-code-background: oklch(
-		var(--lightness-950) var(--chroma-low) calc(var(--primary-hue) + 10)
-	);
-
-	--blockquote-border-color: oklch(
-		var(--lightness-650) var(--chroma-high) var(--primary-hue)
-	);
-	--blockquote-background-color: oklch(
-		calc(var(--lightness-900) + 0.02) var(--chroma-low) var(--primary-hue) /
-			0.62
-	);
-	--blockquote-color: oklch(
-		var(--lightness-450) var(--chroma-high) var(--primary-hue)
-	);
-
-	--codeblock-background: oklch(
-		calc(var(--lightness-900) + 0.02) var(--chroma-neutral)
-			var(--primary-hue) / 0.62
-	);
-	--codeblock-caret-color: oklch(
-		var(--lightness-100) var(--chroma-high) var(--primary-hue)
-	);
-	--codeblock-border-radius: 10px;
-
-	--text-highlight-background: oklch(
-		var(--lightness-900) var(--chroma-medium) var(--primary-hue) / 0.12
-	);
-	--text-highlight-border-color: oklch(
-		var(--lightness-600) var(--chroma-high) var(--primary-hue)
-	);
-	--text-highlight-color: oklch(
-		var(--lightness-450) var(--chroma-accent) var(--primary-hue)
-	);
-	--text-highlight-border-radius: 5px;
-
-	--callout-bug: rgb(var(--color-red-rgb));
-	--callout-default: rgb(161, 140, 193);
-	--callout-error: rgb(214, 74, 122);
-	--callout-example: rgb(107, 197, 187);
-	--callout-fail: rgb(214, 74, 122);
-	--callout-important: rgb(232, 129, 94);
-	--callout-info: rgb(101, 176, 199);
-	--callout-question: rgb(233, 196, 118);
-	--callout-success: rgb(107, 178, 148);
-	--callout-summary: rgb(161, 140, 193);
-	--callout-tip: rgb(107, 197, 187);
-	--callout-todo: rgb(230, 170, 185);
-	--callout-warning: rgb(233, 196, 118);
-	--callout-quote: rgb(180, 180, 180);
-
-	/* 自定义元素 */
-	--nav-button-container-bg: oklch(
-		var(--lightness-950) var(--chroma-medium) var(--primary-hue) / 0.32
-	);
-	--header-active-bg: rgba(230, 170, 185, 0.15);
+	/* text highlight */
+	--text-highlight-background: #efebe91a;
+	--text-highlight-border-color: #bda399;
+	--text-highlight-color: #dccfca;
 }
 
-.composer--NiScheme-dark.theme-dark {
-	--primary-hue: var(--dark-primary-hue, 282);
-	--secondary-hue: var(--dark-secondary-hue, 2.65);
+/* ---- 长安 (chang-an, light) ---- */
 
-	--accent-h: 272;
-	--accent-s: 40%;
+.composer--ChangAnScheme-light.theme-light {
+	--accent-h: 3;
+	--accent-s: 62%;
+	--accent-l: 38%;
+
+	--background-primary: #f2e6d5;
+	--background-primary-alt: #ece0d0;
+	--background-secondary: #ede0cc;
+	--background-secondary-alt: #e3d7c3;
+
+	--color-base-00: #f2e6d5;
+	--color-base-05: #e8dccc;
+	--color-base-10: #ded3c3;
+	--color-base-20: #d0c5b6;
+	--color-base-25: #c4b9ab;
+	--color-base-30: #b9aea1;
+	--color-base-35: #aba094;
+	--color-base-40: #9d9387;
+	--color-base-50: #857b71;
+	--color-base-60: #6d645c;
+	--color-base-70: #584f48;
+	--color-base-100: #2c2420;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#ede0cc 0%,
+		#f2e6d5 100%
+	);
+
+	--background-modifier-border: #dacebf;
+
+	/* quote */
+	--blockquote-border-color: #c6bbad;
+	--blockquote-background-color: #eee3d2;
+	--blockquote-color: #542622;
+
+	/* codeblock */
+	--codeblock-background: #2c24200f;
+	--codeblock-caret-color: #006f4e;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2c242014;
+	--text-highlight-border-color: #762923;
+	--text-highlight-color: #482621;
+}
+
+/* ---- 长安 (chang-an, dark) ---- */
+
+.composer--ChangAnScheme-dark.theme-dark {
+	--accent-h: 4;
+	--accent-s: 55%;
+	--accent-l: 44%;
+
+	--background-primary: #2c2420;
+	--background-primary-alt: #322a26;
+	--background-secondary: #2c2420;
+	--background-secondary-alt: #362f2a;
+
+	--color-base-00: #2c2420;
+	--color-base-05: #362f2a;
+	--color-base-10: #403935;
+	--color-base-20: #4f4844;
+	--color-base-25: #5b5550;
+	--color-base-30: #67615d;
+	--color-base-35: #75706c;
+	--color-base-40: #847f7a;
+	--color-base-50: #9c9894;
+	--color-base-60: #b5b1ad;
+	--color-base-70: #cbc9c4;
+	--color-base-100: #f8f7f2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2c2420 0%,
+		#362f2a 100%
+	);
+
+	--background-modifier-border: #453e3a;
+
+	/* quote */
+	--blockquote-border-color: #59524e;
+	--blockquote-background-color: #302824;
+	--blockquote-color: #deb5af;
+
+	/* codeblock */
+	--codeblock-background: #f8f7f214;
+	--codeblock-caret-color: #ae3a32;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f8f7f21a;
+	--text-highlight-border-color: #c87c75;
+	--text-highlight-color: #e6c8c2;
+}
+
+/* ---- 春梅 (chun-mei, light) ---- */
+
+.composer--ChunMeiScheme-light.theme-light {
+	--accent-h: 354;
+	--accent-s: 68%;
+	--accent-l: 67%;
+
+	--background-primary: #ffeef2;
+	--background-primary-alt: #fce9ed;
+	--background-secondary: #fff1f5;
+	--background-secondary-alt: #f9e8ed;
+
+	--color-base-00: #ffeef2;
+	--color-base-05: #f9e5ea;
+	--color-base-10: #f4dde2;
+	--color-base-20: #ebd1d7;
+	--color-base-25: #e5c7ce;
+	--color-base-30: #debcc5;
+	--color-base-35: #d6b0ba;
+	--color-base-40: #cea4af;
+	--color-base-50: #c0909c;
+	--color-base-60: #b27b89;
+	--color-base-70: #a56978;
+	--color-base-100: #8c4356;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#fff1f5 0%,
+		#ffeef2 100%
+	);
+
+	--background-modifier-border: #f1d9df;
+
+	/* quote */
+	--blockquote-border-color: #e6c8d0;
+	--blockquote-background-color: #fdebef;
+	--blockquote-color: #ab5363;
+
+	/* codeblock */
+	--codeblock-background: #8c43560f;
+	--codeblock-caret-color: #007756;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #8c435614;
+	--text-highlight-border-color: #c5606f;
+	--text-highlight-color: #a24e60;
+}
+
+/* ---- 春梅 (chun-mei, dark) ---- */
+
+.composer--ChunMeiScheme-dark.theme-dark {
+	--accent-h: 354;
+	--accent-s: 78%;
+	--accent-l: 70%;
+
+	--background-primary: #8c4356;
+	--background-primary-alt: #8f485a;
+	--background-secondary: #8c4356;
+	--background-secondary-alt: #924b5e;
+
+	--color-base-00: #8c4356;
+	--color-base-05: #924b5e;
+	--color-base-10: #985365;
+	--color-base-20: #a05f70;
+	--color-base-25: #a66878;
+	--color-base-30: #ad7282;
+	--color-base-35: #b57e8c;
+	--color-base-40: #bd8996;
+	--color-base-50: #cb9da8;
+	--color-base-60: #d9b0ba;
+	--color-base-70: #e6c2cb;
+	--color-base-100: #ffe6ec;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#8c4356 0%,
+		#924b5e 100%
+	);
+
+	--background-modifier-border: #9d5b6c;
+
+	/* quote */
+	--blockquote-border-color: #a56777;
+	--blockquote-background-color: #8e4659;
+	--blockquote-color: #f9c0c8;
+
+	/* codeblock */
+	--codeblock-background: #ffe6ec14;
+	--codeblock-caret-color: #ee7884;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #ffe6ec1a;
+	--text-highlight-border-color: #f49ea8;
+	--text-highlight-color: #fbcad2;
+}
+
+/* ---- 丹霞 (dan-xia, light) ---- */
+
+.composer--DanXiaScheme-light.theme-light {
+	--accent-h: 0;
+	--accent-s: 45%;
+	--accent-l: 43%;
+
+	--background-primary: #fff7f7;
+	--background-primary-alt: #faf0f0;
+	--background-secondary: #fff0f0;
+	--background-secondary-alt: #f6e5e5;
+
+	--color-base-00: #fff7f7;
+	--color-base-05: #f6ecec;
+	--color-base-10: #ede1e1;
+	--color-base-20: #e0d2d2;
+	--color-base-25: #d5c5c5;
+	--color-base-30: #cbb7b7;
+	--color-base-35: #bea8a8;
+	--color-base-40: #b19999;
+	--color-base-50: #9b7f7f;
+	--color-base-60: #866464;
+	--color-base-70: #724c4c;
+	--color-base-100: #4a1c1c;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#fff0f0 0%,
+		#fff7f7 100%
+	);
+
+	--background-modifier-border: #e9dcdc;
+
+	/* quote */
+	--blockquote-border-color: #d7c7c7;
+	--blockquote-background-color: #fcf3f3;
+	--blockquote-color: #682727;
+
+	/* codeblock */
+	--codeblock-background: #4a1c1c0f;
+	--codeblock-caret-color: #007b5c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #4a1c1c14;
+	--text-highlight-border-color: #823131;
+	--text-highlight-color: #602424;
+}
+
+/* ---- 丹霞 (dan-xia, dark) ---- */
+
+.composer--DanXiaScheme-dark.theme-dark {
+	--accent-h: 1;
+	--accent-s: 42%;
+	--accent-l: 47%;
+
+	--background-primary: #4a1c1c;
+	--background-primary-alt: #4f2222;
+	--background-secondary: #4a1c1c;
+	--background-secondary-alt: #532626;
+
+	--color-base-00: #4a1c1c;
+	--color-base-05: #532626;
+	--color-base-10: #5c3030;
+	--color-base-20: #693e3e;
+	--color-base-25: #744a4a;
+	--color-base-30: #7e5757;
+	--color-base-35: #8b6565;
+	--color-base-40: #987373;
+	--color-base-50: #ae8b8b;
+	--color-base-60: #c3a3a3;
+	--color-base-70: #d7baba;
+	--color-base-100: #ffe6e6;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#4a1c1c 0%,
+		#532626 100%
+	);
+
+	--background-modifier-border: #653a3a;
+
+	/* quote */
+	--blockquote-border-color: #724848;
+	--blockquote-background-color: #4d2020;
+	--blockquote-color: #e2aeae;
+
+	/* codeblock */
+	--codeblock-background: #ffe6e614;
+	--codeblock-caret-color: #ab4645;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #ffe6e61a;
+	--text-highlight-border-color: #c87e7d;
+	--text-highlight-color: #eabebe;
+}
+
+/* ---- 汉白玉 (han-bai-yu, light) ---- */
+
+.composer--HanBaiYuScheme-light.theme-light {
+	--accent-h: 35;
+	--accent-s: 6%;
+	--accent-l: 58%;
+
+	--background-primary: #f7f6f2;
+	--background-primary-alt: #f1f0ec;
+	--background-secondary: #f5f3ef;
+	--background-secondary-alt: #ebe9e5;
+
+	--color-base-00: #f7f6f2;
+	--color-base-05: #edece8;
+	--color-base-10: #e3e2de;
+	--color-base-20: #d4d3cf;
+	--color-base-25: #c8c7c3;
+	--color-base-30: #bcbbb7;
+	--color-base-35: #aeaca9;
+	--color-base-40: #9f9e9a;
+	--color-base-50: #878582;
+	--color-base-60: #6e6d69;
+	--color-base-70: #585653;
+	--color-base-100: #2b2926;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f5f3ef 0%,
+		#f7f6f2 100%
+	);
+
+	--background-modifier-border: #deddd9;
+
+	/* quote */
+	--blockquote-border-color: #cac9c5;
+	--blockquote-background-color: #f3f2ee;
+	--blockquote-color: #524f4a;
+
+	/* codeblock */
+	--codeblock-background: #2b29260f;
+	--codeblock-caret-color: #457164;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2b292614;
+	--text-highlight-border-color: #736f6a;
+	--text-highlight-color: #474440;
+}
+
+/* ---- 汉白玉 (han-bai-yu, dark) ---- */
+
+.composer--HanBaiYuScheme-dark.theme-dark {
+	--accent-h: 35;
+	--accent-s: 6%;
+	--accent-l: 58%;
+
+	--background-primary: #2b2926;
+	--background-primary-alt: #312f2c;
+	--background-secondary: #2b2926;
+	--background-secondary-alt: #353330;
+
+	--color-base-00: #2b2926;
+	--color-base-05: #353330;
+	--color-base-10: #3f3e3a;
+	--color-base-20: #4e4c49;
+	--color-base-25: #5a5855;
+	--color-base-30: #666461;
+	--color-base-35: #74736f;
+	--color-base-40: #83817e;
+	--color-base-50: #9b9a96;
+	--color-base-60: #b4b2af;
+	--color-base-70: #cac9c5;
+	--color-base-100: #f7f6f2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2b2926 0%,
+		#353330 100%
+	);
+
+	--background-modifier-border: #494844;
+
+	/* quote */
+	--blockquote-border-color: #585653;
+	--blockquote-background-color: #2f2d2a;
+	--blockquote-color: #d6d4cf;
+
+	/* codeblock */
+	--codeblock-background: #f7f6f214;
+	--codeblock-caret-color: #9a958e;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f7f6f21a;
+	--text-highlight-border-color: #bbb7b1;
+	--text-highlight-color: #e0ded9;
+}
+
+/* ---- 湖光 (hu-guang, light) ---- */
+
+.composer--HuGuangScheme-light.theme-light {
+	--accent-h: 190;
+	--accent-s: 34%;
+	--accent-l: 36%;
+
+	--background-primary: #e6f3f4;
+	--background-primary-alt: #e0eeef;
+	--background-secondary: #daf0f1;
+	--background-secondary-alt: #d1e8e9;
+
+	--color-base-00: #e6f3f4;
+	--color-base-05: #ddebec;
+	--color-base-10: #d3e3e4;
+	--color-base-20: #c6d8d9;
+	--color-base-25: #bbcecf;
+	--color-base-30: #afc4c6;
+	--color-base-35: #a2b9ba;
+	--color-base-40: #95aeaf;
+	--color-base-50: #7f9a9c;
+	--color-base-60: #688789;
+	--color-base-70: #537577;
+	--color-base-100: #2a5254;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#daf0f1 0%,
+		#e6f3f4 100%
+	);
+
+	--background-modifier-border: #cfdfe1;
+
+	/* quote */
+	--blockquote-border-color: #bdd0d1;
+	--blockquote-background-color: #e3f0f1;
+	--blockquote-color: #305c61;
+
+	/* codeblock */
+	--codeblock-background: #2a52540f;
+	--codeblock-caret-color: #3e6e60;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2a525414;
+	--text-highlight-border-color: #36666d;
+	--text-highlight-color: #2e5a5e;
+}
+
+/* ---- 湖光 (hu-guang, dark) ---- */
+
+.composer--HuGuangScheme-dark.theme-dark {
+	--accent-h: 190;
+	--accent-s: 25%;
+	--accent-l: 49%;
+
+	--background-primary: #2a5254;
+	--background-primary-alt: #305759;
+	--background-secondary: #2a5254;
+	--background-secondary-alt: #335a5c;
+
+	--color-base-00: #2a5254;
+	--color-base-05: #335a5c;
+	--color-base-10: #3d6264;
+	--color-base-20: #4a6d6f;
+	--color-base-25: #557779;
+	--color-base-30: #618182;
+	--color-base-35: #6e8c8e;
+	--color-base-40: #7b9799;
+	--color-base-50: #91abac;
+	--color-base-60: #a8bebf;
+	--color-base-70: #bdd0d1;
+	--color-base-100: #e6f3f4;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2a5254 0%,
+		#335a5c 100%
+	);
+
+	--background-modifier-border: #466a6c;
+
+	/* quote */
+	--blockquote-border-color: #537577;
+	--blockquote-background-color: #2d5557;
+	--blockquote-color: #b6d1d6;
+
+	/* codeblock */
+	--codeblock-background: #e6f3f414;
+	--codeblock-caret-color: #5e939d;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e6f3f41a;
+	--text-highlight-border-color: #8eb5bb;
+	--text-highlight-color: #c4dbde;
+}
+
+/* ---- 金镶玉 (jin-xiang-yu, light) ---- */
+
+.composer--JinXiangYuScheme-light.theme-light {
+	--accent-h: 42;
+	--accent-s: 42%;
+	--accent-l: 51%;
+
+	--background-primary: #f8f3e6;
+	--background-primary-alt: #f3eee1;
+	--background-secondary: #f6f0e0;
+	--background-secondary-alt: #eee8d8;
+
+	--color-base-00: #f8f3e6;
+	--color-base-05: #f0ebdd;
+	--color-base-10: #e8e2d5;
+	--color-base-20: #ddd6c8;
+	--color-base-25: #d4ccbe;
+	--color-base-30: #cac2b4;
+	--color-base-35: #bfb6a7;
+	--color-base-40: #b4aa9b;
+	--color-base-50: #a19686;
+	--color-base-60: #8e8271;
+	--color-base-70: #7d6f5e;
+	--color-base-100: #5a4a38;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f6f0e0 0%,
+		#f8f3e6 100%
+	);
+
+	--background-modifier-border: #e5ded1;
+
+	/* quote */
+	--blockquote-border-color: #d5cec0;
+	--blockquote-background-color: #f5f0e3;
+	--blockquote-color: #7a653f;
+
+	/* codeblock */
+	--codeblock-background: #5a4a380f;
+	--codeblock-caret-color: #00755e;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #5a4a3814;
+	--text-highlight-border-color: #967c45;
+	--text-highlight-color: #715d3d;
+}
+
+/* ---- 金镶玉 (jin-xiang-yu, dark) ---- */
+
+.composer--JinXiangYuScheme-dark.theme-dark {
+	--accent-h: 42;
+	--accent-s: 48%;
+	--accent-l: 57%;
+
+	--background-primary: #2a2420;
+	--background-primary-alt: #302a26;
+	--background-secondary: #2a2420;
+	--background-secondary-alt: #342e2a;
+
+	--color-base-00: #2a2420;
+	--color-base-05: #342e2a;
+	--color-base-10: #3f3934;
+	--color-base-20: #4d4742;
+	--color-base-25: #59544e;
+	--color-base-30: #666059;
+	--color-base-35: #746f67;
+	--color-base-40: #837d75;
+	--color-base-50: #9b968d;
+	--color-base-60: #b4afa5;
+	--color-base-70: #cbc5ba;
+	--color-base-100: #f8f3e6;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2a2420 0%,
+		#342e2a 100%
+	);
+
+	--background-modifier-border: #49433e;
+
+	/* quote */
+	--blockquote-border-color: #57524c;
+	--blockquote-background-color: #2e2824;
+	--blockquote-color: #e6d8b6;
+
+	/* codeblock */
+	--codeblock-background: #f8f3e614;
+	--codeblock-caret-color: #c6a75c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f8f3e61a;
+	--text-highlight-border-color: #d8c28c;
+	--text-highlight-color: #ece0c4;
+}
+
+/* ---- 流云 (liu-yun, light) ---- */
+
+.composer--LiuYunScheme-light.theme-light {
+	--accent-h: 213;
+	--accent-s: 41%;
+	--accent-l: 50%;
+
+	--background-primary: #f3f6fa;
+	--background-primary-alt: #ecf0f5;
+	--background-secondary: #f0f4f9;
+	--background-secondary-alt: #e5eaf0;
+
+	--color-base-00: #f3f6fa;
+	--color-base-05: #e8ecf1;
+	--color-base-10: #dde2e8;
+	--color-base-20: #cdd3db;
+	--color-base-25: #c0c7d0;
+	--color-base-30: #b3bbc5;
+	--color-base-35: #a3acb8;
+	--color-base-40: #949eac;
+	--color-base-50: #798596;
+	--color-base-60: #5e6d80;
+	--color-base-70: #46566c;
+	--color-base-100: #152944;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f0f4f9 0%,
+		#f3f6fa 100%
+	);
+
+	--background-modifier-border: #d8dde4;
+
+	/* quote */
+	--blockquote-border-color: #c2c9d2;
+	--blockquote-background-color: #eff2f7;
+	--blockquote-color: #28456a;
+
+	/* codeblock */
+	--codeblock-background: #1529440f;
+	--codeblock-caret-color: #00775f;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #15294414;
+	--text-highlight-border-color: #385e8c;
+	--text-highlight-color: #223d60;
+}
+
+/* ---- 流云 (liu-yun, dark) ---- */
+
+.composer--LiuYunScheme-dark.theme-dark {
+	--accent-h: 213;
+	--accent-s: 41%;
+	--accent-l: 50%;
+
+	--background-primary: #152944;
+	--background-primary-alt: #1b2f49;
+	--background-secondary: #152944;
+	--background-secondary-alt: #1f334d;
+
+	--color-base-00: #152944;
+	--color-base-05: #1f334d;
+	--color-base-10: #2a3d56;
+	--color-base-20: #394a62;
+	--color-base-25: #45566d;
+	--color-base-30: #526278;
+	--color-base-35: #607084;
+	--color-base-40: #6f7e91;
+	--color-base-50: #8895a6;
+	--color-base-60: #a1adbc;
+	--color-base-70: #b8c3d0;
+	--color-base-100: #e6eef7;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#152944 0%,
+		#1f334d 100%
+	);
+
+	--background-modifier-border: #34465f;
+
+	/* quote */
+	--blockquote-border-color: #43546b;
+	--blockquote-background-color: #192c47;
+	--blockquote-color: #b0c5df;
+
+	/* codeblock */
+	--codeblock-background: #e6eef714;
+	--codeblock-caret-color: #4b7ab2;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e6eef71a;
+	--text-highlight-border-color: #81a3ca;
+	--text-highlight-color: #bfd1e6;
+}
+
+/* ---- 琵琶 (pi-pa, light) ---- */
+
+.composer--PiPaScheme-light.theme-light {
+	--accent-h: 44;
+	--accent-s: 50%;
+	--accent-l: 25%;
+
+	--background-primary: #f5ede7;
+	--background-primary-alt: #f0e7e1;
+	--background-secondary: #f2e9e2;
+	--background-secondary-alt: #e9e0d8;
+
+	--color-base-00: #f5ede7;
+	--color-base-05: #ece4dd;
+	--color-base-10: #e3dbd3;
+	--color-base-20: #d6cec5;
+	--color-base-25: #ccc3b9;
+	--color-base-30: #c1b8ad;
+	--color-base-35: #b4ab9f;
+	--color-base-40: #a89e91;
+	--color-base-50: #92887a;
+	--color-base-60: #7c7262;
+	--color-base-70: #695d4c;
+	--color-base-100: #413520;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f2e9e2 0%,
+		#f5ede7 100%
+	);
+
+	--background-modifier-border: #dfd7cf;
+
+	/* quote */
+	--blockquote-border-color: #cdc5bb;
+	--blockquote-background-color: #f2eae3;
+	--blockquote-color: #4c3e20;
+
+	/* codeblock */
+	--codeblock-background: #4135200f;
+	--codeblock-caret-color: #326e5e;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #41352014;
+	--text-highlight-border-color: #564720;
+	--text-highlight-color: #493c20;
+}
+
+/* ---- 琵琶 (pi-pa, dark) ---- */
+
+.composer--PiPaScheme-dark.theme-dark {
+	--accent-h: 43;
+	--accent-s: 38%;
+	--accent-l: 33%;
+
+	--background-primary: #2f2816;
+	--background-primary-alt: #352e1c;
+	--background-secondary: #2f2816;
+	--background-secondary-alt: #393220;
+
+	--color-base-00: #2f2816;
+	--color-base-05: #393220;
+	--color-base-10: #433c2a;
+	--color-base-20: #514a38;
+	--color-base-25: #5d5644;
+	--color-base-30: #686250;
+	--color-base-35: #76705e;
+	--color-base-40: #847e6c;
+	--color-base-50: #9c9585;
+	--color-base-60: #b4ad9d;
+	--color-base-70: #c9c3b3;
+	--color-base-100: #f5efdf;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2f2816 0%,
+		#393220 100%
+	);
+
+	--background-modifier-border: #4d4634;
+
+	/* quote */
+	--blockquote-border-color: #5b5442;
+	--blockquote-background-color: #332c1a;
+	--blockquote-color: #c8bea3;
+
+	/* codeblock */
+	--codeblock-background: #f5efdf14;
+	--codeblock-caret-color: #756334;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f5efdf1a;
+	--text-highlight-border-color: #a29470;
+	--text-highlight-color: #d5ccb4;
+}
+
+/* ---- 青瓷 (qing-ci, light) ---- */
+
+.composer--QingCiScheme-light.theme-light {
+	--accent-h: 159;
+	--accent-s: 21%;
+	--accent-l: 57%;
+
+	--background-primary: #f0f5f3;
+	--background-primary-alt: #eaefed;
+	--background-secondary: #e8efec;
+	--background-secondary-alt: #dfe6e3;
+
+	--color-base-00: #f0f5f3;
+	--color-base-05: #e6ebea;
+	--color-base-10: #dce2e0;
+	--color-base-20: #cfd5d3;
+	--color-base-25: #c3c9c7;
+	--color-base-30: #b7bebc;
+	--color-base-35: #a9b0af;
+	--color-base-40: #9ca3a1;
+	--color-base-50: #848c8a;
+	--color-base-60: #6d7574;
+	--color-base-70: #57605f;
+	--color-base-100: #2c3635;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#e8efec 0%,
+		#f0f5f3 100%
+	);
+
+	--background-modifier-border: #d6e1dd;
+
+	/* quote */
+	--blockquote-border-color: #c5cbc9;
+	--blockquote-background-color: #edf2f0;
+	--blockquote-color: #485e58;
+
+	/* codeblock */
+	--codeblock-background: #2c36350f;
+	--codeblock-caret-color: #2f7f6c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2c363514;
+	--text-highlight-border-color: #5f8075;
+	--text-highlight-color: #40524e;
+}
+
+/* ---- 青瓷 (qing-ci, dark) ---- */
+
+.composer--QingCiScheme-dark.theme-dark {
+	--accent-h: 159;
+	--accent-s: 21%;
+	--accent-l: 57%;
+
+	--background-primary: #2c3635;
+	--background-primary-alt: #323c3a;
+	--background-secondary: #313c3b;
+	--background-secondary-alt: #3a4544;
+
+	--color-base-00: #2c3635;
+	--color-base-05: #353f3e;
+	--color-base-10: #3f4847;
+	--color-base-20: #4c5554;
+	--color-base-25: #57615f;
+	--color-base-30: #626c6a;
+	--color-base-35: #6f7977;
+	--color-base-40: #7c8684;
+	--color-base-50: #929c9a;
+	--color-base-60: #a9b2b0;
+	--color-base-70: #bdc6c4;
+	--color-base-100: #e6efec;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2c3635 0%,
+		#353f3e 100%
+	);
+
+	--background-modifier-border: #3d4a49;
+
+	/* quote */
+	--blockquote-border-color: #555f5d;
+	--blockquote-background-color: #2f3938;
+	--blockquote-color: #c1d6cf;
+
+	/* codeblock */
+	--codeblock-background: #e6efec14;
+	--codeblock-caret-color: #7ba898;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e6efec1a;
+	--text-highlight-border-color: #a0c1b5;
+	--text-highlight-color: #cbddd7;
+}
+
+/* ---- 青花 (qing-hua, light) ---- */
+
+.composer--QingHuaScheme-light.theme-light {
+	--accent-h: 212;
+	--accent-s: 55%;
+	--accent-l: 26%;
+
+	--background-primary: #f2f7ff;
+	--background-primary-alt: #ebf1fa;
+	--background-secondary: #e6f0ff;
+	--background-secondary-alt: #dbe6f6;
+
+	--color-base-00: #f2f7ff;
+	--color-base-05: #e7ecf6;
+	--color-base-10: #dbe2ed;
+	--color-base-20: #ccd3e0;
+	--color-base-25: #bec6d5;
+	--color-base-30: #b0baca;
+	--color-base-35: #a1abbd;
+	--color-base-40: #919cb1;
+	--color-base-50: #76829b;
+	--color-base-60: #5b6985;
+	--color-base-70: #425271;
+	--color-base-100: #102349;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#e6f0ff 0%,
+		#f2f7ff 100%
+	);
+
+	--background-modifier-border: #d7dde9;
+
+	/* quote */
+	--blockquote-border-color: #c0c8d7;
+	--blockquote-background-color: #eef3fc;
+	--blockquote-color: #152d53;
+
+	/* codeblock */
+	--codeblock-background: #1023490f;
+	--codeblock-caret-color: #2c7562;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #10234914;
+	--text-highlight-border-color: #19355c;
+	--text-highlight-color: #142a50;
+}
+
+/* ---- 青花 (qing-hua, dark) ---- */
+
+.composer--QingHuaScheme-dark.theme-dark {
+	--accent-h: 212;
+	--accent-s: 37%;
+	--accent-l: 40%;
+
+	--background-primary: #102349;
+	--background-primary-alt: #17294e;
+	--background-secondary: #102349;
+	--background-secondary-alt: #1b2e52;
+
+	--color-base-00: #102349;
+	--color-base-05: #1b2e52;
+	--color-base-10: #27385b;
+	--color-base-20: #364768;
+	--color-base-25: #445473;
+	--color-base-30: #52607e;
+	--color-base-35: #616f8b;
+	--color-base-40: #717e97;
+	--color-base-50: #8c98ad;
+	--color-base-60: #a7b1c3;
+	--color-base-70: #c0c8d7;
+	--color-base-100: #f2f7ff;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#102349 0%,
+		#1b2e52 100%
+	);
+
+	--background-modifier-border: #324364;
+
+	/* quote */
+	--blockquote-border-color: #425271;
+	--blockquote-background-color: #14274c;
+	--blockquote-color: #b4c4d7;
+
+	/* codeblock */
+	--codeblock-background: #f2f7ff14;
+	--codeblock-caret-color: #41648d;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f2f7ff1a;
+	--text-highlight-border-color: #7f97b5;
+	--text-highlight-color: #c6d2e2;
+}
+
+/* ---- 青雾 (qing-wu, light) ---- */
+
+.composer--QingWuScheme-light.theme-light {
+	--accent-h: 190;
+	--accent-s: 34%;
+	--accent-l: 45%;
+
+	--background-primary: #e8f1f3;
+	--background-primary-alt: #e3ecee;
+	--background-secondary: #e1edf0;
+	--background-secondary-alt: #d9e5e9;
+
+	--color-base-00: #e8f1f3;
+	--color-base-05: #dfe9eb;
+	--color-base-10: #d7e1e4;
+	--color-base-20: #cbd6d9;
+	--color-base-25: #c0cdd0;
+	--color-base-30: #b6c3c7;
+	--color-base-35: #aab8bc;
+	--color-base-40: #9eadb2;
+	--color-base-50: #899a9f;
+	--color-base-60: #75878d;
+	--color-base-70: #62767c;
+	--color-base-100: #3c535b;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#e1edf0 0%,
+		#e8f1f3 100%
+	);
+
+	--background-modifier-border: #d1dcde;
+
+	/* quote */
+	--blockquote-border-color: #c2ced2;
+	--blockquote-background-color: #e5eef0;
+	--blockquote-color: #426771;
+
+	/* codeblock */
+	--codeblock-background: #3c535b0f;
+	--codeblock-caret-color: #336f5e;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #3c535b14;
+	--text-highlight-border-color: #467883;
+	--text-highlight-color: #40616a;
+}
+
+/* ---- 青雾 (qing-wu, dark) ---- */
+
+.composer--QingWuScheme-dark.theme-dark {
+	--accent-h: 190;
+	--accent-s: 34%;
+	--accent-l: 45%;
+
+	--background-primary: #273f46;
+	--background-primary-alt: #2c444b;
+	--background-secondary: #29424a;
+	--background-secondary-alt: #324a52;
+
+	--color-base-00: #273f46;
+	--color-base-05: #30474e;
+	--color-base-10: #395056;
+	--color-base-20: #465c62;
+	--color-base-25: #51666b;
+	--color-base-30: #5b7075;
+	--color-base-35: #687b81;
+	--color-base-40: #75878c;
+	--color-base-50: #8b9ba0;
+	--color-base-60: #a0b0b3;
+	--color-base-70: #b4c2c5;
+	--color-base-100: #dce7e9;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#273f46 0%,
+		#30474e 100%
+	);
+
+	--background-modifier-border: #435960;
+
+	/* quote */
+	--blockquote-border-color: #4f646a;
+	--blockquote-background-color: #2a4249;
+	--blockquote-color: #aac7cd;
+
+	/* codeblock */
+	--codeblock-background: #dce7e914;
+	--codeblock-caret-color: #4c8c99;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #dce7e91a;
+	--text-highlight-border-color: #7eacb5;
+	--text-highlight-color: #b8d0d5;
+}
+
+/* ---- 汝窑蓝 (ru-yao-lan, light) ---- */
+
+.composer--RuYaoLanScheme-light.theme-light {
+	--accent-h: 201;
+	--accent-s: 34%;
+	--accent-l: 44%;
+
+	--background-primary: #e8f0f2;
+	--background-primary-alt: #e2eaed;
+	--background-secondary: #d9e6e9;
+	--background-secondary-alt: #cfdde0;
+
+	--color-base-00: #e8f0f2;
+	--color-base-05: #dee6e9;
+	--color-base-10: #d3dce0;
+	--color-base-20: #c5cfd3;
+	--color-base-25: #b9c3c8;
+	--color-base-30: #acb7be;
+	--color-base-35: #9ea9b1;
+	--color-base-40: #8f9ca4;
+	--color-base-50: #77848e;
+	--color-base-60: #5e6d79;
+	--color-base-70: #475765;
+	--color-base-100: #1a2c3d;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#d9e6e9 0%,
+		#e8f0f2 100%
+	);
+
+	--background-modifier-border: #cfd8dc;
+
+	/* quote */
+	--blockquote-border-color: #bbc5ca;
+	--blockquote-background-color: #e4edef;
+	--blockquote-color: #2b485c;
+
+	/* codeblock */
+	--codeblock-background: #1a2c3d0f;
+	--codeblock-caret-color: #336e5e;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #1a2c3d14;
+	--text-highlight-border-color: #395f77;
+	--text-highlight-color: #264053;
+}
+
+/* ---- 汝窑蓝 (ru-yao-lan, dark) ---- */
+
+.composer--RuYaoLanScheme-dark.theme-dark {
+	--accent-h: 201;
+	--accent-s: 34%;
+	--accent-l: 44%;
+
+	--background-primary: #1a2c3d;
+	--background-primary-alt: #203242;
+	--background-secondary: #1a2c3d;
+	--background-secondary-alt: #243646;
+
+	--color-base-00: #1a2c3d;
+	--color-base-05: #243646;
+	--color-base-10: #2e3f4f;
+	--color-base-20: #3d4d5c;
+	--color-base-25: #495967;
+	--color-base-30: #556471;
+	--color-base-35: #63727e;
+	--color-base-40: #727f8b;
+	--color-base-50: #8a97a1;
+	--color-base-60: #a3aeb6;
+	--color-base-70: #b9c3ca;
+	--color-base-100: #e6eef2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#1a2c3d 0%,
+		#243646 100%
+	);
+
+	--background-modifier-border: #384958;
+
+	/* quote */
+	--blockquote-border-color: #475765;
+	--blockquote-background-color: #1e2f40;
+	--blockquote-color: #afc6d2;
+
+	/* codeblock */
+	--codeblock-background: #e6eef214;
+	--codeblock-caret-color: #4a7b96;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e6eef21a;
+	--text-highlight-border-color: #81a3b6;
+	--text-highlight-color: #bfd1db;
+}
+
+/* ---- 汝窑绿 (ru-yao-lv, light) ---- */
+
+.composer--RuYaoLvScheme-light.theme-light {
+	--accent-h: 159;
+	--accent-s: 43%;
+	--accent-l: 39%;
+
+	--background-primary: #e8f0f0;
+	--background-primary-alt: #e2ebea;
+	--background-secondary: #dce8e7;
+	--background-secondary-alt: #d2dfde;
+
+	--color-base-00: #e8f0f0;
+	--color-base-05: #dee7e7;
+	--color-base-10: #d3dede;
+	--color-base-20: #c5d1d1;
+	--color-base-25: #b9c6c5;
+	--color-base-30: #acbbba;
+	--color-base-35: #9eaead;
+	--color-base-40: #8fa1a0;
+	--color-base-50: #778b8a;
+	--color-base-60: #5e7574;
+	--color-base-70: #476160;
+	--color-base-100: #1a3937;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#dce8e7 0%,
+		#e8f0f0 100%
+	);
+
+	--background-modifier-border: #cfdada;
+
+	/* quote */
+	--blockquote-border-color: #bbc8c7;
+	--blockquote-background-color: #e4eded;
+	--blockquote-color: #24574b;
+
+	/* codeblock */
+	--codeblock-background: #1a39370f;
+	--codeblock-caret-color: #00725b;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #1a393714;
+	--text-highlight-border-color: #2e705c;
+	--text-highlight-color: #224e45;
+}
+
+/* ---- 汝窑绿 (ru-yao-lv, dark) ---- */
+
+.composer--RuYaoLvScheme-dark.theme-dark {
+	--accent-h: 159;
+	--accent-s: 43%;
+	--accent-l: 39%;
+
+	--background-primary: #1a3937;
+	--background-primary-alt: #203e3d;
+	--background-secondary: #1a3937;
+	--background-secondary-alt: #244240;
+
+	--color-base-00: #1a3937;
+	--color-base-05: #244240;
+	--color-base-10: #2e4b49;
+	--color-base-20: #3d5856;
+	--color-base-25: #496361;
+	--color-base-30: #556e6c;
+	--color-base-35: #637b79;
+	--color-base-40: #728886;
+	--color-base-50: #8a9e9c;
+	--color-base-60: #a3b4b2;
+	--color-base-70: #b9c8c7;
+	--color-base-100: #e6f0ef;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#1a3937 0%,
+		#244240 100%
+	);
+
+	--background-modifier-border: #385452;
+
+	/* quote */
+	--blockquote-border-color: #47615f;
+	--blockquote-background-color: #1e3c3a;
+	--blockquote-color: #a9cec3;
+
+	/* codeblock */
+	--codeblock-background: #e6f0ef14;
+	--codeblock-caret-color: #388e70;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e6f0ef1a;
+	--text-highlight-border-color: #75b09c;
+	--text-highlight-color: #bad8cf;
+}
+
+/* ---- 山水 (shan-shui, light) ---- */
+
+.composer--ShanShuiScheme-light.theme-light {
+	--accent-h: 192;
+	--accent-s: 33%;
+	--accent-l: 27%;
+
+	--background-primary: #e6edef;
+	--background-primary-alt: #e1e8eb;
+	--background-secondary: #e0eaed;
+	--background-secondary-alt: #d7e2e6;
+
+	--color-base-00: #e6edef;
+	--color-base-05: #dde5e8;
+	--color-base-10: #d4dee0;
+	--color-base-20: #c7d3d6;
+	--color-base-25: #bccacd;
+	--color-base-30: #b1c1c5;
+	--color-base-35: #a4b6ba;
+	--color-base-40: #97abb0;
+	--color-base-50: #81999f;
+	--color-base-60: #6b868d;
+	--color-base-70: #57767d;
+	--color-base-100: #2f545d;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#e0eaed 0%,
+		#e6edef 100%
+	);
+
+	--background-modifier-border: #d0dadd;
+
+	/* quote */
+	--blockquote-border-color: #becbcf;
+	--blockquote-background-color: #e3eaec;
+	--blockquote-color: #2f545d;
+
+	/* codeblock */
+	--codeblock-background: #2f545d0f;
+	--codeblock-caret-color: #3c6a5c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2f545d14;
+	--text-highlight-border-color: #2f545d;
+	--text-highlight-color: #2f545d;
+}
+
+/* ---- 山水 (shan-shui, dark) ---- */
+
+.composer--ShanShuiScheme-dark.theme-dark {
+	--accent-h: 191;
+	--accent-s: 24%;
+	--accent-l: 38%;
+
+	--background-primary: #1a3038;
+	--background-primary-alt: #20363d;
+	--background-secondary: #1a3038;
+	--background-secondary-alt: #243941;
+
+	--color-base-00: #1a3038;
+	--color-base-05: #243941;
+	--color-base-10: #2e434a;
+	--color-base-20: #3d5057;
+	--color-base-25: #495b62;
+	--color-base-30: #55676d;
+	--color-base-35: #63747a;
+	--color-base-40: #728187;
+	--color-base-50: #8a989d;
+	--color-base-60: #a3afb3;
+	--color-base-70: #b9c3c7;
+	--color-base-100: #e6edef;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#1a3038 0%,
+		#243941 100%
+	);
+
+	--background-modifier-border: #384c53;
+
+	/* quote */
+	--blockquote-border-color: #475a60;
+	--blockquote-background-color: #1e333b;
+	--blockquote-color: #afc1c5;
+
+	/* codeblock */
+	--codeblock-background: #e6edef14;
+	--codeblock-caret-color: #496f78;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e6edef1a;
+	--text-highlight-border-color: #809ba2;
+	--text-highlight-color: #bfced1;
+}
+
+/* ---- 素宣 (su-xuan, light) ---- */
+
+.composer--SuXuanScheme-light.theme-light {
+	--accent-h: 0;
+	--accent-s: 0%;
+	--accent-l: 56%;
+
+	--background-primary: #fcf9f5;
+	--background-primary-alt: #f5f3ef;
+	--background-secondary: #f8f4ee;
+	--background-secondary-alt: #edeae4;
+
+	--color-base-00: #fcf9f5;
+	--color-base-05: #f1eeeb;
+	--color-base-10: #e6e4e0;
+	--color-base-20: #d6d5d2;
+	--color-base-25: #c9c8c6;
+	--color-base-30: #bcbbba;
+	--color-base-35: #acacab;
+	--color-base-40: #9d9d9d;
+	--color-base-50: #828484;
+	--color-base-60: #686a6c;
+	--color-base-70: #505355;
+	--color-base-100: #1f2428;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f8f4ee 0%,
+		#fcf9f5 100%
+	);
+
+	--background-modifier-border: #cbcac8;
+
+	/* quote */
+	--blockquote-border-color: #cbcac8;
+	--blockquote-background-color: #f8f5f1;
+	--blockquote-color: #46494c;
+
+	/* codeblock */
+	--codeblock-background: #1f24280f;
+	--codeblock-caret-color: #477366;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #1f242814;
+	--text-highlight-border-color: #67696a;
+	--text-highlight-color: #3b3e42;
+}
+
+/* ---- 素宣 (su-xuan, dark) ---- */
+
+.composer--SuXuanScheme-dark.theme-dark {
+	--accent-h: 207;
+	--accent-s: 5%;
+	--accent-l: 53%;
+
+	--background-primary: #1f2428;
+	--background-primary-alt: #252a2e;
+	--background-secondary: #1f2428;
+	--background-secondary-alt: #292e32;
+
+	--color-base-00: #1f2428;
+	--color-base-05: #292e32;
+	--color-base-10: #33383c;
+	--color-base-20: #41464a;
+	--color-base-25: #4d5256;
+	--color-base-30: #585e63;
+	--color-base-35: #666c71;
+	--color-base-40: #747a7f;
+	--color-base-50: #8c9297;
+	--color-base-60: #a4aaaf;
+	--color-base-70: #b9c0c6;
+	--color-base-100: #e5ecf2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#1f2428 0%,
+		#292e32 100%
+	);
+
+	--background-modifier-border: #4b5054;
+
+	/* quote */
+	--blockquote-border-color: #4b5054;
+	--blockquote-background-color: #23282c;
+	--blockquote-color: #c2c9cf;
+
+	/* codeblock */
+	--codeblock-background: #e5ecf214;
+	--codeblock-caret-color: #82888d;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e5ecf21a;
+	--text-highlight-border-color: #a5abb0;
+	--text-highlight-color: #ccd3d9;
+}
+
+/* ---- 天水 (tian-shui, light) ---- */
+
+.composer--TianShuiScheme-light.theme-light {
+	--accent-h: 187;
+	--accent-s: 33%;
+	--accent-l: 51%;
+
+	--background-primary: #e4f1f2;
+	--background-primary-alt: #deeced;
+	--background-secondary: #dff2f4;
+	--background-secondary-alt: #d5eaec;
+
+	--color-base-00: #e4f1f2;
+	--color-base-05: #dae9ea;
+	--color-base-10: #d0e1e3;
+	--color-base-20: #c2d5d8;
+	--color-base-25: #b6cccf;
+	--color-base-30: #aac2c6;
+	--color-base-35: #9cb6bb;
+	--color-base-40: #8eabb1;
+	--color-base-50: #77979e;
+	--color-base-60: #5f848c;
+	--color-base-70: #49727b;
+	--color-base-100: #1d4e5a;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#dff2f4 0%,
+		#e4f1f2 100%
+	);
+
+	--background-modifier-border: #ccdde0;
+
+	/* quote */
+	--blockquote-border-color: #b8cdd1;
+	--blockquote-background-color: #e0eeef;
+	--blockquote-color: #326c77;
+
+	/* codeblock */
+	--codeblock-background: #1d4e5a0f;
+	--codeblock-caret-color: #2c6f5d;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #1d4e5a14;
+	--text-highlight-border-color: #44858f;
+	--text-highlight-color: #2c636e;
+}
+
+/* ---- 天水 (tian-shui, dark) ---- */
+
+.composer--TianShuiScheme-dark.theme-dark {
+	--accent-h: 187;
+	--accent-s: 34%;
+	--accent-l: 52%;
+
+	--background-primary: #1d4e5a;
+	--background-primary-alt: #23535f;
+	--background-secondary: #1d4e5a;
+	--background-secondary-alt: #275662;
+
+	--color-base-00: #1d4e5a;
+	--color-base-05: #275662;
+	--color-base-10: #315e69;
+	--color-base-20: #406a74;
+	--color-base-25: #4c737d;
+	--color-base-30: #587d86;
+	--color-base-35: #668991;
+	--color-base-40: #74949b;
+	--color-base-50: #8da8ae;
+	--color-base-60: #a5bbc0;
+	--color-base-70: #bbcdd1;
+	--color-base-100: #e8f1f2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#1d4e5a 0%,
+		#275662 100%
+	);
+
+	--background-modifier-border: #3b6671;
+
+	/* quote */
+	--blockquote-border-color: #4a727b;
+	--blockquote-background-color: #21515d;
+	--blockquote-color: #b6d6da;
+
+	/* codeblock */
+	--codeblock-background: #e8f1f214;
+	--codeblock-caret-color: #5aa4ad;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e8f1f21a;
+	--text-highlight-border-color: #8cbfc5;
+	--text-highlight-color: #c4dee1;
+}
+
+/* ---- 宣纸 (xuan-zhi, light) ---- */
+
+.composer--XuanZhiScheme-light.theme-light {
+	--accent-h: 37;
+	--accent-s: 17%;
+	--accent-l: 42%;
+
+	--background-primary: #f5f2e9;
+	--background-primary-alt: #efece4;
+	--background-secondary: #f2eee3;
+	--background-secondary-alt: #e9e5da;
+
+	--color-base-00: #f5f2e9;
+	--color-base-05: #ece9e0;
+	--color-base-10: #e2e0d7;
+	--color-base-20: #d6d3cb;
+	--color-base-25: #cac8c0;
+	--color-base-30: #bfbdb5;
+	--color-base-35: #b2b0a9;
+	--color-base-40: #a5a39c;
+	--color-base-50: #8f8d87;
+	--color-base-60: #797771;
+	--color-base-70: #65625d;
+	--color-base-100: #3c3a36;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f2eee3 0%,
+		#f5f2e9 100%
+	);
+
+	--background-modifier-border: #dfdcd3;
+
+	/* quote */
+	--blockquote-border-color: #cccac2;
+	--blockquote-background-color: #f2efe6;
+	--blockquote-color: #524c42;
+
+	/* codeblock */
+	--codeblock-background: #3c3a360f;
+	--codeblock-caret-color: #426e62;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #3c3a3614;
+	--text-highlight-border-color: #665c4c;
+	--text-highlight-color: #4c473e;
+}
+
+/* ---- 宣纸 (xuan-zhi, dark) ---- */
+
+.composer--XuanZhiScheme-dark.theme-dark {
+	--accent-h: 37;
+	--accent-s: 17%;
+	--accent-l: 42%;
+
+	--background-primary: #2c2c2c;
+	--background-primary-alt: #323232;
+	--background-secondary: #2c2c2c;
+	--background-secondary-alt: #363636;
+
+	--color-base-00: #2c2c2c;
+	--color-base-05: #363636;
+	--color-base-10: #404040;
+	--color-base-20: #4f4f4e;
+	--color-base-25: #5b5b5a;
+	--color-base-30: #676765;
+	--color-base-35: #757573;
+	--color-base-40: #848481;
+	--color-base-50: #9c9c99;
+	--color-base-60: #b5b5b1;
+	--color-base-70: #cbcbc6;
+	--color-base-100: #f8f8f2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2c2c2c 0%,
+		#363636 100%
+	);
+
+	--background-modifier-border: #454544;
+
+	/* quote */
+	--blockquote-border-color: #595958;
+	--blockquote-background-color: #303030;
+	--blockquote-color: #cdc8bc;
+
+	/* codeblock */
+	--codeblock-background: #f8f8f214;
+	--codeblock-caret-color: #7c6e58;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f8f8f21a;
+	--text-highlight-border-color: #a79e8e;
+	--text-highlight-color: #d9d6cc;
+}
+
+/* ---- 雁灰 (yan-hui, light) ---- */
+
+.composer--YanHuiScheme-light.theme-light {
+	--accent-h: 215;
+	--accent-s: 14%;
+	--accent-l: 34%;
+
+	--background-primary: #f3f4f6;
+	--background-primary-alt: #edeef0;
+	--background-secondary: #e5e7eb;
+	--background-secondary-alt: #dbdee2;
+
+	--color-base-00: #f3f4f6;
+	--color-base-05: #e8eaec;
+	--color-base-10: #dee0e3;
+	--color-base-20: #cfd1d6;
+	--color-base-25: #c2c5ca;
+	--color-base-30: #b6b9bf;
+	--color-base-35: #a7abb1;
+	--color-base-40: #989da4;
+	--color-base-50: #7e848d;
+	--color-base-60: #656c76;
+	--color-base-70: #4e5661;
+	--color-base-100: #1f2937;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#e5e7eb 0%,
+		#f3f4f6 100%
+	);
+
+	--background-modifier-border: #d3d6da;
+
+	/* quote */
+	--blockquote-border-color: #c4c7cc;
+	--blockquote-background-color: #eff0f3;
+	--blockquote-color: #2e3846;
+
+	/* codeblock */
+	--codeblock-background: #1f29370f;
+	--codeblock-caret-color: #437062;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #1f293714;
+	--text-highlight-border-color: #3c4654;
+	--text-highlight-color: #2a3442;
+}
+
+/* ---- 雁灰 (yan-hui, dark) ---- */
+
+.composer--YanHuiScheme-dark.theme-dark {
+	--accent-h: 214;
+	--accent-s: 12%;
+	--accent-l: 41%;
+
+	--background-primary: #1f2937;
+	--background-primary-alt: #252f3c;
+	--background-secondary: #1f2937;
+	--background-secondary-alt: #293240;
+
+	--color-base-00: #1f2937;
+	--color-base-05: #293240;
+	--color-base-10: #333c49;
+	--color-base-20: #414956;
+	--color-base-25: #4d5560;
+	--color-base-30: #58606b;
+	--color-base-35: #666d78;
+	--color-base-40: #747b84;
+	--color-base-50: #8c929a;
+	--color-base-60: #a4a8b0;
+	--color-base-70: #b9bdc3;
+	--color-base-100: #e5e7eb;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#1f2937 0%,
+		#293240 100%
+	);
+
+	--background-modifier-border: #434b57;
+
+	/* quote */
+	--blockquote-border-color: #4b535f;
+	--blockquote-background-color: #232c3a;
+	--blockquote-color: #b5bac1;
+
+	/* codeblock */
+	--codeblock-background: #e5e7eb14;
+	--codeblock-caret-color: #5b6674;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e5e7eb1a;
+	--text-highlight-border-color: #8b939e;
+	--text-highlight-color: #c2c7cd;
+}
+
+/* ---- 烟雨 (yan-yu, light) ---- */
+
+.composer--YanYuScheme-light.theme-light {
+	--accent-h: 192;
+	--accent-s: 23%;
+	--accent-l: 54%;
+
+	--background-primary: #e8f0f2;
+	--background-primary-alt: #e2ebed;
+	--background-secondary: #e3edf0;
+	--background-secondary-alt: #dae4e7;
+
+	--color-base-00: #e8f0f2;
+	--color-base-05: #dfe7e9;
+	--color-base-10: #d5dee1;
+	--color-base-20: #c8d2d5;
+	--color-base-25: #bdc7ca;
+	--color-base-30: #b2bcc0;
+	--color-base-35: #a5b0b4;
+	--color-base-40: #98a3a8;
+	--color-base-50: #818e93;
+	--color-base-60: #6b797e;
+	--color-base-70: #56656b;
+	--color-base-100: #2d3e45;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#e3edf0 0%,
+		#e8f0f2 100%
+	);
+
+	--background-modifier-border: #d1dadd;
+
+	/* quote */
+	--blockquote-border-color: #bfc9cc;
+	--blockquote-background-color: #e5edef;
+	--blockquote-color: #445e66;
+
+	/* codeblock */
+	--codeblock-background: #2d3e450f;
+	--codeblock-caret-color: #3f6c5e;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2d3e4514;
+	--text-highlight-border-color: #577983;
+	--text-highlight-color: #3d555d;
+}
+
+/* ---- 烟雨 (yan-yu, dark) ---- */
+
+.composer--YanYuScheme-dark.theme-dark {
+	--accent-h: 192;
+	--accent-s: 23%;
+	--accent-l: 54%;
+
+	--background-primary: #283339;
+	--background-primary-alt: #2e393f;
+	--background-secondary: #283339;
+	--background-secondary-alt: #323d42;
+
+	--color-base-00: #283339;
+	--color-base-05: #323d42;
+	--color-base-10: #3c464c;
+	--color-base-20: #4a5459;
+	--color-base-25: #566065;
+	--color-base-30: #626b70;
+	--color-base-35: #70797d;
+	--color-base-40: #7e868b;
+	--color-base-50: #959ea2;
+	--color-base-60: #adb5b8;
+	--color-base-70: #c3cacd;
+	--color-base-100: #eff5f7;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#283339 0%,
+		#323d42 100%
+	);
+
+	--background-modifier-border: #404b50;
+
+	/* quote */
+	--blockquote-border-color: #545e63;
+	--blockquote-background-color: #2c363c;
+	--blockquote-color: #c2d5da;
+
+	/* codeblock */
+	--codeblock-background: #eff5f714;
+	--codeblock-caret-color: #6e99a4;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #eff5f71a;
+	--text-highlight-border-color: #9bb9c1;
+	--text-highlight-color: #cfdee2;
+}
+
+/* ---- 胭脂 (yan-zhi, light) ---- */
+
+.composer--YanZhiScheme-light.theme-light {
+	--accent-h: 354;
+	--accent-s: 68%;
+	--accent-l: 67%;
+
+	--background-primary: #fff0f2;
+	--background-primary-alt: #fcebed;
+	--background-secondary: #fff2f4;
+	--background-secondary-alt: #f9eaec;
+
+	--color-base-00: #fff0f2;
+	--color-base-05: #f9e8ea;
+	--color-base-10: #f4dfe2;
+	--color-base-20: #ebd3d7;
+	--color-base-25: #e5c9cd;
+	--color-base-30: #debfc3;
+	--color-base-35: #d6b4b8;
+	--color-base-40: #cea8ad;
+	--color-base-50: #c09499;
+	--color-base-60: #b27f86;
+	--color-base-70: #a56d74;
+	--color-base-100: #8c4851;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#fff2f4 0%,
+		#fff0f2 100%
+	);
+
+	--background-modifier-border: #f1dcde;
+
+	/* quote */
+	--blockquote-border-color: #e6cbcf;
+	--blockquote-background-color: #fdedef;
+	--blockquote-color: #ab5660;
+
+	/* codeblock */
+	--codeblock-background: #8c48510f;
+	--codeblock-caret-color: #007857;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #8c485114;
+	--text-highlight-border-color: #c5626d;
+	--text-highlight-color: #a2525c;
+}
+
+/* ---- 胭脂 (yan-zhi, dark) ---- */
+
+.composer--YanZhiScheme-dark.theme-dark {
+	--accent-h: 354;
+	--accent-s: 68%;
+	--accent-l: 67%;
+
+	--background-primary: #3d2a2e;
+	--background-primary-alt: #433034;
+	--background-secondary: #3d2a2e;
+	--background-secondary-alt: #473337;
+
+	--color-base-00: #3d2a2e;
+	--color-base-05: #473337;
+	--color-base-10: #503d41;
+	--color-base-20: #5e4a4e;
+	--color-base-25: #6a5559;
+	--color-base-30: #756164;
+	--color-base-35: #836e71;
+	--color-base-40: #907b7e;
+	--color-base-50: #a89194;
+	--color-base-60: #bfa8ab;
+	--color-base-70: #d4bdbf;
+	--color-base-100: #ffe6e8;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#3d2a2e 0%,
+		#473337 100%
+	);
+
+	--background-modifier-border: #5a464a;
+
+	/* quote */
+	--blockquote-border-color: #685357;
+	--blockquote-background-color: #402d31;
+	--blockquote-color: #f6bdc2;
+
+	/* codeblock */
+	--codeblock-background: #ffe6e814;
+	--codeblock-caret-color: #e4707c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #ffe6e81a;
+	--text-highlight-border-color: #ed99a2;
+	--text-highlight-color: #f8c8cd;
+}
+
+/* ---- 羊皮纸 (yang-pi-zhi, light) ---- */
+
+.composer--YangPiZhiScheme-light.theme-light {
+	--accent-h: 30;
+	--accent-s: 57%;
+	--accent-l: 41%;
+
+	--background-primary: #f4e4be;
+	--background-primary-alt: #f0dfba;
+	--background-secondary: #f0deb5;
+	--background-secondary-alt: #e9d7ae;
+
+	--color-base-00: #f4e4be;
+	--color-base-05: #eddcb7;
+	--color-base-10: #e5d5b0;
+	--color-base-20: #dbcaa6;
+	--color-base-25: #d2c19e;
+	--color-base-30: #c9b895;
+	--color-base-35: #bead8c;
+	--color-base-40: #b4a282;
+	--color-base-50: #a29071;
+	--color-base-60: #907d60;
+	--color-base-70: #806d51;
+	--color-base-100: #5f4b32;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f0deb5 0%,
+		#f4e4be 100%
+	);
+
+	--background-modifier-border: #decda9;
+
+	/* quote */
+	--blockquote-border-color: #d3c29f;
+	--blockquote-background-color: #f1e1bc;
+	--blockquote-color: #775530;
+
+	/* codeblock */
+	--codeblock-background: #5f4b320f;
+	--codeblock-caret-color: #006c54;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #5f4b3214;
+	--text-highlight-border-color: #8b5e2e;
+	--text-highlight-color: #705230;
+}
+
+/* ---- 羊皮纸 (yang-pi-zhi, dark) ---- */
+
+.composer--YangPiZhiScheme-dark.theme-dark {
+	--accent-h: 30;
+	--accent-s: 57%;
+	--accent-l: 41%;
+
+	--background-primary: #32281a;
+	--background-primary-alt: #382e20;
+	--background-secondary: #32281a;
+	--background-secondary-alt: #3c3225;
+
+	--color-base-00: #32281a;
+	--color-base-05: #3c3225;
+	--color-base-10: #463d30;
+	--color-base-20: #544b3f;
+	--color-base-25: #60584c;
+	--color-base-30: #6b6459;
+	--color-base-35: #797368;
+	--color-base-40: #878177;
+	--color-base-50: #9f9a91;
+	--color-base-60: #b7b3ab;
+	--color-base-70: #ccc9c2;
+	--color-base-100: #f8f7f2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#32281a 0%,
+		#3c3225 100%
+	);
+
+	--background-modifier-border: #50473a;
+
+	/* quote */
+	--blockquote-border-color: #5e564a;
+	--blockquote-background-color: #362c1e;
+	--blockquote-color: #dac5ad;
+
+	/* codeblock */
+	--codeblock-background: #f8f7f214;
+	--codeblock-caret-color: #a3682c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f8f7f21a;
+	--text-highlight-border-color: #c19a71;
+	--text-highlight-color: #e3d3c0;
+}
+
+/* ---- 窑火 (yao-huo, light) ---- */
+
+.composer--YaoHuoScheme-light.theme-light {
+	--accent-h: 15;
+	--accent-s: 56%;
+	--accent-l: 51%;
+
+	--background-primary: #f8e3c4;
+	--background-primary-alt: #f2ddbf;
+	--background-secondary: #f1d6ae;
+	--background-secondary-alt: #e7cca6;
+
+	--color-base-00: #f8e3c4;
+	--color-base-05: #eed9bb;
+	--color-base-10: #e4cfb2;
+	--color-base-20: #d5c0a5;
+	--color-base-25: #c9b49b;
+	--color-base-30: #bda890;
+	--color-base-35: #af9a83;
+	--color-base-40: #a08c77;
+	--color-base-50: #887361;
+	--color-base-60: #6f5b4b;
+	--color-base-70: #594538;
+	--color-base-100: #2c1810;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f1d6ae 0%,
+		#f8e3c4 100%
+	);
+
+	--background-modifier-border: #dfcaae;
+
+	/* quote */
+	--blockquote-border-color: #cbb69c;
+	--blockquote-background-color: #f4dfc1;
+	--blockquote-color: #63311f;
+
+	/* codeblock */
+	--codeblock-background: #2c18100f;
+	--codeblock-caret-color: #006e4f;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2c181014;
+	--text-highlight-border-color: #91462d;
+	--text-highlight-color: #532a1b;
+}
+
+/* ---- 窑火 (yao-huo, dark) ---- */
+
+.composer--YaoHuoScheme-dark.theme-dark {
+	--accent-h: 15;
+	--accent-s: 56%;
+	--accent-l: 51%;
+
+	--background-primary: #2c1810;
+	--background-primary-alt: #321e15;
+	--background-secondary: #2c1810;
+	--background-secondary-alt: #362219;
+
+	--color-base-00: #2c1810;
+	--color-base-05: #362219;
+	--color-base-10: #402c22;
+	--color-base-20: #4f3b2f;
+	--color-base-25: #5b4739;
+	--color-base-30: #675344;
+	--color-base-35: #756151;
+	--color-base-40: #846f5d;
+	--color-base-50: #9c8873;
+	--color-base-60: #b5a089;
+	--color-base-70: #cbb69c;
+	--color-base-100: #f8e3c4;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2c1810 0%,
+		#362219 100%
+	);
+
+	--background-modifier-border: #4a362b;
+
+	/* quote */
+	--blockquote-border-color: #594538;
+	--blockquote-background-color: #301c13;
+	--blockquote-color: #e7b594;
+
+	/* codeblock */
+	--codeblock-background: #f8e3c414;
+	--codeblock-caret-color: #c85f3c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f8e3c41a;
+	--text-highlight-border-color: #d98d6c;
+	--text-highlight-color: #ecc2a2;
+}
+
+/* ---- 玉石 (yu-shi, light) ---- */
+
+.composer--YuShiScheme-light.theme-light {
+	--accent-h: 159;
+	--accent-s: 43%;
+	--accent-l: 39%;
+
+	--background-primary: #e8f4ee;
+	--background-primary-alt: #e2efe9;
+	--background-secondary: #e0f2e8;
+	--background-secondary-alt: #d6eadf;
+
+	--color-base-00: #e8f4ee;
+	--color-base-05: #deece5;
+	--color-base-10: #d4e3dc;
+	--color-base-20: #c5d7d0;
+	--color-base-25: #b9cdc5;
+	--color-base-30: #adc3ba;
+	--color-base-35: #9fb7ae;
+	--color-base-40: #91aba1;
+	--color-base-50: #78968c;
+	--color-base-60: #608277;
+	--color-base-70: #4a6f63;
+	--color-base-100: #1d4a3c;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#e0f2e8 0%,
+		#e8f4ee 100%
+	);
+
+	--background-modifier-border: #cfdfd8;
+
+	/* quote */
+	--blockquote-border-color: #bbcfc7;
+	--blockquote-background-color: #e4f1eb;
+	--blockquote-color: #26624e;
+
+	/* codeblock */
+	--codeblock-background: #1d4a3c0f;
+	--codeblock-caret-color: #00735d;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #1d4a3c14;
+	--text-highlight-border-color: #2f765e;
+	--text-highlight-color: #245b49;
+}
+
+/* ---- 玉石 (yu-shi, dark) ---- */
+
+.composer--YuShiScheme-dark.theme-dark {
+	--accent-h: 159;
+	--accent-s: 43%;
+	--accent-l: 39%;
+
+	--background-primary: #163229;
+	--background-primary-alt: #1c382f;
+	--background-secondary: #163229;
+	--background-secondary-alt: #203c33;
+
+	--color-base-00: #163229;
+	--color-base-05: #203c33;
+	--color-base-10: #2b453d;
+	--color-base-20: #3a534a;
+	--color-base-25: #465e56;
+	--color-base-30: #536a62;
+	--color-base-35: #627770;
+	--color-base-40: #70857e;
+	--color-base-50: #8a9c95;
+	--color-base-60: #a3b3ad;
+	--color-base-70: #bac8c3;
+	--color-base-100: #e8f2ee;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#163229 0%,
+		#203c33 100%
+	);
+
+	--background-modifier-border: #354f46;
+
+	/* quote */
+	--blockquote-border-color: #445c54;
+	--blockquote-background-color: #1a352c;
+	--blockquote-color: #aacfc2;
+
+	/* codeblock */
+	--codeblock-background: #e8f2ee14;
+	--codeblock-caret-color: #388e70;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e8f2ee1a;
+	--text-highlight-border-color: #76b19c;
+	--text-highlight-color: #bcd9ce;
+}
+
+/* ---- 紫陶 (zi-tao, light) ---- */
+
+.composer--ZiTaoScheme-light.theme-light {
+	--accent-h: 294;
+	--accent-s: 22%;
+	--accent-l: 47%;
+
+	--background-primary: #f4eef5;
+	--background-primary-alt: #efe8f0;
+	--background-secondary: #efe5f0;
+	--background-secondary-alt: #e6dce8;
+
+	--color-base-00: #f4eef5;
+	--color-base-05: #ebe4ec;
+	--color-base-10: #e2dae4;
+	--color-base-20: #d6cdd7;
+	--color-base-25: #ccc1cd;
+	--color-base-30: #c1b5c3;
+	--color-base-35: #b5a7b6;
+	--color-base-40: #a89aaa;
+	--color-base-50: #938295;
+	--color-base-60: #7e6b80;
+	--color-base-70: #6b556d;
+	--color-base-100: #442a47;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#efe5f0 0%,
+		#f4eef5 100%
+	);
+
+	--background-modifier-border: #dfd6e0;
+
+	/* quote */
+	--blockquote-border-color: #cdc3cf;
+	--blockquote-background-color: #f1ebf2;
+	--blockquote-color: #5d3c61;
+
+	/* codeblock */
+	--codeblock-background: #442a470f;
+	--codeblock-caret-color: #00735c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #442a4714;
+	--text-highlight-border-color: #734b77;
+	--text-highlight-color: #56375a;
+}
+
+/* ---- 紫陶 (zi-tao, dark) ---- */
+
+.composer--ZiTaoScheme-dark.theme-dark {
+	--accent-h: 294;
+	--accent-s: 22%;
+	--accent-l: 47%;
+
+	--background-primary: #3a2a3d;
+	--background-primary-alt: #3f3042;
+	--background-secondary: #3a2a3d;
+	--background-secondary-alt: #433346;
+
+	--color-base-00: #3a2a3d;
+	--color-base-05: #433346;
+	--color-base-10: #4c3d4f;
+	--color-base-20: #594a5c;
+	--color-base-25: #645567;
+	--color-base-30: #6f6171;
+	--color-base-35: #7c6e7e;
+	--color-base-40: #887b8b;
+	--color-base-50: #9e92a1;
+	--color-base-60: #b4a9b6;
+	--color-base-70: #c8bdca;
+	--color-base-100: #f0e7f2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#3a2a3d 0%,
+		#433346 100%
+	);
+
+	--background-modifier-border: #554658;
+
+	/* quote */
+	--blockquote-border-color: #625465;
+	--blockquote-background-color: #3d2d40;
+	--blockquote-color: #cdb7d0;
+
+	/* codeblock */
+	--codeblock-background: #f0e7f214;
+	--codeblock-caret-color: #8c5d91;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f0e7f21a;
+	--text-highlight-border-color: #af8db3;
+	--text-highlight-color: #d7c4da;
+}
+
+/* ---- Claude (claude, light) ---- */
+
+.composer--ClaudeScheme-light.theme-light {
+	--accent-h: 5;
+	--accent-s: 50%;
+	--accent-l: 64%;
+
+	--background-primary: #ebe8e2;
+	--background-primary-alt: #e5e2dc;
+	--background-secondary: #e8e6dc;
+	--background-secondary-alt: #deddd3;
+
+	--color-base-00: #ebe8e2;
+	--color-base-05: #e1dfd9;
+	--color-base-10: #d8d5d0;
+	--color-base-20: #cac8c3;
+	--color-base-25: #bfbdb8;
+	--color-base-30: #b3b1ad;
+	--color-base-35: #a6a4a0;
+	--color-base-40: #989793;
+	--color-base-50: #81807d;
+	--color-base-60: #6a6967;
+	--color-base-70: #545552;
+	--color-base-100: #2a2b2a;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#e8e6dc 0%,
+		#ebe8e2 100%
+	);
+
+	--background-modifier-border: #d2cfc9;
+
+	/* quote */
+	--blockquote-border-color: #c1beba;
+	--blockquote-background-color: #e8e5df;
+	--blockquote-color: #644744;
+
+	/* codeblock */
+	--codeblock-background: #2a2b2a0f;
+	--codeblock-caret-color: #006f57;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2a2b2a14;
+	--text-highlight-border-color: #97605a;
+	--text-highlight-color: #543f3c;
+}
+
+/* ---- Claude (claude, dark) ---- */
+
+.composer--ClaudeScheme-dark.theme-dark {
+	--accent-h: 5;
+	--accent-s: 70%;
 	--accent-l: 73%;
 
-	--color-red-rgb: 184, 64, 102;
-	--color-blue-rgb: 91, 156, 179;
-	--color-purple-rgb: 141, 120, 173;
-	--color-cyan-rgb: 87, 177, 167;
-	--color-orange-rgb: 202, 109, 74;
-	--color-green-rgb: 87, 158, 128;
-	--color-yellow-rgb: 203, 166, 88;
-	--color-pink-rgb: 200, 140, 155;
+	--background-primary: #30302e;
+	--background-primary-alt: #363634;
+	--background-secondary: #2a2b2a;
+	--background-secondary-alt: #343534;
 
-	--background-primary: oklch(
-		calc(var(--lightness-400) + 0.025) var(--chroma-medium)
-			var(--primary-hue)
-	);
-	--background-primary-alt: oklch(
-		calc(var(--lightness-350) - 0.025) var(--chroma-medium)
-			var(--primary-hue)
-	);
-	--background-secondary: oklch(
-		var(--lightness-450) var(--chroma-medium) var(--primary-hue)
-	);
-	--background-secondary-alt: oklch(
-		calc(var(--lightness-450) - 0.025) var(--chroma-medium)
-			var(--primary-hue)
-	);
+	--color-base-00: #30302e;
+	--color-base-05: #3a3a38;
+	--color-base-10: #444442;
+	--color-base-20: #52524f;
+	--color-base-25: #5e5e5b;
+	--color-base-30: #6a6a67;
+	--color-base-35: #787875;
+	--color-base-40: #868682;
+	--color-base-50: #9e9d9a;
+	--color-base-60: #b6b5b1;
+	--color-base-70: #cccbc7;
+	--color-base-100: #f8f7f2;
 
 	--background-gradient: linear-gradient(
 		165deg,
-		oklch(var(--lightness-300) var(--chroma-medium) var(--primary-hue)) 0%,
-		oklch(var(--lightness-400) var(--chroma-medium) var(--primary-hue)) 68%,
-		oklch(var(--lightness-500) var(--chroma-low) var(--secondary-hue)) 100%
-	);
-	--background-modifier-border: oklch(
-		calc(var(--lightness-550) + 0.015) var(--chroma-medium)
-			var(--primary-hue)
+		#30302e 0%,
+		#3a3a38 100%
 	);
 
-	--color-base-00: oklch(
-		var(--lightness-0) var(--chroma-neutral) var(--primary-hue) / 0.32
-	);
-	--color-base-05: oklch(
-		var(--lightness-50) var(--chroma-neutral) var(--primary-hue) / 0.32
-	);
-	--color-base-10: oklch(
-		var(--lightness-100) var(--chroma-neutral) var(--primary-hue) / 0.32
-	);
-	--color-base-20: oklch(
-		var(--lightness-200) var(--chroma-neutral) var(--primary-hue) / 0.32
-	);
-	--color-base-25: oklch(
-		var(--lightness-250) var(--chroma-low) var(--primary-hue) / 0.64
-	);
-	--color-base-30: oklch(
-		var(--lightness-300) var(--chroma-low) var(--primary-hue) / 0.64
-	);
-	--color-base-35: oklch(
-		var(--lightness-350) var(--chroma-low) var(--primary-hue) / 0.64
-	);
-	--color-base-40: oklch(
-		var(--lightness-400) var(--chroma-low) var(--primary-hue) / 0.64
-	);
-	--color-base-50: oklch(
-		var(--lightness-550) var(--chroma-medium) var(--primary-hue)
-	);
-	--color-base-60: oklch(
-		var(--lightness-650) var(--chroma-medium) var(--primary-hue)
-	);
-	--color-base-70: oklch(
-		var(--lightness-700) var(--chroma-medium) var(--primary-hue)
-	);
-	--color-base-100: oklch(
-		var(--lightness-1000) var(--chroma-high) var(--primary-hue)
+	--background-modifier-border: #3c3b39;
+
+	/* quote */
+	--blockquote-border-color: #5c5c59;
+	--blockquote-background-color: #343431;
+	--blockquote-color: #f3d4ce;
+
+	/* codeblock */
+	--codeblock-background: #f8f7f214;
+	--codeblock-caret-color: #ea928a;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f8f7f21a;
+	--text-highlight-border-color: #efb5ae;
+	--text-highlight-color: #f4ded8;
+}
+
+/* ---- Dopamine (dopamine, light) ---- */
+
+.composer--DopamineScheme-light.theme-light {
+	--accent-h: 50;
+	--accent-s: 100%;
+	--accent-l: 38%;
+
+	--background-primary: #fffef0;
+	--background-primary-alt: #f9f8ea;
+	--background-secondary: #fffef5;
+	--background-secondary-alt: #f4f3ea;
+
+	--color-base-00: #fffef0;
+	--color-base-05: #f4f3e6;
+	--color-base-10: #eae8db;
+	--color-base-20: #dbd9cd;
+	--color-base-25: #cecdc0;
+	--color-base-30: #c1c0b4;
+	--color-base-35: #b2b1a5;
+	--color-base-40: #a3a297;
+	--color-base-50: #8a887e;
+	--color-base-60: #706e65;
+	--color-base-70: #59564e;
+	--color-base-100: #2a2720;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#fffef5 0%,
+		#fffef0 100%
 	);
 
-	--h1-color: oklch(
-		var(--lightness-800) var(--chroma-high) var(--primary-hue)
-	);
-	--h2-color: oklch(
-		var(--lightness-750) var(--chroma-high) var(--primary-hue)
-	);
-	--h3-color: oklch(
-		var(--lightness-700) var(--chroma-high) var(--primary-hue)
-	);
-	--h4-color: oklch(
-		var(--lightness-650) var(--chroma-high) var(--primary-hue)
-	);
-	--h5-color: oklch(
-		var(--lightness-600) var(--chroma-high) var(--primary-hue)
-	);
-	--h6-color: oklch(
-		var(--lightness-550) var(--chroma-high) var(--primary-hue)
+	--background-modifier-border: #e5e4d7;
+
+	/* quote */
+	--blockquote-border-color: #d0cfc2;
+	--blockquote-background-color: #fbfaec;
+	--blockquote-color: #5e5115;
+
+	/* codeblock */
+	--codeblock-background: #2a27200f;
+	--codeblock-caret-color: #007e56;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2a272014;
+	--text-highlight-border-color: #8c760b;
+	--text-highlight-color: #504518;
+}
+
+/* ---- Dopamine (dopamine, dark) ---- */
+
+.composer--DopamineScheme-dark.theme-dark {
+	--accent-h: 50;
+	--accent-s: 100%;
+	--accent-l: 59%;
+
+	--background-primary: #2a2720;
+	--background-primary-alt: #302d26;
+	--background-secondary: #2a2720;
+	--background-secondary-alt: #35322a;
+
+	--color-base-00: #2a2720;
+	--color-base-05: #35322a;
+	--color-base-10: #3f3c35;
+	--color-base-20: #4e4c43;
+	--color-base-25: #5b5850;
+	--color-base-30: #68655c;
+	--color-base-35: #77746b;
+	--color-base-40: #868379;
+	--color-base-50: #9f9d92;
+	--color-base-60: #b9b7ab;
+	--color-base-70: #d0cfc2;
+	--color-base-100: #fffef0;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#2a2720 0%,
+		#35322a 100%
 	);
 
-	--bold-color: oklch(
-		var(--lightness-750) var(--chroma-accent) var(--primary-hue)
-	);
-	--bold-modifier: 500;
+	--background-modifier-border: #4a473f;
 
-	--code-normal: oklch(
-		var(--lightness-650) var(--chroma-high) var(--primary-hue)
-	);
-	--code-border-color: transparent;
+	/* quote */
+	--blockquote-border-color: #59564e;
+	--blockquote-background-color: #2e2b24;
+	--blockquote-color: #fff3ad;
 
-	--inline-code-normal: oklch(
-		var(--lightness-350) var(--chroma-accent) var(--primary-hue)
-	);
-	--inline-code-background: oklch(
-		var(--lightness-850) var(--chroma-low) calc(var(--primary-hue) + 10)
+	/* codeblock */
+	--codeblock-background: #fffef014;
+	--codeblock-caret-color: #ffde30;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #fffef01a;
+	--text-highlight-border-color: #ffe973;
+	--text-highlight-color: #fff6c0;
+}
+
+/* ---- Dracula (dracula, light) ---- */
+
+.composer--DraculaScheme-light.theme-light {
+	--accent-h: 266;
+	--accent-s: 48%;
+	--accent-l: 60%;
+
+	--background-primary: #f3f6ff;
+	--background-primary-alt: #edf0f8;
+	--background-secondary: #f3f6ff;
+	--background-secondary-alt: #e8ebf4;
+
+	--color-base-00: #f3f6ff;
+	--color-base-05: #e8ebf4;
+	--color-base-10: #dee1e8;
+	--color-base-20: #cfd2d8;
+	--color-base-25: #c2c5cb;
+	--color-base-30: #b6b8bd;
+	--color-base-35: #a7a9ad;
+	--color-base-40: #989a9d;
+	--color-base-50: #7f8082;
+	--color-base-60: #666766;
+	--color-base-70: #4e4f4d;
+	--color-base-100: #20201b;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f3f6ff 0%,
+		#f3f6ff 100%
 	);
 
-	--blockquote-border-color: oklch(
-		var(--lightness-350) var(--chroma-low) var(--primary-hue)
-	);
-	--blockquote-background-color: oklch(
-		var(--lightness-10) var(--chroma-accent) var(--primary-hue) / 0.38
-	);
-	--blockquote-color: oklch(
-		var(--lightness-750) var(--chroma-high) var(--primary-hue)
+	--background-modifier-border: #c5c7cd;
+
+	/* quote */
+	--blockquote-border-color: #c5c7cd;
+	--blockquote-background-color: #eff2fb;
+	--blockquote-color: #483958;
+
+	/* codeblock */
+	--codeblock-background: #20201b0f;
+	--codeblock-caret-color: #007a58;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #20201b14;
+	--text-highlight-border-color: #694e8c;
+	--text-highlight-color: #3c3246;
+}
+
+/* ---- Dracula (dracula, dark) ---- */
+
+.composer--DraculaScheme-dark.theme-dark {
+	--accent-h: 265;
+	--accent-s: 89%;
+	--accent-l: 78%;
+
+	--background-primary: #282a36;
+	--background-primary-alt: #2e303c;
+	--background-secondary: #282a36;
+	--background-secondary-alt: #32343f;
+
+	--color-base-00: #282a36;
+	--color-base-05: #32343f;
+	--color-base-10: #3d3f49;
+	--color-base-20: #4b4d56;
+	--color-base-25: #585961;
+	--color-base-30: #64666d;
+	--color-base-35: #73747a;
+	--color-base-40: #818387;
+	--color-base-50: #9a9b9d;
+	--color-base-60: #b3b4b4;
+	--color-base-70: #cacbc9;
+	--color-base-100: #f8f8f2;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#282a36 0%,
+		#32343f 100%
 	);
 
-	--codeblock-background: oklch(
-		var(--lightness-10) var(--chroma-accent) var(--primary-hue) / 0.38
-	);
-	--codeblock-caret-color: oklch(
-		var(--lightness-450) var(--chroma-high) var(--primary-hue)
-	);
-	--codeblock-border-radius: 10px;
+	--background-modifier-border: #3d3f49;
 
-	--text-highlight-background: oklch(
-		var(--lightness-500) var(--chroma-medium) var(--primary-hue) / 0.62
-	);
-	--text-highlight-border-color: oklch(
-		var(--lightness-950) var(--chroma-high) var(--primary-hue)
-	);
-	--text-highlight-color: oklch(
-		var(--lightness-950) var(--chroma-accent) var(--primary-hue)
-	);
-	--text-highlight-border-radius: 5px;
+	/* quote */
+	--blockquote-border-color: #56575f;
+	--blockquote-background-color: #2c2e39;
+	--blockquote-color: #e3d5f4;
 
-	--callout-bug: rgb(var(--color-red-rgb));
-	--callout-default: rgb(141, 120, 173);
-	--callout-error: rgb(184, 64, 102);
-	--callout-example: rgb(87, 177, 167);
-	--callout-fail: rgb(184, 64, 102);
-	--callout-important: rgb(202, 109, 74);
-	--callout-info: rgb(91, 156, 179);
-	--callout-question: rgb(203, 166, 88);
-	--callout-success: rgb(87, 158, 128);
-	--callout-summary: rgb(141, 120, 173);
-	--callout-tip: rgb(87, 177, 167);
-	--callout-todo: rgb(200, 140, 155);
-	--callout-warning: rgb(203, 166, 88);
-	--callout-quote: rgb(150, 150, 150);
+	/* codeblock */
+	--codeblock-background: #f8f8f214;
+	--codeblock-caret-color: #bd93f9;
+	--codeblock-border-radius: 8px;
 
-	--nav-button-container-bg: oklch(
-		var(--lightness-700) var(--chroma-medium) var(--primary-hue) / 0.25
+	/* text highlight */
+	--text-highlight-background: #f8f8f21a;
+	--text-highlight-border-color: #d2b6f7;
+	--text-highlight-color: #e9dff4;
+}
+
+/* ---- 歌蕾蒂娅 (gladiia, light) ---- */
+
+.composer--GladiiaScheme-light.theme-light {
+	--accent-h: 353;
+	--accent-s: 73%;
+	--accent-l: 54%;
+
+	--background-primary: #ffffff;
+	--background-primary-alt: #f8f8f8;
+	--background-secondary: #f8f8f8;
+	--background-secondary-alt: #ececec;
+
+	--color-base-00: #ffffff;
+	--color-base-05: #f3f3f3;
+	--color-base-10: #e7e7e7;
+	--color-base-20: #d6d6d6;
+	--color-base-25: #c7c7c7;
+	--color-base-30: #b9b9b9;
+	--color-base-35: #a8a8a8;
+	--color-base-40: #979797;
+	--color-base-50: #7a7a7a;
+	--color-base-60: #5d5d5d;
+	--color-base-70: #424242;
+	--color-base-100: #0d0d0d;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f8f8f8 0%,
+		#ffffff 100%
 	);
-	--header-active-bg: rgba(200, 140, 155, 0.2);
+
+	--background-modifier-border: #d8d8d8;
+
+	/* quote */
+	--blockquote-border-color: #cacaca;
+	--blockquote-background-color: #fbfbfb;
+	--blockquote-color: #561b22;
+
+	/* codeblock */
+	--codeblock-background: #0d0d0d0f;
+	--codeblock-caret-color: #008053;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #0d0d0d14;
+	--text-highlight-border-color: #962834;
+	--text-highlight-color: #42171c;
+}
+
+/* ---- 歌蕾蒂娅 (gladiia, dark) ---- */
+
+.composer--GladiiaScheme-dark.theme-dark {
+	--accent-h: 353;
+	--accent-s: 73%;
+	--accent-l: 54%;
+
+	--background-primary: #212225;
+	--background-primary-alt: #27282b;
+	--background-secondary: #27282b;
+	--background-secondary-alt: #313235;
+
+	--color-base-00: #212225;
+	--color-base-05: #2b2c2f;
+	--color-base-10: #353639;
+	--color-base-20: #444548;
+	--color-base-25: #505154;
+	--color-base-30: #5c5d60;
+	--color-base-35: #6a6b6e;
+	--color-base-40: #797a7c;
+	--color-base-50: #919295;
+	--color-base-60: #aaabad;
+	--color-base-70: #c0c1c3;
+	--color-base-100: #edeef0;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#212225 0%,
+		#2b2c2f 100%
+	);
+
+	--background-modifier-border: #38393b;
+
+	/* quote */
+	--blockquote-border-color: #4e4f52;
+	--blockquote-background-color: #252629;
+	--blockquote-color: #e8aeb6;
+
+	/* codeblock */
+	--codeblock-background: #edeef014;
+	--codeblock-caret-color: #df3649;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #edeef01a;
+	--text-highlight-border-color: #e47683;
+	--text-highlight-color: #eac0c6;
+}
+
+/* ---- Mint (mint, light) ---- */
+
+.composer--MintScheme-light.theme-light {
+	--accent-h: 279;
+	--accent-s: 23%;
+	--accent-l: 65%;
+
+	--background-primary: #e6f4f4;
+	--background-primary-alt: #e0efef;
+	--background-secondary: #9dc8c8;
+	--background-secondary-alt: #97c2c2;
+
+	--color-base-00: #e6f4f4;
+	--color-base-05: #ddecec;
+	--color-base-10: #d3e3e3;
+	--color-base-20: #c6d7d7;
+	--color-base-25: #bbcdcd;
+	--color-base-30: #afc3c3;
+	--color-base-35: #a2b7b8;
+	--color-base-40: #95abac;
+	--color-base-50: #7f9798;
+	--color-base-60: #688383;
+	--color-base-70: #537071;
+	--color-base-100: #2a4b4c;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#9dc8c8 0%,
+		#e6f4f4 100%
+	);
+
+	--background-modifier-border: #cfdfe0;
+
+	/* quote */
+	--blockquote-border-color: #bdcfcf;
+	--blockquote-background-color: #e3f1f1;
+	--blockquote-color: #576372;
+
+	/* codeblock */
+	--codeblock-background: #2a4b4c0f;
+	--codeblock-caret-color: #376f60;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #2a4b4c14;
+	--text-highlight-border-color: #7e7894;
+	--text-highlight-color: #4a5c68;
+}
+
+/* ---- Mint (mint, dark) ---- */
+
+.composer--MintScheme-dark.theme-dark {
+	--accent-h: 278;
+	--accent-s: 42%;
+	--accent-l: 80%;
+
+	--background-primary: #263238;
+	--background-primary-alt: #2c383e;
+	--background-secondary: #263238;
+	--background-secondary-alt: #303c42;
+
+	--color-base-00: #263238;
+	--color-base-05: #303c42;
+	--color-base-10: #3b464b;
+	--color-base-20: #4a5459;
+	--color-base-25: #566064;
+	--color-base-30: #636b70;
+	--color-base-35: #72797d;
+	--color-base-40: #80878b;
+	--color-base-50: #9a9fa2;
+	--color-base-60: #b3b7b9;
+	--color-base-70: #caccce;
+	--color-base-100: #f8f8f8;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#263238 0%,
+		#303c42 100%
+	);
+
+	--background-modifier-border: #404a4f;
+
+	/* quote */
+	--blockquote-border-color: #545e62;
+	--blockquote-background-color: #2a363b;
+	--blockquote-color: #eae1f0;
+
+	/* codeblock */
+	--codeblock-background: #f8f8f814;
+	--codeblock-caret-color: #d1b6e1;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f8f8f81a;
+	--text-highlight-border-color: #dfcde9;
+	--text-highlight-color: #eee8f2;
+}
+
+/* ---- 莫奈 (mo-nai, light) ---- */
+
+.composer--MoNaiScheme-light.theme-light {
+	--accent-h: 198;
+	--accent-s: 31%;
+	--accent-l: 55%;
+
+	--background-primary: #e6f3f7;
+	--background-primary-alt: #e1eff4;
+	--background-secondary: #f0f7f9;
+	--background-secondary-alt: #e8f0f3;
+
+	--color-base-00: #e6f3f7;
+	--color-base-05: #deedf1;
+	--color-base-10: #d6e6eb;
+	--color-base-20: #cbdde3;
+	--color-base-25: #c2d6dc;
+	--color-base-30: #b9ced5;
+	--color-base-35: #aec5cd;
+	--color-base-40: #a3bcc5;
+	--color-base-50: #90adb7;
+	--color-base-60: #7d9ea9;
+	--color-base-70: #6c909d;
+	--color-base-100: #4a7483;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f0f7f9 0%,
+		#e6f3f7 100%
+	);
+
+	--background-modifier-border: #d3e4e9;
+
+	/* quote */
+	--blockquote-border-color: #c4d7dd;
+	--blockquote-background-color: #e3f1f5;
+	--blockquote-color: #548192;
+
+	/* codeblock */
+	--codeblock-background: #4a74830f;
+	--codeblock-caret-color: #3b6e60;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #4a748314;
+	--text-highlight-border-color: #5e8da0;
+	--text-highlight-color: #527e8e;
+}
+
+/* ---- 莫奈 (mo-nai, dark) ---- */
+
+.composer--MoNaiScheme-dark.theme-dark {
+	--accent-h: 197;
+	--accent-s: 46%;
+	--accent-l: 69%;
+
+	--background-primary: #4c7686;
+	--background-primary-alt: #517a8a;
+	--background-secondary: #4c7686;
+	--background-secondary-alt: #547c8c;
+
+	--color-base-00: #4c7686;
+	--color-base-05: #547c8c;
+	--color-base-10: #5c8392;
+	--color-base-20: #678c9a;
+	--color-base-25: #7094a1;
+	--color-base-30: #7a9ba8;
+	--color-base-35: #85a4b0;
+	--color-base-40: #90adb8;
+	--color-base-50: #a2bdc6;
+	--color-base-60: #b5ccd4;
+	--color-base-70: #c6dbe1;
+	--color-base-100: #e9f7fb;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#4c7686 0%,
+		#547c8c 100%
+	);
+
+	--background-modifier-border: #638997;
+
+	/* quote */
+	--blockquote-border-color: #6f92a0;
+	--blockquote-background-color: #4f7888;
+	--blockquote-color: #c8e4ee;
+
+	/* codeblock */
+	--codeblock-background: #e9f7fb14;
+	--codeblock-caret-color: #8cc0d5;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e9f7fb1a;
+	--text-highlight-border-color: #add3e2;
+	--text-highlight-color: #d2e9f2;
+}
+
+/* ---- 暮山紫 (mu-shan-zi, light) ---- */
+
+.composer--MuShanZiScheme-light.theme-light {
+	--accent-h: 221;
+	--accent-s: 31%;
+	--accent-l: 55%;
+
+	--background-primary: #e6ecf7;
+	--background-primary-alt: #e1e8f4;
+	--background-secondary: #f0f3f9;
+	--background-secondary-alt: #e8ecf3;
+
+	--color-base-00: #e6ecf7;
+	--color-base-05: #dee5f1;
+	--color-base-10: #d7deec;
+	--color-base-20: #ccd4e4;
+	--color-base-25: #c3cbdd;
+	--color-base-30: #b9c3d6;
+	--color-base-35: #afb9ce;
+	--color-base-40: #a4afc6;
+	--color-base-50: #919eb9;
+	--color-base-60: #7f8dab;
+	--color-base-70: #6e7d9f;
+	--color-base-100: #4c5e86;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f0f3f9 0%,
+		#e6ecf7 100%
+	);
+
+	--background-modifier-border: #d3dae9;
+
+	/* quote */
+	--blockquote-border-color: #c4cdde;
+	--blockquote-background-color: #e3eaf5;
+	--blockquote-color: #566994;
+
+	/* codeblock */
+	--codeblock-background: #4c5e860f;
+	--codeblock-caret-color: #226e5b;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #4c5e8614;
+	--text-highlight-border-color: #5e73a1;
+	--text-highlight-color: #536690;
+}
+
+/* ---- 暮山紫 (mu-shan-zi, dark) ---- */
+
+.composer--MuShanZiScheme-dark.theme-dark {
+	--accent-h: 213;
+	--accent-s: 46%;
+	--accent-l: 68%;
+
+	--background-primary: #4c6486;
+	--background-primary-alt: #516889;
+	--background-secondary: #4c6286;
+	--background-secondary-alt: #54698c;
+
+	--color-base-00: #4c6486;
+	--color-base-05: #546b8c;
+	--color-base-10: #5b7291;
+	--color-base-20: #667b99;
+	--color-base-25: #6f84a0;
+	--color-base-30: #798ca7;
+	--color-base-35: #8395af;
+	--color-base-40: #8e9fb7;
+	--color-base-50: #a1afc4;
+	--color-base-60: #b3c0d2;
+	--color-base-70: #c4cfde;
+	--color-base-100: #e6edf7;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#4c6486 0%,
+		#546b8c 100%
+	);
+
+	--background-modifier-border: #637897;
+
+	/* quote */
+	--blockquote-border-color: #6e829f;
+	--blockquote-background-color: #4f6688;
+	--blockquote-color: #c5d6ea;
+
+	/* codeblock */
+	--codeblock-background: #e6edf714;
+	--codeblock-caret-color: #89aad3;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e6edf71a;
+	--text-highlight-border-color: #aac1e0;
+	--text-highlight-color: #cfdcee;
+}
+
+/* ---- 奶茶 (nai-cha, light) ---- */
+
+.composer--NaiChaScheme-light.theme-light {
+	--accent-h: 26;
+	--accent-s: 30%;
+	--accent-l: 50%;
+
+	--background-primary: #f5e6d3;
+	--background-primary-alt: #efe0ce;
+	--background-secondary: #f2e2cf;
+	--background-secondary-alt: #e9d9c6;
+
+	--color-base-00: #f5e6d3;
+	--color-base-05: #ecdcca;
+	--color-base-10: #e2d3c1;
+	--color-base-20: #d5c6b5;
+	--color-base-25: #cabaaa;
+	--color-base-30: #beaf9f;
+	--color-base-35: #b1a193;
+	--color-base-40: #a49486;
+	--color-base-50: #8d7d71;
+	--color-base-60: #76665b;
+	--color-base-70: #625147;
+	--color-base-100: #382720;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f2e2cf 0%,
+		#f5e6d3 100%
+	);
+
+	--background-modifier-border: #decfbd;
+
+	/* quote */
+	--blockquote-border-color: #cbbcac;
+	--blockquote-background-color: #f2e3d0;
+	--blockquote-color: #5e4435;
+
+	/* codeblock */
+	--codeblock-background: #3827200f;
+	--codeblock-caret-color: #2c6958;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #38272014;
+	--text-highlight-border-color: #805e46;
+	--text-highlight-color: #543c2f;
+}
+
+/* ---- 奶茶 (nai-cha, dark) ---- */
+
+.composer--NaiChaScheme-dark.theme-dark {
+	--accent-h: 26;
+	--accent-s: 30%;
+	--accent-l: 50%;
+
+	--background-primary: #382720;
+	--background-primary-alt: #3e2d25;
+	--background-secondary: #382720;
+	--background-secondary-alt: #413129;
+
+	--color-base-00: #382720;
+	--color-base-05: #413129;
+	--color-base-10: #4b3a32;
+	--color-base-20: #58473e;
+	--color-base-25: #635349;
+	--color-base-30: #6f5e54;
+	--color-base-35: #7c6c60;
+	--color-base-40: #89796d;
+	--color-base-50: #a09082;
+	--color-base-60: #b7a798;
+	--color-base-70: #cbbcac;
+	--color-base-100: #f5e6d3;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#382720 0%,
+		#413129 100%
+	);
+
+	--background-modifier-border: #54433b;
+
+	/* quote */
+	--blockquote-border-color: #625147;
+	--blockquote-background-color: #3b2a23;
+	--blockquote-color: #d9c1a9;
+
+	/* codeblock */
+	--codeblock-background: #f5e6d314;
+	--codeblock-caret-color: #a67b5b;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #f5e6d31a;
+	--text-highlight-border-color: #c2a085;
+	--text-highlight-color: #e1cbb5;
+}
+
+/* ---- Peppa (peppa, light) ---- */
+
+.composer--PeppaScheme-light.theme-light {
+	--accent-h: 359;
+	--accent-s: 59%;
+	--accent-l: 64%;
+
+	--background-primary: #d9e2f5;
+	--background-primary-alt: #d2dbee;
+	--background-secondary: #74c0fc;
+	--background-secondary-alt: #6eb6ef;
+
+	--color-base-00: #d9e2f5;
+	--color-base-05: #ced7e9;
+	--color-base-10: #c3cbdc;
+	--color-base-20: #b4bccb;
+	--color-base-25: #a7aebd;
+	--color-base-30: #9aa0ae;
+	--color-base-35: #8b919d;
+	--color-base-40: #7c818c;
+	--color-base-50: #62666e;
+	--color-base-60: #484b51;
+	--color-base-70: #303236;
+	--color-base-100: #000000;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#74c0fc 0%,
+		#d9e2f5 100%
+	);
+
+	--background-modifier-border: #60656d;
+
+	/* quote */
+	--blockquote-border-color: #a9b0bf;
+	--blockquote-background-color: #d5def1;
+	--blockquote-color: #4c2627;
+
+	/* codeblock */
+	--codeblock-background: #0000000f;
+	--codeblock-caret-color: #006b4d;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #00000014;
+	--text-highlight-border-color: #8e4848;
+	--text-highlight-color: #361c1c;
+}
+
+/* ---- Peppa (peppa, dark) ---- */
+
+.composer--PeppaScheme-dark.theme-dark {
+	--accent-h: 1;
+	--accent-s: 62%;
+	--accent-l: 67%;
+
+	--background-primary: #42586e;
+	--background-primary-alt: #475c72;
+	--background-secondary: #1e3444;
+	--background-secondary-alt: #283d4c;
+
+	--color-base-00: #42586e;
+	--color-base-05: #4a5f74;
+	--color-base-10: #53677b;
+	--color-base-20: #5f7183;
+	--color-base-25: #697a8b;
+	--color-base-30: #738393;
+	--color-base-35: #7f8d9b;
+	--color-base-40: #8b98a4;
+	--color-base-50: #a0a9b3;
+	--color-base-60: #b4bbc2;
+	--color-base-70: #c7cbd0;
+	--color-base-100: #ececec;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#42586e 0%,
+		#4a5f74 100%
+	);
+
+	--background-modifier-border: #6d7d8e;
+
+	/* quote */
+	--blockquote-border-color: #67798a;
+	--blockquote-background-color: #455b70;
+	--blockquote-color: #e7c4c3;
+
+	/* codeblock */
+	--codeblock-background: #ececec14;
+	--codeblock-caret-color: #df7977;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #ececec1a;
+	--text-highlight-border-color: #e4a1a0;
+	--text-highlight-color: #e9cfcf;
+}
+
+/* ---- Pulse (pulse-interactive, light) ---- */
+
+.composer--PulseInteractiveScheme-light.theme-light {
+	--accent-h: 211;
+	--accent-s: 76%;
+	--accent-l: 34%;
+
+	--background-primary: #f7f7f7;
+	--background-primary-alt: #f1f1f1;
+	--background-secondary: #f2f2f2;
+	--background-secondary-alt: #e8e8e8;
+
+	--color-base-00: #f7f7f7;
+	--color-base-05: #ececec;
+	--color-base-10: #e2e2e2;
+	--color-base-20: #d3d3d3;
+	--color-base-25: #c6c6c6;
+	--color-base-30: #bababa;
+	--color-base-35: #ababab;
+	--color-base-40: #9c9c9c;
+	--color-base-50: #828282;
+	--color-base-60: #696969;
+	--color-base-70: #525252;
+	--color-base-100: #232323;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f2f2f2 0%,
+		#f7f7f7 100%
+	);
+
+	--background-modifier-border: #c8c8c8;
+
+	/* quote */
+	--blockquote-border-color: #c8c8c8;
+	--blockquote-background-color: #f3f3f3;
+	--blockquote-color: #1e344d;
+
+	/* codeblock */
+	--codeblock-background: #2323230f;
+	--codeblock-caret-color: #007a5c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #23232314;
+	--text-highlight-border-color: #1a4470;
+	--text-highlight-color: #203041;
+}
+
+/* ---- Pulse (pulse-interactive, dark) ---- */
+
+.composer--PulseInteractiveScheme-dark.theme-dark {
+	--accent-h: 212;
+	--accent-s: 65%;
+	--accent-l: 40%;
+
+	--background-primary: #242424;
+	--background-primary-alt: #2a2a2a;
+	--background-secondary: #2a2a2a;
+	--background-secondary-alt: #333333;
+
+	--color-base-00: #242424;
+	--color-base-05: #2e2e2e;
+	--color-base-10: #373737;
+	--color-base-20: #444444;
+	--color-base-25: #505050;
+	--color-base-30: #5b5b5b;
+	--color-base-35: #696969;
+	--color-base-40: #767676;
+	--color-base-50: #8d8d8d;
+	--color-base-60: #a4a4a4;
+	--color-base-70: #b9b9b9;
+	--color-base-100: #e3e3e3;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#242424 0%,
+		#2e2e2e 100%
+	);
+
+	--background-modifier-border: #4e4e4e;
+
+	/* quote */
+	--blockquote-border-color: #4e4e4e;
+	--blockquote-background-color: #272727;
+	--blockquote-color: #a0b6ce;
+
+	/* codeblock */
+	--codeblock-background: #e3e3e314;
+	--codeblock-caret-color: #2462a8;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #e3e3e31a;
+	--text-highlight-border-color: #678fbd;
+	--text-highlight-color: #b3c3d4;
+}
+
+/* ---- Vitesse Soft (vitesse-soft, light) ---- */
+
+.composer--VitesseSoftScheme-light.theme-light {
+	--accent-h: 153;
+	--accent-s: 59%;
+	--accent-l: 26%;
+
+	--background-primary: #f1f0e9;
+	--background-primary-alt: #eae9e2;
+	--background-secondary: #eae8e0;
+	--background-secondary-alt: #dedcd5;
+
+	--color-base-00: #f1f0e9;
+	--color-base-05: #e5e4dd;
+	--color-base-10: #d9d8d2;
+	--color-base-20: #c8c7c1;
+	--color-base-25: #bab9b3;
+	--color-base-30: #abaaa5;
+	--color-base-35: #9a9a95;
+	--color-base-40: #898985;
+	--color-base-50: #6c6c69;
+	--color-base-60: #504f4d;
+	--color-base-70: #353533;
+	--color-base-100: #000000;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#eae8e0 0%,
+		#f1f0e9 100%
+	);
+
+	--background-modifier-border: #cbcac4;
+
+	/* quote */
+	--blockquote-border-color: #bcbbb6;
+	--blockquote-background-color: #edece5;
+	--blockquote-color: #0a2519;
+
+	/* codeblock */
+	--codeblock-background: #0000000f;
+	--codeblock-caret-color: #01725c;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #00000014;
+	--text-highlight-border-color: #12462f;
+	--text-highlight-color: #071b12;
+}
+
+/* ---- Vitesse Soft (vitesse-soft, dark) ---- */
+
+.composer--VitesseSoftScheme-dark.theme-dark {
+	--accent-h: 154;
+	--accent-s: 31%;
+	--accent-l: 44%;
+
+	--background-primary: #222222;
+	--background-primary-alt: #282727;
+	--background-secondary: #292929;
+	--background-secondary-alt: #323231;
+
+	--color-base-00: #222222;
+	--color-base-05: #2b2b2a;
+	--color-base-10: #343433;
+	--color-base-20: #41413f;
+	--color-base-25: #4d4c49;
+	--color-base-30: #585653;
+	--color-base-35: #65635e;
+	--color-base-40: #72706a;
+	--color-base-50: #88867e;
+	--color-base-60: #9e9b93;
+	--color-base-70: #b2afa5;
+	--color-base-100: #dbd7ca;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#222222 0%,
+		#2b2b2a 100%
+	);
+
+	--background-modifier-border: #2f363d;
+
+	/* quote */
+	--blockquote-border-color: #4b4a47;
+	--blockquote-background-color: #252525;
+	--blockquote-color: #a9bfac;
+
+	/* codeblock */
+	--codeblock-background: #dbd7ca14;
+	--codeblock-caret-color: #4d9375;
+	--codeblock-border-radius: 8px;
+
+	/* text highlight */
+	--text-highlight-background: #dbd7ca1a;
+	--text-highlight-border-color: #7fab93;
+	--text-highlight-color: #b8c6b5;
 }
 
 .notice,
@@ -2079,6 +5240,10 @@ body:not(.composer--HideStripedTableBackground) {
 .workspace-ribbon {
 	--divider-color: transparent;
 	--divider-width: 0px;
+}
+
+.workspace-ribbon.mod-primary:before {
+	border-bottom: none;
 }
 
 body:not(.is-mobile) .workspace-ribbon.mod-left {
@@ -2935,41 +6100,6 @@ div.mermaid {
 
 body.composer--ParagraphIndent div.markdown-reading-view div.mermaid {
 	--paragraph-indent: 0px;
-}
-
-/* components */
-body.composer--ParagraphIndent .components--ComponentEl {
-	--paragraph-indent: 0px;
-	text-indent: initial;
-}
-
-.components--DialogPanel {
-	background: var(--background-gradient);
-}
-
-.composer--ComponentsSimpleTag .theme-dark .components--tag,
-.composer--ComponentsSimpleTag .components--tag {
-	background-color: transparent;
-	border: 1px solid var(--background-modifier-border);
-}
-
-.composer--ComponentsFilledGallaryCover .components--DynamicDataView-PageCard {
-	padding: 0px;
-	overflow: hidden;
-	border: 0px;
-}
-
-.composer--ComponentsFilledGallaryCover
-	.components--DynamicDataView-PageCardCover,
-.components--DynamicDataView-PageCardCover .components--Picture {
-	border-radius: initial;
-}
-
-.composer--ComponentsFilledGallaryCover
-	.components--DynamicDataView-PageCard
-	.components--DynamicDataView-PageTitle {
-	padding-top: 4px;
-	padding-bottom: 4px;
 }
 
 /* 
