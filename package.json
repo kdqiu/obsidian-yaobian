@@ -1,5 +1,5 @@
 {
-    "name": "composer",
+    "name": "obsidian-yaobian",
     "version": "1.0.0",
 	"scripts": {
 		"build": "node build.mjs",

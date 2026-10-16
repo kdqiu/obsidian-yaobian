@@ -1,18 +1,28 @@
 [中文](README_zh.md) | English
+
 ## Brief
 
-an out-of-box theme for Obsidian, which is designed for reading and writing comfortably.
+**Yaobian** is a personalized fork of the [Composer](https://github.com/vran-dev/obsidian-composer) theme for Obsidian, which is designed for reading and writing comfortably.
 
 <img src="screenshot-original.png" />
 
+## Fork Changes
+
+Compared with upstream Composer:
+
+- **Removed** the 「Ní 霓」 color scheme and all [Components](https://cp.cc1234.cc/) plugin related settings & styles.
+- **Added 72 color schemes** (36 families × light/dark) ported from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变), selectable via the `style settings` plugin.
+
 ## Screenshots
 
-You can install `style settings` plugin and change the theme color in the plugin setting.
+You can install the `style settings` plugin and change the theme color in the plugin settings.
 
-### Color Scheme
+### Color Schemes
 
 > [!NOTE]
-> color scheme change needs to install `style settings` plugin
+> Changing the color scheme requires the `style settings` plugin.
+
+Built-in schemes (kept from upstream):
 
 - Xiá 霞
 
@@ -32,6 +42,26 @@ You can install `style settings` plugin and change the theme color in the plugin
 
 ![qing dark](assets/qing-dark.png)
 
+Ported from yaobian-theme (36 families, each with light & dark):
+
+`chineseStyle` (25)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| 禅棕 `chan-zong` | 长安 `chang-an` | 春梅 `chun-mei` | 丹霞 `dan-xia` | 汉白玉 `han-bai-yu` |
+| 湖光 `hu-guang` | 金镶玉 `jin-xiang-yu` | 流云 `liu-yun` | 琵琶 `pi-pa` | 青瓷 `qing-ci` |
+| 青花 `qing-hua` | 青雾 `qing-wu` | 汝窑蓝 `ru-yao-lan` | 汝窑绿 `ru-yao-lv` | 山水 `shan-shui` |
+| 素宣 `su-xuan` | 天水 `tian-shui` | 宣纸 `xuan-zhi` | 雁灰 `yan-hui` | 烟雨 `yan-yu` |
+| 胭脂 `yan-zhi` | 羊皮纸 `yang-pi-zhi` | 窑火 `yao-huo` | 玉石 `yu-shi` | 紫陶 `zi-tao` |
+
+`others` (11)
+
+| | | | | |
+| --- | --- | --- | --- | --- |
+| Claude | Dopamine | Dracula | 歌蕾蒂娅 `gladiia` | Mint |
+| 莫奈 `mo-nai` | 暮山紫 `mu-shan-zi` | 奶茶 `nai-cha` | Peppa | Pulse `pulse-interactive` |
+| Vitesse Soft `vitesse-soft` | | | | |
+
 ### Text Formatting
 
 ![text formatting](assets/text-formatting.png)
@@ -46,7 +76,9 @@ You can install `style settings` plugin and change the theme color in the plugin
 
 ## Thanks
 
-- Task checkbox is referenced from [Minimal Theme](https://github.com/kepano/obsidian-minimal) which is a great theme for Obsidian build by @Kepano
+- This fork is based on the [Composer theme](https://github.com/vran-dev/obsidian-composer) by @vran.
+- The ported color palettes come from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变) by @Sum-su, whose colors trace back to the [cherrycss.com](https://cherrycss.com) gallery.
+- Task checkbox is referenced from [Minimal Theme](https://github.com/kepano/obsidian-minimal) which is a great theme for Obsidian build by @Kepano.
 
 ## Development Workflow (settings.yml + composer.css Split)
 
@@ -73,16 +105,3 @@ Notes:
 - Do NOT manually edit the YAML inside `theme.css`; it will be regenerated.
 - Only add/change settings in `settings.yml`.
 - The build script strips an optional leading comment block from `composer.css` before concatenation.
-
-Future Enhancements (Optional):
-- YAML schema validation (e.g. with `js-yaml`) to catch structural errors.
-- Skip rewriting `theme.css` when no changes occur (quieter diffs).
-- Support multiple YAML fragments under a `settings/` directory auto-merged at build time.
-
-Rollback to single file (if desired):
-1. Run `npm run build`.
-2. Keep resulting `theme.css`.
-3. Remove `settings.yml`, `composer.css`, and `build.mjs`.
-
-Feel free to open an issue if you’d like these enhancements implemented.
-
