@@ -64,10 +64,10 @@
 
 **移植逻辑** —— 36 族配色取自 [yaobian-theme](https://github.com/Sum-su/yaobian-theme) 的 72 份 VS Code 主题定义：`editor.background` / `editor.foreground` 生成背景与十二档色阶，`button.background` 作为各族强调色（换算 HSL，微调明度以保证对背景 ≥ 2.5:1），`sideBar`、`textBlockquote`、`textCodeBlock` 等键分别映射到 Obsidian 的对应变量；文字高亮跟随 Obsidian 原生（对齐上游 PR #58）。
 
-**构建逻辑** —— 样式设置与样式主体分离维护：`settings.yml` 声明 Style Settings 选项，`composer.css` 存放全部样式，由 `build.mjs` 合并生成最终的 `theme.css`。
+**构建逻辑** —— 样式设置与样式主体分离维护：`settings.yml` 声明 Style Settings 选项，`yaobian.css` 存放全部样式，由 `build.mjs` 合并生成最终的 `theme.css`。
 
 ```bash
-npm run build        # settings.yml + composer.css -> theme.css
+npm run build        # settings.yml + yaobian.css -> theme.css
 npm version patch    # 发版：自动构建并同步 manifest.json / versions.json
 ```
 

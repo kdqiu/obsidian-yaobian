@@ -4,12 +4,12 @@ import path from 'node:path';
 
 const root = path.resolve(process.cwd());
 const settingsPath = path.join(root, 'settings.yml');
-const cssPath = path.join(root, 'composer.css');
+const cssPath = path.join(root, 'yaobian.css');
 const outPath = path.join(root, 'theme.css');
 
 async function main() {
   if (!existsSync(settingsPath)) throw new Error('settings.yml not found');
-  if (!existsSync(cssPath)) throw new Error('composer.css not found');
+  if (!existsSync(cssPath)) throw new Error('yaobian.css not found');
 
   const settingsRaw = await readFile(settingsPath, 'utf8');
   const cssRaw = await readFile(cssPath, 'utf8');
