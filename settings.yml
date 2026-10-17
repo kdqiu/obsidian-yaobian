@@ -66,8 +66,8 @@ settings:
         value: yaobian--YuShiScheme-light
       - label: 紫陶 zi-tao
         value: yaobian--ZiTaoScheme-light
-      - label: Claude·Auroral claude-auroral
-        value: yaobian--ClaudeAuroralScheme-light
+      - label: Claude claude
+        value: yaobian--ClaudeScheme-light
       - label: Dopamine dopamine
         value: yaobian--DopamineScheme-light
       - label: Dracula dracula
@@ -153,8 +153,8 @@ settings:
         value: yaobian--YuShiScheme-dark
       - label: 紫陶 zi-tao
         value: yaobian--ZiTaoScheme-dark
-      - label: Claude·Auroral claude-auroral
-        value: yaobian--ClaudeAuroralScheme-dark
+      - label: Claude claude
+        value: yaobian--ClaudeScheme-dark
       - label: Dopamine dopamine
         value: yaobian--DopamineScheme-dark
       - label: Dracula dracula

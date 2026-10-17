@@ -47,7 +47,7 @@
 
 其他 · 11 族
 
-- Claude·Auroral `claude-auroral` · Dopamine · Dracula · 歌蕾蒂娅 `gladiia`
+- Claude · Dopamine · Dracula · 歌蕾蒂娅 `gladiia`
 - Mint · 莫奈 `mo-nai` · 暮山紫 `mu-shan-zi` · 奶茶 `nai-cha`
 - Peppa · Pulse · Vitesse Soft
 
@@ -78,7 +78,6 @@ npm version patch    # 发版：自动构建并同步 manifest.json / versions.j
 
 - 本主题 fork 自 @vran 的 [Composer 主题](https://github.com/vran-dev/obsidian-composer)
 - 配色移植自 @Sum-su 的 [yaobian-theme](https://github.com/Sum-su/yaobian-theme)（窑变），其颜色源自 [cherrycss.com](https://cherrycss.com) 主题画廊
-- Claude·Auroral 配色移植自 @AuroralFrost 的 [claude-light-theme](https://github.com/AuroralFrost/claude-light-theme)（深浅成对的 VS Code 主题）
 
 ---
 
