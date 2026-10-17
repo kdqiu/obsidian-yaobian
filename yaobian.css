@@ -2912,6 +2912,49 @@ body.is-phone {
 	--codeblock-border-radius: 8px;
 }
 
+/* ---- Claude·Chuanban (claude-chuanban, light only) ---- */
+.yaobian--ClaudeChuanbanScheme-light.theme-light {
+	--accent-h: 15;
+	--accent-s: 63%;
+	--accent-l: 60%;
+
+	--background-primary: #fbf9f5;
+	--background-primary-alt: #f5f3ef;
+	--background-secondary: #f1e8dc;
+	--background-secondary-alt: #e6dcce;
+
+	--color-base-00: #fbf9f5;
+	--color-base-05: #f1efeb;
+	--color-base-10: #e6e4e1;
+	--color-base-20: #d8d6d2;
+	--color-base-25: #cbcac6;
+	--color-base-30: #bfbdba;
+	--color-base-35: #b0afac;
+	--color-base-40: #a2a09d;
+	--color-base-50: #898885;
+	--color-base-60: #706f6c;
+	--color-base-70: #5a5856;
+	--color-base-100: #2c2b29;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#f1e8dc 0%,
+		#fbf9f5 100%
+	);
+
+	--background-modifier-border: #e0d4c3;
+
+	/* quote */
+	--blockquote-border-color: #cdccc8;
+	--blockquote-background-color: #f7f5f1;
+	--blockquote-color: #694639;
+
+	/* codeblock */
+	--codeblock-background: #f1efeb;
+	--codeblock-caret-color: #d97757;
+	--codeblock-border-radius: 8px;
+}
+
 /* ---- Dopamine (dopamine, light) ---- */
 
 .yaobian--DopamineScheme-light.theme-light {

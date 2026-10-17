@@ -16,7 +16,7 @@
 
 ## 简介
 
-一个 Obsidian 主题，fork 自 [Composer](https://github.com/vran-dev/obsidian-composer) 并做了个性化改造，为更舒适的阅读与写作体验设计。主题内置 **39 套配色方案**（深浅双轨），全部通过 `style settings` 插件切换；保留上游的排版基因——段落字距 / 行高、标题装饰与 Callout 样式，表格、列表与高亮则交由 Obsidian 原生。
+一个 Obsidian 主题，fork 自 [Composer](https://github.com/vran-dev/obsidian-composer) 并做了个性化改造，为更舒适的阅读与写作体验设计。主题内置 **41 套浅色 / 40 套深色** 配色方案，全部通过 `style settings` 插件切换；保留上游的排版基因——段落字距 / 行高、标题装饰与 Callout 样式，表格、列表与高亮则交由 Obsidian 原生。
 
 ## 相比上游的改动
 
@@ -35,7 +35,7 @@
 
 - Xiá 霞 · Sù 素 · Qīng 青
 
-**移植 · 源自 yaobian-theme（36 族 × 深浅 = 72 套）**
+**移植 · 源自 yaobian-theme 与社区作者（Claude 三变体 + 33 族）**
 
 中国风 · 25 族
 
@@ -45,11 +45,11 @@
 - 素宣 `su-xuan` · 天水 `tian-shui` · 宣纸 `xuan-zhi` · 雁灰 `yan-hui` · 烟雨 `yan-yu`
 - 胭脂 `yan-zhi` · 羊皮纸 `yang-pi-zhi` · 窑火 `yao-huo` · 玉石 `yu-shi` · 紫陶 `zi-tao`
 
-其他 · 11 族
+其他 · 13 族（Claude·Chuanban 仅浅色）
 
-- Claude `claude` · Claude·Auroral `claude-auroral` · Dopamine · Dracula · 歌蕾蒂娅 `gladiia`
-- Mint · 莫奈 `mo-nai` · 暮山紫 `mu-shan-zi` · 奶茶 `nai-cha`
-- Peppa · Pulse · Vitesse Soft
+- Claude `claude` · Claude·Auroral `claude-auroral` · Claude·Chuanban `claude-chuanban` · Dopamine · Dracula
+- 歌蕾蒂娅 `gladiia` · Mint · 莫奈 `mo-nai` · 暮山紫 `mu-shan-zi`
+- 奶茶 `nai-cha` · Peppa · Pulse · Vitesse Soft
 
 ## 快速开始
 
@@ -79,6 +79,7 @@ npm version patch    # 发版：自动构建并同步 manifest.json / versions.j
 - 本主题 fork 自 @vran 的 [Composer 主题](https://github.com/vran-dev/obsidian-composer)
 - 配色移植自 @Sum-su 的 [yaobian-theme](https://github.com/Sum-su/yaobian-theme)（窑变），其颜色源自 [cherrycss.com](https://cherrycss.com) 主题画廊
 - Claude·Auroral 配色移植自 @AuroralFrost 的 [claude-light-theme](https://github.com/AuroralFrost/claude-light-theme)（深浅成对的 VS Code 主题），与原版 Claude 并存
+- Claude·Chuanban 配色取自 @chuanban 的 [Antigravity 主题补丁](https://bustling-politician-00f.notion.site/chuanban-antigravity-theme-patch-db7c5846f37546be9481cd791aed0554)「复古深色」预设（仅取色值，仅适配浅色）
 
 ---
 

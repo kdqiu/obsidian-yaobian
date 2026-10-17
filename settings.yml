@@ -70,6 +70,8 @@ settings:
         value: yaobian--ClaudeScheme-light
       - label: Claude·Auroral claude-auroral
         value: yaobian--ClaudeAuroralScheme-light
+      - label: Claude·Chuanban claude-chuanban
+        value: yaobian--ClaudeChuanbanScheme-light
       - label: Dopamine dopamine
         value: yaobian--DopamineScheme-light
       - label: Dracula dracula
