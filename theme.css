@@ -218,33 +218,6 @@ settings:
         value: yaobian--GithubCallout
       - label: Window Panel 窗格
         value: yaobian--WindowPanelCallout
-  - id: table-setting
-    title: Table
-    title.zh: 表格
-    type: heading
-    level: 3
-    collapsed: true
-  - id: table-style
-    title: Table Style
-    title.zh: 表格样式
-    description: Choose prefered table style
-    description.zh: 选择表格的样式
-    type: class-select
-    allowEmpty: false
-    default: yaobian--DefaultTableStyle
-    options:
-      - label: Default 默认
-        value: yaobian--DefaultTableStyle
-      - label: Obsidian
-        value: yaobian--ObsidianTableStyle
-      - label: Borderless 无边框
-        value: yaobian--BorderlessTableStyle
-      - label: Three Line(Academic) 三线表(学术)
-        value: yaobian--AcademicTableStyle
-  - id: yaobian--HideStripedTableBackground
-    title: Hide Striped Background
-    title.zh: 关闭斑马纹背景
-    type: class-toggle
   - id: typograph-paragraph
     title: Paragraph
     title.zh: 段落
@@ -280,30 +253,6 @@ settings:
     description.zh: 设置段落的词间距，需要指定单位 em 或 px
     type: variable-text
     default: 0.035em
-  - id: typograph-list
-    title: List
-    title.zh: 列表
-    type: heading
-    level: 3
-    collapsed: true
-  - id: list-marker-color-ul
-    title: Unordered List Marker Color
-    title.zh: 无序列表符号颜色
-    description: Color of the bullets of unordered lists and task lists
-    description.zh: 无序列表和任务列表符号的颜色
-    type: variable-themed-color
-    format: hex
-    default-light: "#8a7e76"
-    default-dark: "#5a616a"
-  - id: list-marker-color-ol
-    title: Ordered List Marker Color
-    title.zh: 有序列表序号颜色
-    description: Color of the numbers of ordered lists
-    description.zh: 有序列表序号的颜色
-    type: variable-themed-color
-    format: hex
-    default-light: "#8a7e76"
-    default-dark: "#5a616a"
 
   - id: bold-style-setting
     title: Bold
@@ -635,60 +584,10 @@ body {
 	--paragraph-word-spacing: 0.035em;
 	--line-height-normal: var(--paragraph-line-height);
 
-	/* list */
-	--list-spacing: 0.225em;
-	/*
-	 * List marker color tokens. Obsidian paints every list marker (reading
-	 * view ::marker / .list-bullet:after, live preview .cm-formatting-list)
-	 * with the single native var --list-marker-color, so route it through
-	 * per-type tokens. Defaults keep the native look and follow each color
-	 * scheme; exposing more states (hover / collapsed) later only needs a
-	 * matching Style Settings entry.
-	 */
-	--list-marker-color: var(--list-marker-color-ul);
-	--list-marker-color-ul: var(--text-faint);
-	--list-marker-color-ol: var(--text-faint);
-	--list-marker-color-hover: var(--text-muted);
-	--list-marker-color-collapsed: var(--text-accent);
 	/* embed */
 	--embed-border-start: 2px solid #cbd5e0;
 	/* suggestion */
 	--suggesttion-highlight-color: var(--code-normal);
-	/* native highlight colors */
-	--highlight-background: var(
-		--text-highlight-bg,
-		var(--highlight-background-yellow)
-	);
-	--highlight-background-red: color-mix(
-		in oklch,
-		var(--color-red) var(--highlight-opacity, 0.25),
-		transparent
-	);
-	--highlight-background-orange: color-mix(
-		in oklch,
-		var(--color-orange) var(--highlight-opacity, 0.25),
-		transparent
-	);
-	--highlight-background-yellow: color-mix(
-		in oklch,
-		var(--color-yellow) var(--highlight-opacity, 0.25),
-		transparent
-	);
-	--highlight-background-green: color-mix(
-		in oklch,
-		var(--color-green) var(--highlight-opacity, 0.25),
-		transparent
-	);
-	--highlight-background-blue: color-mix(
-		in oklch,
-		var(--color-blue) var(--highlight-opacity, 0.25),
-		transparent
-	);
-	--highlight-background-purple: color-mix(
-		in oklch,
-		var(--color-purple) var(--highlight-opacity, 0.25),
-		transparent
-	);
 
 	--ribbon-padding: var(--size-4-1);
 	--ribbon-background: transparent;
@@ -749,13 +648,6 @@ body {
 body.is-phone {
     --vault-profile-order: 0;
     --nav-item-parent-padding: var(--size-4-2) var(--size-4-2) var(--size-4-2) var(--size-4-8);
-}
-
-/* ordered lists: re-scope the native marker var per list type; a custom
-   property declared on the element itself wins over the inherited value */
-ol,
-.cm-formatting-list-ol {
-	--list-marker-color: var(--list-marker-color-ol);
 }
 
 /* body {
@@ -4515,17 +4407,6 @@ body:not(.yaobian--DisableHeadingLineEditingHighlight)
 	background-color: var(--header-active-bg);
 }
 
-/* list */
-/* add top margin at the start of list */
-.markdown-source-view .cm-line:not(.HyperMD-list-line) + .HyperMD-list-line-1 {
-	padding-top: 0.5rem;
-}
-
-/* reading view */
-.markdown-rendered ul > li {
-	margin-inline-start: 26px;
-}
-
 /* default callout */
 .callout {
 	border: 1px solid color-mix(in srgb, var(--callout-color) 35%, transparent);
@@ -4722,104 +4603,7 @@ pre[class*="language-"] {
 	border-radius: var(--codeblock-border-radius);
 }
 
-/* highlight */
-body .cm-s-obsidian .cm-scroller span.cm-formatting-highlight,
-body .cm-s-obsidian .cm-scroller span.cm-highlight {
-	background-color: var(--highlight-background);
-	padding: 2px 4px;
-}
 
-.cm-s-obsidian span.cm-formatting-highlight {
-	border: none;
-	background-color: initial;
-}
-
-/* highlight for reading view */
-body .markdown-rendered mark {
-	background-color: var(--highlight-background);
-	padding: 2px 4px;
-}
-
-/* table */
-.el-table table th,
-.el-table table td,
-.table-wrapper table th,
-.table-wrapper table td {
-	border-right: none;
-	border-left: none;
-}
-
-.markdown-source-view.mod-cm6 .cm-table-widget .table-cell-wrapper,
-.cm-html-embed thead > tr > th,
-.markdown-rendered thead > tr > th,
-.cm-html-embed tbody > tr > td,
-.markdown-rendered tbody > tr > td {
-	padding: var(--size-4-2);
-}
-
-.markdown-source-view.mod-cm6 .cm-table-widget .table-col-btn,
-.markdown-source-view.mod-cm6 .cm-table-widget .table-row-btn {
-	background-color: var(--background-secondary);
-}
-
-.yaobian--ObsidianTableStyle {
-	.el-table table th,
-	.el-table table td,
-	.table-wrapper table th,
-	.table-wrapper table td {
-		border-right: 1px solid var(--background-modifier-border);
-		border-left: 1px solid var(--background-modifier-border);
-	}
-}
-
-.yaobian--BorderlessTableStyle {
-	.el-table table,
-	.table-wrapper table {
-		--table-border-width: 0px;
-		--table-header-border-width: 0px;
-		--table-row-last-border-width: 0px;
-
-		box-shadow: hsl(var(--accent-h), var(--accent-l), var(--accent-s), 0.25)
-				0px 0px 5px -1px,
-			hsl(var(--accent-h), var(--accent-l), var(--accent-s), 0.3) 0px 1px
-				0px -1px;
-	}
-}
-
-body:not(.yaobian--HideStripedTableBackground) {
-	.el-table table,
-	.table-wrapper table {
-		background-color: var(--background-primary-alt);
-		--table-row-alt-background: var(--background-primary);
-		--table-row-alt-background-hover: var(--background-primary);
-	}
-}
-
-.yaobian--AcademicTableStyle {
-	--table-header-border-width: 2px;
-	--table-header-border-color: var(--text-normal);
-
-	--table-row-last-border-width: 2px;
-	--table-row-last-border-color: var(--text-normal);
-
-	--table-row-first-border-color: var(--text-faint);
-	--table-row-first-top-border-width: 1px;
-
-	--table-border-width: 0px;
-
-	.el-table table tbody tr:first-child > td,
-	.table-wrapper table tbody tr:first-child > td {
-		border-color: var(--table-row-first-border-color);
-		border-top-width: var(--table-row-first-top-border-width);
-	}
-
-	.el-table table tbody tr:last-child > td,
-	.table-wrapper table tbody tr:last-child > td {
-		border-color: var(--table-row-last-border-color);
-	}
-}
-
-/* link/internal */
 .metadata-container .internal-link,
 .markdown-rendered .internal-link,
 .cm-hmd-internal-link a,

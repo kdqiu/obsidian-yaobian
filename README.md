@@ -16,12 +16,13 @@
 
 ## About
 
-An Obsidian theme, forked from [Composer](https://github.com/vran-dev/obsidian-composer) with personal refinements for comfortable reading and writing. It ships **39 color schemes** (light & dark pairs), all switchable via the `style settings` plugin; the upstream typography — paragraph tracking / line height, heading decorations, list markers, callout and table styles — is fully preserved.
+An Obsidian theme, forked from [Composer](https://github.com/vran-dev/obsidian-composer) with personal refinements for comfortable reading and writing. It ships **39 color schemes** (light & dark pairs), all switchable via the `style settings` plugin; the upstream typography — paragraph tracking / line height, heading decorations and callout styles — is preserved, while tables, lists and highlights are left to Obsidian's native rendering.
 
 ## Changes vs Upstream
 
 - **Removed** the 「Ní 霓」 scheme and all [Components](https://cp.cc1234.cc/) plugin settings & styles
 - **Removed** the whole "Color Settings" section (background pickers, rainbow tree tweaks) — colors are fully owned by the schemes now
+- **Removed** table, list and highlight styles (incl. `--highlight-opacity`) in favor of Obsidian's native rendering, ready for other plugins to take over
 - **Added** 72 color schemes (36 families × light/dark), each accent derived from its family's primary color and guaranteed ≥ 2.5:1 contrast against the editor background
 - **Fixed** an upstream bug: the view-header title toggle's setting id did not match its CSS selector
 

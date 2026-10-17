@@ -16,12 +16,13 @@
 
 ## 简介
 
-一个 Obsidian 主题，fork 自 [Composer](https://github.com/vran-dev/obsidian-composer) 并做了个性化改造，为更舒适的阅读与写作体验设计。主题内置 **39 套配色方案**（深浅双轨），全部通过 `style settings` 插件切换；上游的排版基因——段落字距 / 行高、标题装饰、列表符号、Callout 与表格样式——悉数保留。
+一个 Obsidian 主题，fork 自 [Composer](https://github.com/vran-dev/obsidian-composer) 并做了个性化改造，为更舒适的阅读与写作体验设计。主题内置 **39 套配色方案**（深浅双轨），全部通过 `style settings` 插件切换；保留上游的排版基因——段落字距 / 行高、标题装饰与 Callout 样式，表格、列表与高亮则交由 Obsidian 原生。
 
 ## 相比上游的改动
 
 - **移除**「霓」配色方案，及 [Components](https://cp.cc1234.cc/) 插件相关的全部设置与样式
 - **移除**「色彩设置」整节（背景取色器、彩虹目录微调），配色完全交由配色方案接管
+- **移除** 表格、列表与高亮样式（含 `--highlight-opacity`），交由 Obsidian 原生渲染，可另用插件接管
 - **新增** 72 套配色（36 族 × 深浅），每族强调色取自其主色，并保证对编辑区背景 ≥ 2.5:1 对比度
 - **修正** 上游遗留问题：视图标题路径折叠开关的设置项与样式选择器不一致
 
