@@ -161,6 +161,8 @@ settings:
         value: yaobian--ClaudeScheme-dark
       - label: Claude·Auroral claude-auroral
         value: yaobian--ClaudeAuroralScheme-dark
+      - label: Claude·Chuanban claude-chuanban
+        value: yaobian--ClaudeChuanbanScheme-dark
       - label: Dopamine dopamine
         value: yaobian--DopamineScheme-dark
       - label: Dracula dracula

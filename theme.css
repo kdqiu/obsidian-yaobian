@@ -162,6 +162,8 @@ settings:
         value: yaobian--ClaudeScheme-dark
       - label: Claude·Auroral claude-auroral
         value: yaobian--ClaudeAuroralScheme-dark
+      - label: Claude·Chuanban claude-chuanban
+        value: yaobian--ClaudeChuanbanScheme-dark
       - label: Dopamine dopamine
         value: yaobian--DopamineScheme-dark
       - label: Dracula dracula
@@ -3452,48 +3454,91 @@ body.is-phone {
 	--codeblock-border-radius: 8px;
 }
 
-/* ---- Claude·Chuanban (claude-chuanban, light only) ---- */
+/* ---- Claude·Chuanban (claude-chuanban, light = high-contrast preset) ---- */
 .yaobian--ClaudeChuanbanScheme-light.theme-light {
 	--accent-h: 15;
 	--accent-s: 63%;
 	--accent-l: 60%;
 
-	--background-primary: #fbf9f5;
-	--background-primary-alt: #f5f3ef;
-	--background-secondary: #f1e8dc;
-	--background-secondary-alt: #e6dcce;
+	--background-primary: #fcfcfb;
+	--background-primary-alt: #f5f5f4;
+	--background-secondary: #f7f5f0;
+	--background-secondary-alt: #f9f7f2;
 
-	--color-base-00: #fbf9f5;
-	--color-base-05: #f1efeb;
-	--color-base-10: #e6e4e1;
-	--color-base-20: #d8d6d2;
-	--color-base-25: #cbcac6;
-	--color-base-30: #bfbdba;
-	--color-base-35: #b0afac;
-	--color-base-40: #a2a09d;
-	--color-base-50: #898885;
-	--color-base-60: #706f6c;
-	--color-base-70: #5a5856;
-	--color-base-100: #2c2b29;
+	--color-base-00: #fcfcfb;
+	--color-base-05: #f1f1f0;
+	--color-base-10: #e6e6e5;
+	--color-base-20: #d6d6d5;
+	--color-base-25: #c9c9c8;
+	--color-base-30: #bcbcbb;
+	--color-base-35: #acacab;
+	--color-base-40: #9d9d9c;
+	--color-base-50: #828281;
+	--color-base-60: #686766;
+	--color-base-70: #504f4e;
+	--color-base-100: #1f1e1d;
 
 	--background-gradient: linear-gradient(
 		160deg,
-		#f1e8dc 0%,
-		#fbf9f5 100%
+		#f7f5f0 0%,
+		#fcfcfb 100%
 	);
 
-	--background-modifier-border: #e0d4c3;
+	--background-modifier-border: rgba(0, 0, 0, 0.28);
 
 	/* quote */
-	--blockquote-border-color: #cdccc8;
-	--blockquote-background-color: #f7f5f1;
-	--blockquote-color: #694639;
+	--blockquote-border-color: #cbcbca;
+	--blockquote-background-color: #f8f8f7;
+	--blockquote-color: #603d31;
 
 	/* codeblock */
-	--codeblock-background: #f1efeb;
+	--codeblock-background: #f1f1f0;
 	--codeblock-caret-color: #d97757;
 	--codeblock-border-radius: 8px;
-}
+} /* high-contrast preset (page values) */
+
+/* ---- Claude·Chuanban (claude-chuanban, dark = derived warm counterpart) ---- */
+.yaobian--ClaudeChuanbanScheme-dark.theme-dark {
+	--accent-h: 15;
+	--accent-s: 63%;
+	--accent-l: 60%;
+
+	--background-primary: #1b1917;
+	--background-primary-alt: #211f1d;
+	--background-secondary: #242220;
+	--background-secondary-alt: #2c2927;
+
+	--color-base-00: #1b1917;
+	--color-base-05: #252321;
+	--color-base-10: #302d2b;
+	--color-base-20: #3e3c39;
+	--color-base-25: #4a4845;
+	--color-base-30: #565451;
+	--color-base-35: #65625f;
+	--color-base-40: #73716d;
+	--color-base-50: #8c8986;
+	--color-base-60: #a4a29e;
+	--color-base-70: #bbb8b4;
+	--color-base-100: #e8e5e0;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#1b1917 0%,
+		#252321 100%
+	);
+
+	--background-modifier-border: #3c3a37;
+
+	/* quote */
+	--blockquote-border-color: #484643;
+	--blockquote-background-color: #1f1d1b;
+	--blockquote-color: #e3beb0;
+
+	/* codeblock */
+	--codeblock-background: #252321;
+	--codeblock-caret-color: #d97757;
+	--codeblock-border-radius: 8px;
+} /* derived, not from the page */
 
 /* ---- Dopamine (dopamine, light) ---- */
 

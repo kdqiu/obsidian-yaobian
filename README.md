@@ -16,7 +16,7 @@
 
 ## About
 
-An Obsidian theme, forked from [Composer](https://github.com/vran-dev/obsidian-composer) with personal refinements for comfortable reading and writing. It ships **41 light and 40 dark color schemes**, all switchable via the `style settings` plugin; the upstream typography — paragraph tracking / line height, heading decorations and callout styles — is preserved, while tables, lists and highlights are left to Obsidian's native rendering.
+An Obsidian theme, forked from [Composer](https://github.com/vran-dev/obsidian-composer) with personal refinements for comfortable reading and writing. It ships **41 color schemes** (light & dark pairs), all switchable via the `style settings` plugin; the upstream typography — paragraph tracking / line height, heading decorations and callout styles — is preserved, while tables, lists and highlights are left to Obsidian's native rendering.
 
 ## Changes vs Upstream
 
@@ -45,7 +45,7 @@ Chinese style · 25 families
 - 素宣 `su-xuan` · 天水 `tian-shui` · 宣纸 `xuan-zhi` · 雁灰 `yan-hui` · 烟雨 `yan-yu`
 - 胭脂 `yan-zhi` · 羊皮纸 `yang-pi-zhi` · 窑火 `yao-huo` · 玉石 `yu-shi` · 紫陶 `zi-tao`
 
-Others · 13 families (Claude·Chuanban is light-only)
+Others · 13 families
 
 - Claude `claude` · Claude·Auroral `claude-auroral` · Claude·Chuanban `claude-chuanban` · Dopamine · Dracula
 - 歌蕾蒂娅 `gladiia` · Mint · 莫奈 `mo-nai` · 暮山紫 `mu-shan-zi`
@@ -79,7 +79,7 @@ npm version patch    # release: builds and syncs manifest.json / versions.json
 - Forked from the [Composer theme](https://github.com/vran-dev/obsidian-composer) by @vran
 - Color palettes ported from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变) by @Sum-su, whose colors trace back to the [cherrycss.com](https://cherrycss.com) gallery
 - The Claude·Auroral palette is ported from [claude-light-theme](https://github.com/AuroralFrost/claude-light-theme) by @AuroralFrost (matched light & dark VS Code themes), coexisting with the original Claude
-- The Claude·Chuanban palette comes from the "vintage-deep" preset of @chuanban's [Antigravity theme patch](https://bustling-politician-00f.notion.site/chuanban-antigravity-theme-patch-db7c5846f37546be9481cd791aed0554) (colors only, light mode only)
+- The Claude·Chuanban palette comes from the "high-contrast" preset of @chuanban's [Antigravity theme patch](https://bustling-politician-00f.notion.site/chuanban-antigravity-theme-patch-db7c5846f37546be9481cd791aed0554) (colors only; light uses the page values, dark is derived from the same warm tones)
 
 ---
 
