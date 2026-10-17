@@ -78,7 +78,6 @@ npm version patch    # release: builds and syncs manifest.json / versions.json
 
 - Forked from the [Composer theme](https://github.com/vran-dev/obsidian-composer) by @vran
 - Color palettes ported from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变) by @Sum-su, whose colors trace back to the [cherrycss.com](https://cherrycss.com) gallery
-- Task checkbox style referenced from the [Minimal theme](https://github.com/kepano/obsidian-minimal) by @Kepano
 
 ---
 

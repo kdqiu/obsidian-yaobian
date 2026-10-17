@@ -78,7 +78,6 @@ npm version patch    # 发版：自动构建并同步 manifest.json / versions.j
 
 - 本主题 fork 自 @vran 的 [Composer 主题](https://github.com/vran-dev/obsidian-composer)
 - 配色移植自 @Sum-su 的 [yaobian-theme](https://github.com/Sum-su/yaobian-theme)（窑变），其颜色源自 [cherrycss.com](https://cherrycss.com) 主题画廊
-- 任务复选框样式参考了 @Kepano 的 [Minimal 主题](https://github.com/kepano/obsidian-minimal)
 
 ---
 
