@@ -69,6 +69,8 @@ settings:
         value: yaobian--ZiTaoScheme-light
       - label: Claude claude
         value: yaobian--ClaudeScheme-light
+      - label: Claude·Auroral claude-auroral
+        value: yaobian--ClaudeAuroralScheme-light
       - label: Dopamine dopamine
         value: yaobian--DopamineScheme-light
       - label: Dracula dracula
@@ -156,6 +158,8 @@ settings:
         value: yaobian--ZiTaoScheme-dark
       - label: Claude claude
         value: yaobian--ClaudeScheme-dark
+      - label: Claude·Auroral claude-auroral
+        value: yaobian--ClaudeAuroralScheme-dark
       - label: Dopamine dopamine
         value: yaobian--DopamineScheme-dark
       - label: Dracula dracula
@@ -3356,6 +3360,94 @@ body.is-phone {
 	--codeblock-caret-color: #ea928a;
 	--codeblock-border-radius: 8px;
 
+}
+
+/* ---- Claude·Auroral (claude-auroral, light) ---- */
+
+.yaobian--ClaudeAuroralScheme-light.theme-light {
+	--accent-h: 32;
+	--accent-s: 95%;
+	--accent-l: 44%;
+
+	--background-primary: #ffffff;
+	--background-primary-alt: #f9f9fa;
+	--background-secondary: #fffbf5;
+	--background-secondary-alt: #f5f2ed;
+
+	--color-base-00: #ffffff;
+	--color-base-05: #f5f6f6;
+	--color-base-10: #ebecee;
+	--color-base-20: #dddfe1;
+	--color-base-25: #d1d3d7;
+	--color-base-30: #c5c8cd;
+	--color-base-35: #b7bbc0;
+	--color-base-40: #a9adb4;
+	--color-base-50: #91969f;
+	--color-base-60: #79808a;
+	--color-base-70: #636b77;
+	--color-base-100: #374151;
+
+	--background-gradient: linear-gradient(
+		160deg,
+		#fffbf5 0%,
+		#ffffff 100%
+	);
+
+	--background-modifier-border: #f3e8db;
+
+	/* quote */
+	--blockquote-border-color: #d3d5d9;
+	--blockquote-background-color: #fbfcfc;
+	--blockquote-color: #705437;
+
+	/* codeblock */
+	--codeblock-background: #f3f4f6;
+	--codeblock-caret-color: #d97706;
+	--codeblock-border-radius: 8px;
+}
+
+/* ---- Claude·Auroral (claude-auroral, dark) ---- */
+
+.yaobian--ClaudeAuroralScheme-dark.theme-dark {
+	--accent-h: 32;
+	--accent-s: 95%;
+	--accent-l: 44%;
+
+	--background-primary: #1a1a1a;
+	--background-primary-alt: #212121;
+	--background-secondary: #333333;
+	--background-secondary-alt: #3d3d3d;
+
+	--color-base-00: #1a1a1a;
+	--color-base-05: #252525;
+	--color-base-10: #303030;
+	--color-base-20: #3f3f3f;
+	--color-base-25: #4c4c4c;
+	--color-base-30: #5a5a5a;
+	--color-base-35: #696969;
+	--color-base-40: #787878;
+	--color-base-50: #929292;
+	--color-base-60: #adadad;
+	--color-base-70: #c5c5c5;
+	--color-base-100: #f5f5f5;
+
+	--background-gradient: linear-gradient(
+		165deg,
+		#1a1a1a 0%,
+		#252525 100%
+	);
+
+	--background-modifier-border: #404040;
+
+	/* quote */
+	--blockquote-border-color: #4a4a4a;
+	--blockquote-background-color: #1e1e1e;
+	--blockquote-color: #ebc9a1;
+
+	/* codeblock */
+	--codeblock-background: #252525;
+	--codeblock-caret-color: #d97706;
+	--codeblock-border-radius: 8px;
 }
 
 /* ---- Dopamine (dopamine, light) ---- */

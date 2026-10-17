@@ -47,7 +47,7 @@ Chinese style · 25 families
 
 Others · 11 families
 
-- Claude · Dopamine · Dracula · 歌蕾蒂娅 `gladiia`
+- Claude `claude` · Claude·Auroral `claude-auroral` · Dopamine · Dracula · 歌蕾蒂娅 `gladiia`
 - Mint · 莫奈 `mo-nai` · 暮山紫 `mu-shan-zi` · 奶茶 `nai-cha`
 - Peppa · Pulse · Vitesse Soft
 
@@ -78,6 +78,7 @@ npm version patch    # release: builds and syncs manifest.json / versions.json
 
 - Forked from the [Composer theme](https://github.com/vran-dev/obsidian-composer) by @vran
 - Color palettes ported from [yaobian-theme](https://github.com/Sum-su/yaobian-theme) (窑变) by @Sum-su, whose colors trace back to the [cherrycss.com](https://cherrycss.com) gallery
+- The Claude·Auroral palette is ported from [claude-light-theme](https://github.com/AuroralFrost/claude-light-theme) by @AuroralFrost (matched light & dark VS Code themes), coexisting with the original Claude
 
 ---
 
