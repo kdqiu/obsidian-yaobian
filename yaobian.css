@@ -4400,15 +4400,9 @@ body:not(.is-mobile)
 	background-color: transparent;
 }
 
-/* file header title：桌面端标题路径直接居中 */
-body:not(.is-phone) .view-header-title-container {
-	text-align: center;
-}
-
-body:not(.is-phone) .view-header-title-container .view-header-title-parent {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+/* file header title：桌面端标题路径居中（开关控制，路径与文件名整组居中） */
+body:not(.is-phone).yaobian--ToggleDesktopViewHeaderTitleParent .view-header-title-container {
+	--file-header-justify: center;
 }
 
 /* markdown */

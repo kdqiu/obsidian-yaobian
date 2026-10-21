@@ -320,6 +320,13 @@ settings:
     max: 10
     step: 1
     format: px
+  - id: yaobian--ToggleDesktopViewHeaderTitleParent
+    title: Center Desktop View Header Title Path
+    title.zh: 桌面端视图标题路径居中
+    description: center the view header title path and filename
+    description.zh: 居中显示视图头部的文件路径与文件名
+    type: class-toggle
+    default: true
   - id: nav-file-settings
     title: Nav File Settings
     title.zh: 导航文件
@@ -4748,15 +4755,9 @@ body:not(.is-mobile)
 	background-color: transparent;
 }
 
-/* file header title：桌面端标题路径直接居中 */
-body:not(.is-phone) .view-header-title-container {
-	text-align: center;
-}
-
-body:not(.is-phone) .view-header-title-container .view-header-title-parent {
-	display: flex;
-	justify-content: center;
-	width: 100%;
+/* file header title：桌面端标题路径居中（开关控制，路径与文件名整组居中） */
+body:not(.is-phone).yaobian--ToggleDesktopViewHeaderTitleParent .view-header-title-container {
+	--file-header-justify: center;
 }
 
 /* markdown */

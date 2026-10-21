@@ -319,6 +319,13 @@ settings:
     max: 10
     step: 1
     format: px
+  - id: yaobian--ToggleDesktopViewHeaderTitleParent
+    title: Center Desktop View Header Title Path
+    title.zh: 桌面端视图标题路径居中
+    description: center the view header title path and filename
+    description.zh: 居中显示视图头部的文件路径与文件名
+    type: class-toggle
+    default: true
   - id: nav-file-settings
     title: Nav File Settings
     title.zh: 导航文件
