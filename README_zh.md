@@ -16,7 +16,7 @@
 
 ## 简介
 
-一个 Obsidian 主题，fork 自 [Composer](https://github.com/vran-dev/obsidian-composer) 并做了个性化改造，为更舒适的阅读与写作体验设计。主题内置 **41 套配色方案**（深浅双轨），全部通过 `style settings` 插件切换；保留上游的排版基因——段落字距 / 行高、标题装饰与 Callout 样式，表格、列表与高亮则交由 Obsidian 原生。
+一个 Obsidian 主题，fork 自 [Composer](https://github.com/vran-dev/obsidian-composer) 并做了个性化改造，为更舒适的阅读与写作体验设计。主题内置 **41 套配色方案**（深浅双轨），全部通过 `style settings` 插件切换；保留上游的排版基因——段落字距 / 行高与标题装饰，Callout 样式交由个人 snippet，表格、列表与高亮则交由 Obsidian 原生。
 
 ## 相比上游的改动
 

@@ -16,7 +16,7 @@
 
 ## About
 
-An Obsidian theme, forked from [Composer](https://github.com/vran-dev/obsidian-composer) with personal refinements for comfortable reading and writing. It ships **41 color schemes** (light & dark pairs), all switchable via the `style settings` plugin; the upstream typography — paragraph tracking / line height, heading decorations and callout styles — is preserved, while tables, lists and highlights are left to Obsidian's native rendering.
+An Obsidian theme, forked from [Composer](https://github.com/vran-dev/obsidian-composer) with personal refinements for comfortable reading and writing. It ships **41 color schemes** (light & dark pairs), all switchable via the `style settings` plugin; the upstream typography — paragraph tracking / line height and heading decorations — is preserved, callout styles live in a personal snippet, and tables, lists and highlights are left to Obsidian's native rendering.
 
 ## Changes vs Upstream
 

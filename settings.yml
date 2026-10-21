@@ -200,31 +200,6 @@ settings:
     max: 1200
     format: px
     step: 1
-  - id: callout-setting
-    title: Callout
-    title.zh: Callout
-    type: heading
-    level: 3
-    collapsed: true
-  - id: callout-style
-    title: Callout Style
-    title.zh: Callout 样式
-    description: Choose prefered Callout style
-    description.zh: 选择喜欢的 Callout 风格
-    type: class-select
-    allowEmpty: false
-    default: yaobian--DefaultCalloutStyle
-    options:
-      - label: Default 默认
-        value: yaobian--DefaultCalloutStyle
-      - label: Subtle Grid 渐隐网格
-        value: yaobian--SubtleGridCallout
-      - label: Clean Line 简洁线条
-        value: yaobian--CleanLineCallout
-      - label: Github Style
-        value: yaobian--GithubCallout
-      - label: Window Panel 窗格
-        value: yaobian--WindowPanelCallout
   - id: typograph-paragraph
     title: Paragraph
     title.zh: 段落

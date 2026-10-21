@@ -201,31 +201,6 @@ settings:
     max: 1200
     format: px
     step: 1
-  - id: callout-setting
-    title: Callout
-    title.zh: Callout
-    type: heading
-    level: 3
-    collapsed: true
-  - id: callout-style
-    title: Callout Style
-    title.zh: Callout 样式
-    description: Choose prefered Callout style
-    description.zh: 选择喜欢的 Callout 风格
-    type: class-select
-    allowEmpty: false
-    default: yaobian--DefaultCalloutStyle
-    options:
-      - label: Default 默认
-        value: yaobian--DefaultCalloutStyle
-      - label: Subtle Grid 渐隐网格
-        value: yaobian--SubtleGridCallout
-      - label: Clean Line 简洁线条
-        value: yaobian--CleanLineCallout
-      - label: Github Style
-        value: yaobian--GithubCallout
-      - label: Window Panel 窗格
-        value: yaobian--WindowPanelCallout
   - id: typograph-paragraph
     title: Paragraph
     title.zh: 段落
@@ -449,9 +424,6 @@ body {
 	--link-external-decoration-hover: underline;
 
 	--indentation-guide-color: transparent;
-	/* callout */
-	--callout-color: transparent;
-	--callout-radius: 8px;
 
 	/* Typography */
 	--paragraph-letter-spacing: 0.035em;
@@ -599,21 +571,6 @@ body.is-phone {
 	--color-yellow-rgb: 191, 143, 63;
 	--color-pink-rgb: 184, 92, 132;
 
-	/* callout */
-	--callout-bug: rgb(var(--color-red-rgb));
-	--callout-default: rgb(var(--color-blue-rgb));
-	--callout-error: rgb(158, 48, 57);
-	--callout-example: rgb(var(--color-purple-rgb));
-	--callout-fail: rgb(var(--color-red-rgb));
-	--callout-important: rgb(var(--color-cyan-rgb));
-	--callout-info: rgb(var(--color-blue-rgb));
-	--callout-question: rgb(var(--color-orange-rgb));
-	--callout-success: rgb(var(--color-green-rgb));
-	--callout-summary: rgb(var(--color-cyan-rgb));
-	--callout-tip: rgb(var(--color-cyan-rgb));
-	--callout-todo: rgb(var(--color-blue-rgb));
-	--callout-warning: rgb(191, 127, 63);
-	--callout-quote: rgb(158, 158, 158);
 
 	/* customize */
 	--nav-button-container-bg: rgba(31, 34, 37, 0.03);
@@ -684,10 +641,6 @@ body.is-phone {
 	--color-yellow-rgb: 255, 203, 107;
 	--color-pink-rgb: 255, 157, 194;
 
-	/* callout */
-	--callout-error: rgb(255, 100, 92);
-	--callout-warning: rgb(255, 170, 92);
-	--callout-quote: rgb(158, 158, 158);
 
 	/* 自定义组件 */
 	--nav-button-container-bg: rgba(255, 255, 255, 0.03);
@@ -4322,133 +4275,11 @@ body.is-phone {
 	padding-inline-start: 14px;
 }
 
-/* default callout */
-.callout {
-	border: 1px solid color-mix(in srgb, var(--callout-color) 35%, transparent);
-}
-
-.callout:hover {
-	border-color: color-mix(in srgb, var(--callout-color) 80%, transparent);
-}
-
 .markdown-source-view.mod-cm6 .cm-embed-block:not(.cm-table-widget):hover {
 	box-shadow: initial;
 	border-radius: initial;
 	overflow: hidden;
 	cursor: text;
-}
-
-/* subtle grid callout style */
-.yaobian--SubtleGridCallout .callout {
-	background: linear-gradient(
-		150deg,
-		color-mix(in srgb, var(--callout-color) 15%, transparent) 0%,
-		color-mix(in srgb, var(--callout-color) 5%, transparent) 10%,
-		var(--background-primary) 38%
-	);
-	border: 1px solid color-mix(in srgb, var(--callout-color) 38%, transparent);
-	position: relative;
-	padding: 4px;
-}
-
-.yaobian--SubtleGridCallout .callout::before {
-	content: "";
-	position: absolute;
-	top: 8px;
-	left: 8px;
-	width: 42%;
-	height: 88%;
-	background: repeating-linear-gradient(
-			to right,
-			transparent 0,
-			transparent 19px,
-			color-mix(in srgb, var(--callout-color) 60%, transparent) 20px
-		),
-		repeating-linear-gradient(
-			to bottom,
-			transparent 0,
-			transparent 19px,
-			color-mix(in srgb, var(--callout-color) 60%, transparent) 20px
-		);
-	mask: linear-gradient(to right, var(--background-primary), transparent 80%),
-		linear-gradient(to bottom, var(--background-primary), transparent 80%);
-	mask-composite: intersect;
-	z-index: -1;
-}
-
-.yaobian--SubtleGridCallout .callout-title {
-	padding: 8px 16px 8px 16px;
-}
-
-.yaobian--SubtleGridCallout .callout-content {
-	padding: 0px 16px 0px 16px;
-}
-
-/* window panel callout */
-.yaobian--WindowPanelCallout .callout {
-	border: 1px solid color-mix(in srgb, var(--callout-color) 68%, transparent);
-	position: relative;
-	background-color: transparent;
-	padding: 0px;
-}
-
-.yaobian--WindowPanelCallout .callout-title {
-	border-bottom: 1px solid color-mix(in srgb, var(--callout-color) 68%, transparent);
-	background-color: color-mix(in srgb, var(--callout-color) 10%, transparent);
-	padding: 8px 16px 8px 16px;
-}
-
-.yaobian--WindowPanelCallout .callout-content {
-	padding: 0px 16px;
-}
-
-/* clean line callout */
-.yaobian--CleanLineCallout .callout {
-	background-color: transparent;
-}
-
-.yaobian--CleanLineCallout .callout-title {
-	position: relative;
-	padding: 0px 0px 8px 0px;
-}
-
-.yaobian--CleanLineCallout .callout.is-collapsed .callout-title {
-	padding: initial;
-}
-
-.yaobian--CleanLineCallout .callout.is-collapsed .callout-title::after {
-	display: none;
-	height: 0px;
-	background: initial;
-}
-
-.yaobian--CleanLineCallout .callout-title::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 2px;
-	background: linear-gradient(
-		to right,
-		color-mix(in srgb, var(--callout-color) 10%, transparent) 0%,
-		color-mix(in srgb, var(--callout-color) 60%, transparent) 12%,
-		color-mix(in srgb, var(--callout-color) 10%, transparent) 62%,
-		transparent 100%
-	);
-}
-
-/* github callout */
-.yaobian--GithubCallout .callout {
-	border: none;
-	border-left: color-mix(in srgb, var(--callout-color) 60%, transparent) 4px solid;
-	border-radius: 0px;
-	background-color: transparent;
-	padding: 8px 16px 8px 16px;
-}
-
-.yaobian--GithubCallout .callout-title {
-	gap: var(--size-4-2);
 }
 
 /* inline-code */
