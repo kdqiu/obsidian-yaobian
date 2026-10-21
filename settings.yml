@@ -267,19 +267,6 @@ settings:
     format: hex
     default-light: "#2d3748"
     default-dark: "#f0f4f8"
-  - id: task-setting
-    title: Task Settings
-    title.zh: 任务
-    type: heading
-    level: 3
-    collapsed: true
-  - id: yaobian--RemoveTaskCompletedDecoration
-    title: Remove Task Completed Decoration
-    title.zh: 移除任务完成装饰
-    description: Remove the strikethrough for completed tasks
-    description.zh: 移除完成任务的划线
-    type: class-toggle
-
   - id: inline-code-style-setting
     title: Inline Code Style
     title.zh: 内联代码
@@ -332,11 +319,6 @@ settings:
     max: 10
     step: 1
     format: px
-  - id: yaobian--ToggleDesktopViewHeaderTitleParent
-    title: Toggle Desktop View Header Title Parent
-    title.zh: 桌面端视图标题路径折叠
-    type: class-toggle
-    default: true
   - id: nav-file-settings
     title: Nav File Settings
     title.zh: 导航文件
@@ -361,32 +343,3 @@ settings:
     description: enable hidden file tag hover
     description.zh: 文件后缀标签鼠标悬停显示
     type: class-toggle
-  - id: outline-settings
-    title: Outline Settings
-    title.zh: 大纲
-    type: heading
-    level: 3
-    collapsed: true
-  - id: outline-style
-    title: Outline Style
-    title.zh: 大纲样式
-    description: Choose prefered outline style
-    description.zh: 选择大纲的样式
-    type: class-select
-    allowEmpty: false
-    default: yaobian--DefaultOutlineStyle
-    options:
-      - label: Default 默认
-        value: yaobian--DefaultOutlineStyle
-      - label: Node 节点
-        value: yaobian--NodeOutlineStyle
-  - id: outline-collapsed-icon-opacity
-    title: Outline Collapsed Icon Opacity
-    title.zh: 大纲折叠图标透明度
-    description: Set the opacity of the collapsed icon
-    description.zh: 设置折叠图标的透明度
-    type: variable-number-slider
-    default: 1
-    min: 0
-    max: 1
-    step: 0.1
