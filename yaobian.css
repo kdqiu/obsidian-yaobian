@@ -4400,9 +4400,28 @@ body:not(.is-mobile)
 	background-color: transparent;
 }
 
-/* file header title：桌面端标题路径居中（开关控制，路径与文件名整组居中） */
-body:not(.is-phone).yaobian--ToggleDesktopViewHeaderTitleParent .view-header-title-container {
+/* file header title：标题与路径始终居中 */
+body:not(.is-phone) .view-header-title-container {
 	--file-header-justify: center;
+}
+
+/* 路径显示开关（默认显示）：关闭时折叠隐藏，悬停标题栏可临时查看 */
+body:not(.is-phone) .view-header-title-parent {
+	width: 0;
+	opacity: 0;
+}
+
+@media (hover: hover) {
+	body:not(.is-phone) .view-header-title-container:hover .view-header-title-parent {
+		width: auto;
+		opacity: 1;
+		transition: opacity 0.5s;
+	}
+}
+
+body:not(.is-phone).yaobian--ShowViewHeaderTitlePath .view-header-title-parent {
+	width: auto;
+	opacity: 1;
 }
 
 /* markdown */

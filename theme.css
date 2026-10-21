@@ -320,11 +320,11 @@ settings:
     max: 10
     step: 1
     format: px
-  - id: yaobian--ToggleDesktopViewHeaderTitleParent
-    title: Center Desktop View Header Title Path
-    title.zh: 桌面端视图标题路径居中
-    description: center the view header title path and filename
-    description.zh: 居中显示视图头部的文件路径与文件名
+  - id: yaobian--ShowViewHeaderTitlePath
+    title: Show View Header Title Path
+    title.zh: 显示视图标题路径
+    description: show the breadcrumb path in the view header (always centered); turn off to collapse it, hover the header to preview
+    description.zh: 显示视图头部的文件路径（始终居中）；关闭后折叠隐藏，悬停标题栏可临时查看
     type: class-toggle
     default: true
   - id: nav-file-settings
@@ -4755,9 +4755,28 @@ body:not(.is-mobile)
 	background-color: transparent;
 }
 
-/* file header title：桌面端标题路径居中（开关控制，路径与文件名整组居中） */
-body:not(.is-phone).yaobian--ToggleDesktopViewHeaderTitleParent .view-header-title-container {
+/* file header title：标题与路径始终居中 */
+body:not(.is-phone) .view-header-title-container {
 	--file-header-justify: center;
+}
+
+/* 路径显示开关（默认显示）：关闭时折叠隐藏，悬停标题栏可临时查看 */
+body:not(.is-phone) .view-header-title-parent {
+	width: 0;
+	opacity: 0;
+}
+
+@media (hover: hover) {
+	body:not(.is-phone) .view-header-title-container:hover .view-header-title-parent {
+		width: auto;
+		opacity: 1;
+		transition: opacity 0.5s;
+	}
+}
+
+body:not(.is-phone).yaobian--ShowViewHeaderTitlePath .view-header-title-parent {
+	width: auto;
+	opacity: 1;
 }
 
 /* markdown */
