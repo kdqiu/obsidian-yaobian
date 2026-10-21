@@ -4421,13 +4421,12 @@ body.yaobian--EnableFilenameLineFeed .nav-file-title-content {
 
 /* enable hidden file tag */
 body.yaobian--EnableHiddenFileTag .nav-file-tag {
-	display: none !important;
+	display: none;
 }
-
 body.yaobian--EnableHiddenFileTag.yaobian--EnableHiddenFileTagHover
-	:is(.nav-file, .nav-file-title, .tree-item-self):hover
+	.nav-file:hover
 	.nav-file-tag {
-	display: inline-flex !important;
+	display: inline;
 }
 
 /* windows titlebar button */
